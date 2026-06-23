@@ -1,7 +1,7 @@
 {
-  "sourceLabel": "server-vote-store",
+  "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-18T12:58:27.933Z",
+  "generatedAt": "2026-06-23T15:10:31.797Z",
   "eventCount": 1,
   "allocations": [
     {
@@ -27,16 +27,30 @@
       "teamId": "france",
       "tickets": 1,
       "result": "pending",
-      "lostTickets": 0
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
     {
       "roundId": "round16",
+      "matchCount": 8,
+      "officialFinalCount": 0,
       "submittedTickets": 1,
       "settledTickets": 0,
       "wonTickets": 0,
-      "lostTickets": 0
+      "lostTickets": 0,
+      "pendingTickets": 1
     }
-  ]
+  ],
+  "matchResults": {
+    "sourceLabel": null,
+    "sourceStatus": "missing",
+    "generatedAt": null,
+    "hash": null
+  }
 }
