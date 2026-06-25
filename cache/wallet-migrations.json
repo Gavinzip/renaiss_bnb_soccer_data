@@ -1,20 +1,20 @@
 {
   "url": "https://tcgpro.zeabur.app/api/wallet-migrations.json",
-  "fetchedAt": 1782427741972,
+  "fetchedAt": 1782428941969,
   "payload": {
     "success": true,
     "version": 1,
-    "updated_at": "2026-06-25T07:07:02.630851+08:00",
+    "updated_at": "2026-06-26T07:00:06.501188+08:00",
     "source": "bsc_logs:helper_migration_event",
     "sbt_contract": "0x7d1b7db704d722295fbaa284008f526634673dbf",
     "sbt_token_id": "13",
     "card_contract": "0xf8646a3ca093e97bb404c3b25e675c0394dd5b30",
-    "last_scanned_block": 106185561,
+    "last_scanned_block": 106377497,
     "summary": {
-      "migration_pairs": 5880,
-      "unique_old_wallets": 5880,
-      "unique_new_wallets": 5880,
-      "unique_all_addresses": 11760
+      "migration_pairs": 5882,
+      "unique_old_wallets": 5882,
+      "unique_new_wallets": 5882,
+      "unique_all_addresses": 11764
     },
     "mappings": [
       {
@@ -7934,6 +7934,14 @@
         "new": "0x4c0d48356b973174eddbd36b1a4972bac23a9c6e",
         "tx": "0xb1a36c665372a3d8914d69dbbc945caaafc55c5101aa290d9b13e4cc44917298",
         "block": 104974477,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
+        "old": "0x2c325e2ffae4108e8a2676c6a05cdbf4ab51d192",
+        "new": "0xbc5f01493ac0f4290a7e638ea56b5290e379beaf",
+        "tx": "0xb4ba95c54b9f0f18c3ad61986f6d6d630af58d9667b6a65086a70cf440d879cd",
+        "block": 106264607,
         "cards": 0,
         "source": "helper_event_only"
       },
@@ -17502,6 +17510,14 @@
         "new": "0xedaf7e08c37ac6cae68f6b557a90992edc2d2657",
         "tx": "0x3dadea877fc0615df8ce116f357374270183a51111b1055c8ac654f8e030e5f1",
         "block": 99615738,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
+        "old": "0x5e49d75b6193a8528433482d2d3cd9d0c0442915",
+        "new": "0x245db346c61670b1dd4dcc3b5569391819f8dba1",
+        "tx": "0xdb5210de64a42f5aaa2c8760c6be2e774c75ad795f80294d94bd8b12f89cb083",
+        "block": 106260776,
         "cards": 0,
         "source": "helper_event_only"
       },
@@ -48049,6 +48065,7 @@
       "0x2c158c4c9d9efc8d714d845ff0517238e8afc22f": "0xa765a14bb8ecab4fb19615d4c33e7d2ce9049274",
       "0x2c25a9c6a9ae3ecd3d7e655579b9d5bc76d1c190": "0xec730f420fffe2dfe958b7e93b04d41599040ca3",
       "0x2c2f3a3e437df55fa3aa0ed2f3e6648a9d0a9612": "0x4c0d48356b973174eddbd36b1a4972bac23a9c6e",
+      "0x2c325e2ffae4108e8a2676c6a05cdbf4ab51d192": "0xbc5f01493ac0f4290a7e638ea56b5290e379beaf",
       "0x2c34caea4de32a146cbe525003a4a41f0ee25f1a": "0x5cbad4b0586f5c41d70bdf77cbad8ccb96ea0a80",
       "0x2c36b7ede54148b55038ae52eed8ac8a9d1b40e1": "0xe7addc40be9c530d66d5aeed0589e897f88c2b7e",
       "0x2c592a8e72cc6832223a9d6d6e81fe426f30c844": "0xdbfaf48a2ee38dfa5722276565cb4ffffeebbf2c",
@@ -49245,6 +49262,7 @@
       "0x5e2ba7173a079412212fdb3abed6d6e758437ae8": "0xb03835e0389b2ff90870614a41d4ed8a6cc9cf1e",
       "0x5e2cada19a87d4209277a5fb587a2215771d92e5": "0x3d1791df34d0e27bd8f877f12b80e650a2f4d8df",
       "0x5e34e908805dc42dac83612e05986916a39e64b4": "0xedaf7e08c37ac6cae68f6b557a90992edc2d2657",
+      "0x5e49d75b6193a8528433482d2d3cd9d0c0442915": "0x245db346c61670b1dd4dcc3b5569391819f8dba1",
       "0x5e5da0b6f9b728f3d74151332c05555c7e501934": "0x5b44aa6583bc243b93a9e253aefdd75c930d2c6e",
       "0x5e7c58f1a745b65fa05d6d9f8b91cf5d79f95094": "0x3413c2add6b008d79d52e62643d12982db06558b",
       "0x5e8866a09b1507b97200ff482253e97bee8e3a0c": "0x5fadf4b9fb3f59d4b3e29f5935bd7e4a2ecc2530",
@@ -52941,10 +52959,10 @@
       "0xffff4bbfcfd8718d5eefa899330cfad1bcd802df": "0xe9f5cb9a027f71221e6e0e38554b11d06cc222a3"
     },
     "status": {
-      "updated_at": "2026-06-25T07:07:02.717681+08:00",
+      "updated_at": "2026-06-26T07:00:06.580854+08:00",
       "success": true,
       "trigger": "daily",
-      "message": "trigger=daily blocks=105993612-106185561 sbt_mints=2 helper_confirmed=12 confirmed=12 mappings=5880 map=/data/renaiss_sync/state/wallet_migration_map.json",
+      "message": "trigger=daily blocks=106185562-106377497 sbt_mints=0 helper_confirmed=2 confirmed=2 mappings=5882 map=/data/renaiss_sync/state/wallet_migration_map.json",
       "map_path": "/data/renaiss_sync/state/wallet_migration_map.json",
       "sbt_contract": "0x7d1b7db704d722295fbaa284008f526634673dbf",
       "sbt_token_id": "13",
@@ -52954,22 +52972,22 @@
       "include_card_evidence": false,
       "extra": {
         "ranges": 1,
-        "sbt_logs": 21,
-        "sbt_token_events": 2,
-        "sbt_mints": 2,
-        "helper_logs": 12,
-        "helper_candidates": 12,
-        "helper_confirmed_pairs": 12,
-        "helper_event_only_pairs": 12,
+        "sbt_logs": 5,
+        "sbt_token_events": 0,
+        "sbt_mints": 0,
+        "helper_logs": 2,
+        "helper_candidates": 2,
+        "helper_confirmed_pairs": 2,
+        "helper_event_only_pairs": 2,
         "helper_with_sbt_delta_pairs": 0,
         "card_logs": 0,
         "card_confirmed_pairs": 0,
-        "confirmed_pairs": 12,
-        "from_block": 105993612,
-        "to_block": 106185561,
-        "latest_block": 106185561,
-        "mapping_count": 5880,
-        "new_pairs": 12,
+        "confirmed_pairs": 2,
+        "from_block": 106185562,
+        "to_block": 106377497,
+        "latest_block": 106377497,
+        "mapping_count": 5882,
+        "new_pairs": 2,
         "map_path": "/data/renaiss_sync/state/wallet_migration_map.json"
       }
     }
