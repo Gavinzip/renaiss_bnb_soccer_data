@@ -1,20 +1,20 @@
 {
   "url": "https://tcgpro.zeabur.app/api/wallet-migrations.json",
-  "fetchedAt": 1782773633155,
+  "fetchedAt": 1782774833150,
   "payload": {
     "success": true,
     "version": 1,
-    "updated_at": "2026-06-29T07:00:06.151842+08:00",
+    "updated_at": "2026-06-30T07:00:33.628304+08:00",
     "source": "bsc_logs:helper_migration_event",
     "sbt_contract": "0x7d1b7db704d722295fbaa284008f526634673dbf",
     "sbt_token_id": "13",
     "card_contract": "0xf8646a3ca093e97bb404c3b25e675c0394dd5b30",
-    "last_scanned_block": 106953311,
+    "last_scanned_block": 107145256,
     "summary": {
-      "migration_pairs": 5956,
-      "unique_old_wallets": 5956,
-      "unique_new_wallets": 5956,
-      "unique_all_addresses": 11912
+      "migration_pairs": 5965,
+      "unique_old_wallets": 5965,
+      "unique_new_wallets": 5965,
+      "unique_all_addresses": 11930
     },
     "mappings": [
       {
@@ -456,6 +456,14 @@
         "block": 99809316,
         "cards": 0,
         "source": "helper_event_only"
+      },
+      {
+        "old": "0x027293305153eb0aa18fddd9cadba783fb870e31",
+        "new": "0x1f76d00a970d3c2d81c250fd2689a4f950d0c9f2",
+        "tx": "0x24b864debd504394f9bfb4ddcd6eb6112b042f57f31b6f4f9681fa9622dfafb2",
+        "block": 107029426,
+        "cards": 0,
+        "source": "helper_event_with_sbt13_delta_same_tx"
       },
       {
         "old": "0x027613f7b5a1dc1a8d7abcced63d95706da018d1",
@@ -4018,6 +4026,14 @@
         "source": "helper_event_only"
       },
       {
+        "old": "0x15b45048bbbb04f7bcf4f6cd05c2e082c2f7e7d5",
+        "new": "0xce07a8ae128b012f197a435a734e920d70a4430a",
+        "tx": "0x58a1a52db212dd64c7caeba52ea296de370137ac8affafba8e74d702d6529d97",
+        "block": 107051044,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
         "old": "0x15b6a481f72cc970b8fc8815380e4376436d8951",
         "new": "0x9f2cafe8cc4c6d223950e6c6340da150331546bb",
         "tx": "0x30915e53dbf0b79e4bbe4729a1e4606487272ff2fa562db101264b87a31eb19a",
@@ -4510,6 +4526,14 @@
         "new": "0xb071c43203756f6d9712bc4c2541596c11acf925",
         "tx": "0x0b5fa08f5eded42087538f6f8ed36a8fa07da373ea8798d1397120b76415215a",
         "block": 103647429,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
+        "old": "0x17e94b4c2acce5815317eb396fee99570ff59699",
+        "new": "0xa5d2d1113d6abfc7c338b1a3ff876943530df2c8",
+        "tx": "0x26f23d53483a5e1a74b617d20ce66e8dd7a3deff1ee06ce8457201f9dac65dac",
+        "block": 107079116,
         "cards": 0,
         "source": "helper_event_only"
       },
@@ -7670,6 +7694,14 @@
         "new": "0x5af7a479241b7dccbf00293163060eb5dab49bd1",
         "tx": "0x000fb772ee6c1c9eb41d812ba753c3212240584b00103bb51cad115060d80f9d",
         "block": 99913688,
+        "cards": 0,
+        "source": "helper_event_with_sbt13_delta_same_tx"
+      },
+      {
+        "old": "0x2a7e3b8434fc2065ba04d1f0289c5872b94f5a99",
+        "new": "0xa92a3e205b582b8343431cd6a88003e11023584a",
+        "tx": "0xa4fa1ba40a499c680eb7bb91c79f32e09eee21d4bdcaf6448cdeb51addf1c745",
+        "block": 107021845,
         "cards": 0,
         "source": "helper_event_with_sbt13_delta_same_tx"
       },
@@ -14426,6 +14458,14 @@
         "source": "helper_event_only"
       },
       {
+        "old": "0x4dd437986f045738a118dfb1c4d6ac24cd8ebda6",
+        "new": "0x2eb1e077bab6ceebcbff6aa2ab7746e829cca841",
+        "tx": "0x5f835896c5098ea62e278e84b9205a2fa03b793cc3a52bf361bb316590e2b997",
+        "block": 106979869,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
         "old": "0x4dd9a35de1bc394d2366ce3db57a8710123e5d07",
         "new": "0xafc2caa439e0d8c885fdab7748397fb58f3417a8",
         "tx": "0x9351c1686e94804824f1ab91e228c1dd92d962bcb6ddd0e4eab301df9f645c89",
@@ -15240,6 +15280,14 @@
         "block": 99766831,
         "cards": 0,
         "source": "helper_event_with_sbt13_delta_same_tx"
+      },
+      {
+        "old": "0x51ee4c38a99ad9c9a5fe1679b0afbabd67325533",
+        "new": "0x7f680f8d780651368583af3a5998e2417c122d8b",
+        "tx": "0xe9e2609278d5e33e9bfb7a8302bd55e4a0134edebf88c75704eb689554c772d9",
+        "block": 107023366,
+        "cards": 0,
+        "source": "helper_event_only"
       },
       {
         "old": "0x520832453ac5aee53c8f01b21869bd29ebb6e5a4",
@@ -17534,6 +17582,14 @@
         "new": "0x90d5c8dce344c57fa51a6f7501b0a4e5d9d35f5d",
         "tx": "0x74b75073684baf237bd91ab062389915ad4b6fc38e79f2bf0a1b0a6fc7435c4a",
         "block": 103648728,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
+        "old": "0x5d446c089c54005ab1aaa24e259df69b6db7a19b",
+        "new": "0x9f5c26e6d1087e0831655f560690f4063346f8f9",
+        "tx": "0x197d5ac46078abb0ffa54cad8024820565a76ec88520421ed2e8d8853e3fca2b",
+        "block": 107034520,
         "cards": 0,
         "source": "helper_event_only"
       },
@@ -26402,6 +26458,14 @@
         "source": "helper_event_with_sbt13_delta_same_tx"
       },
       {
+        "old": "0x8cd3fc845b0f474df75368b941173149e0dfb4fe",
+        "new": "0xc414c36bcf04bd4f0d89efd0cdd75a53750711cb",
+        "tx": "0xcaaae4a2c61967a469d4046f2a53520fc5d2004b22c7864b16812d0bcca144f4",
+        "block": 107050849,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
         "old": "0x8ce0b72c40bd58abca7ebf8d9bec0288da286cfe",
         "new": "0x244bea3e04aea278d3871f5b202106b3542c7929",
         "tx": "0x298c951cf85ce93eca59a4c690270993f66b1d9af0ce4801ca5d38f1bb8f9f20",
@@ -31654,6 +31718,14 @@
         "new": "0x457850e6a480375ee50344ba856f17fb844d4c91",
         "tx": "0xeded8e3869dfb13088f0f715e01d25fe17419c626880cbc3d5b76d4608e4e782",
         "block": 99780633,
+        "cards": 0,
+        "source": "helper_event_only"
+      },
+      {
+        "old": "0xaaa488791af2e352969b34d6b5735627a8a462b3",
+        "new": "0xd4bc196844fae14cce31a06d3d4f45dba8aaf1c2",
+        "tx": "0x57f69d40a7d147a3372bc424ee80336d82a005d1ca510e454f9483740a459482",
+        "block": 106993953,
         "cards": 0,
         "source": "helper_event_only"
       },
@@ -47722,6 +47794,7 @@
       "0x026132d3e33ced6c26b26214ceeaf0dc196a724e": "0x501d31df80c982a399505059be09036c1a3c3849",
       "0x026d8c791f468cd4fd6db9d4b828b3b46dc27871": "0x6778fd0fd4a2723e20367e3e36bf31e9e4fecee0",
       "0x026f3df70e7a9fe9c663d2fc50da98b99220b402": "0x0e566492834af0b7439a74ebd645c4e7173e3a46",
+      "0x027293305153eb0aa18fddd9cadba783fb870e31": "0x1f76d00a970d3c2d81c250fd2689a4f950d0c9f2",
       "0x027613f7b5a1dc1a8d7abcced63d95706da018d1": "0x463119f88982442954fea541fb9334f9555c4ac7",
       "0x027d03d346243cde2617a2dcdf32eb3208bd99c7": "0xec949d666e8d54bdf020033a5f6464870cc89b77",
       "0x0283dfcaf01a201000b82fd839aef01b77e51371": "0x9c771065c602568d8fc6b47dab993e50c3dd8a97",
@@ -48167,6 +48240,7 @@
       "0x15862dd73d0693808e22a35099c65ac613778e54": "0x65b3a02f999aae3fa534253edc5bee1c4da04186",
       "0x158ab43e3b6294c5dc5515f045fd582b6146ada0": "0x0f1bf1e2ace12aeb6d619711c2767d8c1095121f",
       "0x15af143002ba222908a1e36715682a404643fe2e": "0x7443165f6f51a0acca8e192d9eb9f9b5ea7fb202",
+      "0x15b45048bbbb04f7bcf4f6cd05c2e082c2f7e7d5": "0xce07a8ae128b012f197a435a734e920d70a4430a",
       "0x15b6a481f72cc970b8fc8815380e4376436d8951": "0x9f2cafe8cc4c6d223950e6c6340da150331546bb",
       "0x15b6d576c61272ec25c3d9e24926986f056af112": "0x70c5c0c0219036f13370f1fa02c1fee525542071",
       "0x15dce90a5ff1e043220b7f9079521f449d7371b1": "0x879a9b198ef8f1c1f0419a744fb81df77db205d4",
@@ -48229,6 +48303,7 @@
       "0x17c011298047e8ebd116749782a3d5f3c618d8b7": "0x497033353a3aac9cbc3b83fa0300c5429d884262",
       "0x17c0d67006a3acfb67d7a35284e6526bf28f5036": "0x260b37b25fd74fa9155eba63bb4a1eaa48274784",
       "0x17c8fe97ed393020b0de12b15004ca218d4bafb8": "0xb071c43203756f6d9712bc4c2541596c11acf925",
+      "0x17e94b4c2acce5815317eb396fee99570ff59699": "0xa5d2d1113d6abfc7c338b1a3ff876943530df2c8",
       "0x17f2d87ef194fecc22983514f82fd908b660872f": "0x4ac2cad8f2cf0d776d93404e54dedf1a7ab0deaf",
       "0x17f9ffa38af6f238d80bf06b0ac394cd0586ae91": "0xb1df916a5d057a4e40ccbd06b2322a970e77339c",
       "0x17fa95bec0fe0dc72725d738e6c2269d11f9c1e1": "0x60e55eec44402252f7c8d3b6b511851db0322b3b",
@@ -48624,6 +48699,7 @@
       "0x2a3c18b7fe5a4d84b64dd4077a5759a8cbced200": "0x74b296a08fa76d120ef3ddacc4aedddded862ce6",
       "0x2a4c1c3c0f37600059ede6f6c493f58e5c10edaa": "0x5c47cc6a7925fac5cb787bf9e2848c67605be953",
       "0x2a70012652ae8b02370a6e804ea1ba2f3a03f8c8": "0x5af7a479241b7dccbf00293163060eb5dab49bd1",
+      "0x2a7e3b8434fc2065ba04d1f0289c5872b94f5a99": "0xa92a3e205b582b8343431cd6a88003e11023584a",
       "0x2a977895f5032d11802dd2122382891dcbfa1f76": "0xaf8bdf62613d5690cd9611aef8763a61e4410690",
       "0x2aa8085851fa3baaa0bd31b30be5c48ed8808c4d": "0xd64b00a94158b7b969c24ab4b8a3053ac0530f3c",
       "0x2ab00bae09e160fe1baae5673cb5bfc75784fb24": "0xf4770e2270fed4cae9295a5c0b76332d35f66e85",
@@ -49468,6 +49544,7 @@
       "0x4dbba1705f2a85fe1ccfa7c342df0fc03c11928c": "0x1909e3cf93b069fb9a4801ce34f90a542d64350d",
       "0x4dc299dcc9be229242dd4cf2e6d717f643107fa2": "0xb529b1bbfa373b31cff5df4331226746a6da2839",
       "0x4dc8ee11da35c27f894404569a00f2e398417dfa": "0x6558e0db154bfa500312f0346a83cb913b38e97b",
+      "0x4dd437986f045738a118dfb1c4d6ac24cd8ebda6": "0x2eb1e077bab6ceebcbff6aa2ab7746e829cca841",
       "0x4dd9a35de1bc394d2366ce3db57a8710123e5d07": "0xafc2caa439e0d8c885fdab7748397fb58f3417a8",
       "0x4ddba5ac464a94889bd812701931cbe5763b74bb": "0xef239076871b2fe34af5781a6eeb106a5cb22e2d",
       "0x4ddd5fa3b3bbf410834c234325b333172acf7474": "0x2b09807c968b93e077b1d99945d590f55bcf5381",
@@ -49570,6 +49647,7 @@
       "0x51ddf3b4c2efad65b70046b6330ceaabf28e93a5": "0x3bf5e92f5805e0861ce3be7339ef47696ef6dd1c",
       "0x51e200a3103b7af393474ab8c129a84f5e2bb802": "0x7358026b38118cd25ff4c546ee5b9d1a43a68a77",
       "0x51e89e39ccf31c159ee7f01fbe51e167aeade4de": "0xd0130bbb739adc69829a29000eacf86288a50a56",
+      "0x51ee4c38a99ad9c9a5fe1679b0afbabd67325533": "0x7f680f8d780651368583af3a5998e2417c122d8b",
       "0x520832453ac5aee53c8f01b21869bd29ebb6e5a4": "0xd871594bd39c1369cc76e0707a5e8026a608c692",
       "0x5212e34627229e0f1db2e986d0c84d7029cfa547": "0xc863c0fd0efad2fbc1d4247e4dd3dd139cea878e",
       "0x52141274e968e371d6c922dde9d87c47d59e246b": "0xcd7769047df7370d9289c54b43a7864e2ed7364c",
@@ -49857,6 +49935,7 @@
       "0x5d2f02b1a2a687e65ffa18a80a1fbd7edbab3dc8": "0x86a8be46730f08eb3f38af08c8094b25736baded",
       "0x5d34f8c3bc940f9a90206c094a47b35cd3f0310a": "0x3d0875071597fd5135a9ea5171787f55fce1f3f4",
       "0x5d372696845fe4b1783802dbfa344b9b0dfc5de5": "0x90d5c8dce344c57fa51a6f7501b0a4e5d9d35f5d",
+      "0x5d446c089c54005ab1aaa24e259df69b6db7a19b": "0x9f5c26e6d1087e0831655f560690f4063346f8f9",
       "0x5d663cf51e7f217a3d2b82d8e37a79cc9f98e102": "0xbd9b036debc3135c23d05794d2924457777b915f",
       "0x5da720f2528bffdba8c730d93dc18d52cc412d34": "0xa0318195fe6561556255bd02e0a45be3ad2b638f",
       "0x5db69c090b7ef2d4f1237111b238e24f22cb7d71": "0xf3a53747df4c3d2cce60381749322bff1308d109",
@@ -50965,6 +51044,7 @@
       "0x8cc25375f1266aa1f8feebe442168757a37733ec": "0x296e8d53af860244d1e81466e21fefe72e41e2c7",
       "0x8ccb4bf633a0cc7f822eef1d0b6d27cdc1ece360": "0x2c6d651e0ee0ab4f4995d18d6a35b2d35abfd48d",
       "0x8ccfc2d04605991c0a59479cb6bdb75a3e1b8492": "0x357a8423b9c2aca60a1e009c0a9d8eae89e85bbc",
+      "0x8cd3fc845b0f474df75368b941173149e0dfb4fe": "0xc414c36bcf04bd4f0d89efd0cdd75a53750711cb",
       "0x8ce0b72c40bd58abca7ebf8d9bec0288da286cfe": "0x244bea3e04aea278d3871f5b202106b3542c7929",
       "0x8ce815342e76ab0f7fc99536d334b4d39cb3e32b": "0x4aeb1b5700c5e5435f2e2a0e718766d9654c2849",
       "0x8cf5eaebc2217de60b69f2ea46bb7a87d383417e": "0x55a5748e46607ae84a7d78e62540e1cc019bd5e0",
@@ -51622,6 +51702,7 @@
       "0xaa878119bab1acfefa6a9cc18054668da6e7a3e7": "0xb7f6a939789857c08995d7805bd09442a51af24a",
       "0xaa8d7da14924edb1f083d6913ee2ca1f99d9cc32": "0x9a923d6947dd6b335502bee30131203f0580c6cc",
       "0xaaa2b82421a54ba539d1c3d977302dc328f04596": "0x457850e6a480375ee50344ba856f17fb844d4c91",
+      "0xaaa488791af2e352969b34d6b5735627a8a462b3": "0xd4bc196844fae14cce31a06d3d4f45dba8aaf1c2",
       "0xaaaf731a1ba0dee077319855fc28e9508e5f5d7d": "0x12b113ebf2e4339ad760adfa5f0e263051f7ab9e",
       "0xaab06e4b0717ede23d99e4dea6cbc18d8f1fa665": "0x64255bb168992b27a0639499300e2e958505476b",
       "0xaabe2bf2740e7811004b81bfbb1717c9f145a558": "0x5b7a371f78c3ce456b34a7c8d3bce30d5030f0ab",
@@ -53625,10 +53706,10 @@
       "0xffff4bbfcfd8718d5eefa899330cfad1bcd802df": "0xe9f5cb9a027f71221e6e0e38554b11d06cc222a3"
     },
     "status": {
-      "updated_at": "2026-06-29T07:00:06.230953+08:00",
+      "updated_at": "2026-06-30T07:00:33.704455+08:00",
       "success": true,
       "trigger": "daily",
-      "message": "trigger=daily blocks=106761365-106953311 sbt_mints=7 helper_confirmed=16 confirmed=16 mappings=5956 map=/data/renaiss_sync/state/wallet_migration_map.json",
+      "message": "trigger=daily blocks=106953312-107145256 sbt_mints=5 helper_confirmed=9 confirmed=9 mappings=5965 map=/data/renaiss_sync/state/wallet_migration_map.json",
       "map_path": "/data/renaiss_sync/state/wallet_migration_map.json",
       "sbt_contract": "0x7d1b7db704d722295fbaa284008f526634673dbf",
       "sbt_token_id": "13",
@@ -53638,22 +53719,22 @@
       "include_card_evidence": false,
       "extra": {
         "ranges": 1,
-        "sbt_logs": 55,
-        "sbt_token_events": 11,
-        "sbt_mints": 7,
-        "helper_logs": 16,
-        "helper_candidates": 16,
-        "helper_confirmed_pairs": 16,
-        "helper_event_only_pairs": 12,
-        "helper_with_sbt_delta_pairs": 4,
+        "sbt_logs": 59,
+        "sbt_token_events": 8,
+        "sbt_mints": 5,
+        "helper_logs": 9,
+        "helper_candidates": 9,
+        "helper_confirmed_pairs": 9,
+        "helper_event_only_pairs": 7,
+        "helper_with_sbt_delta_pairs": 2,
         "card_logs": 0,
         "card_confirmed_pairs": 0,
-        "confirmed_pairs": 16,
-        "from_block": 106761365,
-        "to_block": 106953311,
-        "latest_block": 106953311,
-        "mapping_count": 5956,
-        "new_pairs": 16,
+        "confirmed_pairs": 9,
+        "from_block": 106953312,
+        "to_block": 107145256,
+        "latest_block": 107145256,
+        "mapping_count": 5965,
+        "new_pairs": 9,
         "map_path": "/data/renaiss_sync/state/wallet_migration_map.json"
       }
     }
