@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-30T11:06:30.509Z",
-  "eventCount": 5,
+  "generatedAt": "2026-06-30T13:08:20.955Z",
+  "eventCount": 10,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -63,6 +63,54 @@
       "official": false,
       "createdAt": "2026-06-30T11:06:30.508Z",
       "updatedAt": "2026-06-30T11:06:30.508Z"
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "france",
+      "tickets": 78,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T13:03:10.822Z",
+      "updatedAt": "2026-06-30T13:08:20.954Z"
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m62",
+      "teamId": "norway",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T13:07:22.083Z",
+      "updatedAt": "2026-06-30T13:07:22.083Z"
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m63-ecuador",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m63",
+      "teamId": "ecuador",
+      "tickets": 7,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T13:07:51.833Z",
+      "updatedAt": "2026-06-30T13:07:51.833Z"
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "england",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T13:07:59.001Z",
+      "updatedAt": "2026-06-30T13:07:59.001Z"
     }
   ],
   "outcomes": [
@@ -95,7 +143,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-06-30T11:00:42.255Z",
+      "resultFetchedAt": "2026-06-30T13:00:09.185Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -145,6 +193,70 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france-outcome",
+      "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "france",
+      "tickets": 78,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway-outcome",
+      "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m62",
+      "teamId": "norway",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m63-ecuador-outcome",
+      "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m63-ecuador",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m63",
+      "teamId": "ecuador",
+      "tickets": 7,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england-outcome",
+      "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "england",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -152,11 +264,11 @@
       "roundId": "round32",
       "matchCount": 16,
       "officialFinalCount": 4,
-      "submittedTickets": 101,
+      "submittedTickets": 201,
       "settledTickets": 4,
       "wonTickets": 0,
       "lostTickets": 4,
-      "pendingTickets": 97
+      "pendingTickets": 197
     },
     {
       "roundId": "round16",
@@ -172,7 +284,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-06-30T11:00:42.255Z",
-    "hash": "0xd5c10bcc8f05d280848c230632e7d80456531c9ad8371781d2943f799529a274"
+    "generatedAt": "2026-06-30T13:00:09.185Z",
+    "hash": "0xce1f906a1139bd4d2add824476d8b3aca60b6506df8203fa19cbb85fadd980af"
   }
 }
