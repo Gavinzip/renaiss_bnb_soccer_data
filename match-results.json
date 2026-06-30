@@ -2,9 +2,9 @@
   "version": 1,
   "mode": "fifa-official-match-results",
   "sourceLabel": "fifa-public-api",
-  "sourceStatus": "partial",
-  "generatedAt": "2026-06-30T06:23:53.091Z",
-  "fetchedAt": "2026-06-30T06:23:53.091Z",
+  "sourceStatus": "live",
+  "generatedAt": "2026-06-30T06:33:53.099Z",
+  "fetchedAt": "2026-06-30T06:33:53.099Z",
   "source": {
     "competitionId": "17",
     "seasonId": "285023",
@@ -20,7 +20,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "official",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021518?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "",
       "fifa": {
         "competitionId": "17",
@@ -64,36 +64,51 @@
     },
     {
       "matchId": "m58",
-      "resultStatus": "source_error",
+      "resultStatus": "confirmed",
       "sourceLabel": "fifa-public-api",
-      "sourceStatus": "source_error",
-      "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021513",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
-      "issue": "This operation was aborted",
+      "sourceStatus": "official",
+      "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
+      "issue": "",
       "fifa": {
         "competitionId": "17",
         "seasonId": "285023",
+        "stageId": "289287",
         "matchId": "400021513",
-        "matchNumber": 74
+        "matchNumber": 74,
+        "matchStatus": 0,
+        "officialityStatus": 1,
+        "resultType": 2,
+        "winnerTeamId": "43928"
       },
       "teams": {
-        "home": null,
-        "away": null,
+        "home": {
+          "fifaTeamId": "43948",
+          "abbreviation": "GER",
+          "name": "Germany",
+          "localTeamId": "germany"
+        },
+        "away": {
+          "fifaTeamId": "43928",
+          "abbreviation": "PAR",
+          "name": "Paraguay",
+          "localTeamId": "paraguay"
+        },
         "expectedLocalTeamIds": [
           "germany",
           "paraguay"
         ],
-        "teamMatch": false
+        "teamMatch": true
       },
       "score": {
-        "home": null,
-        "away": null,
-        "homePenalty": null,
-        "awayPenalty": null
+        "home": 1,
+        "away": 1,
+        "homePenalty": 3,
+        "awayPenalty": 4
       },
-      "winnerSide": "",
-      "winnerTeamId": null,
-      "winnerFifaTeamId": null
+      "winnerSide": "away",
+      "winnerTeamId": "paraguay",
+      "winnerFifaTeamId": "43928"
     },
     {
       "matchId": "m59",
@@ -101,7 +116,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "official",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021522?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "",
       "fifa": {
         "competitionId": "17",
@@ -149,7 +164,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "official",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021516?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "",
       "fifa": {
         "competitionId": "17",
@@ -197,7 +212,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -245,7 +260,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -293,7 +308,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -337,26 +352,41 @@
     },
     {
       "matchId": "m64",
-      "resultStatus": "source_error",
+      "resultStatus": "pending",
       "sourceLabel": "fifa-public-api",
-      "sourceStatus": "source_error",
-      "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021512",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
-      "issue": "This operation was aborted",
+      "sourceStatus": "pending",
+      "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
+      "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
         "seasonId": "285023",
+        "stageId": "289287",
         "matchId": "400021512",
-        "matchNumber": 80
+        "matchNumber": 80,
+        "matchStatus": 1,
+        "officialityStatus": 0,
+        "resultType": 0,
+        "winnerTeamId": ""
       },
       "teams": {
-        "home": null,
-        "away": null,
+        "home": {
+          "fifaTeamId": "43942",
+          "abbreviation": "ENG",
+          "name": "England",
+          "localTeamId": "england"
+        },
+        "away": {
+          "fifaTeamId": "20014",
+          "abbreviation": "COD",
+          "name": "Congo DR",
+          "localTeamId": "congo-dr"
+        },
         "expectedLocalTeamIds": [
           "england",
           "congo-dr"
         ],
-        "teamMatch": false
+        "teamMatch": true
       },
       "score": {
         "home": null,
@@ -374,7 +404,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -422,7 +452,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -470,7 +500,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -518,7 +548,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -566,7 +596,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -614,7 +644,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -662,7 +692,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -710,7 +740,7 @@
       "sourceLabel": "fifa-public-api",
       "sourceStatus": "pending",
       "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
-      "fetchedAt": "2026-06-30T06:23:53.091Z",
+      "fetchedAt": "2026-06-30T06:33:53.099Z",
       "issue": "FIFA has not published an official winner for this mapped match yet.",
       "fifa": {
         "competitionId": "17",
@@ -753,15 +783,6 @@
       "winnerFifaTeamId": null
     }
   ],
-  "errors": [
-    {
-      "matchId": "m58",
-      "message": "This operation was aborted"
-    },
-    {
-      "matchId": "m64",
-      "message": "This operation was aborted"
-    }
-  ],
-  "hash": "0x7c61e37afa5d0f97731c7947bd7ebaaacaf09d3083ac9c59d2dbee8b7f094b18"
+  "errors": [],
+  "hash": "0x2770248bf1a3a4f709cf2a7659fd1764ed4850f74ac77ff6bd2d1676ee511463"
 }
