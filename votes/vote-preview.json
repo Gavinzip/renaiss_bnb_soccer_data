@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-30T09:08:05.108Z",
-  "eventCount": 3,
+  "generatedAt": "2026-06-30T11:06:30.509Z",
+  "eventCount": 5,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -39,6 +39,30 @@
       "official": false,
       "createdAt": "2026-06-30T09:08:05.104Z",
       "updatedAt": "2026-06-30T09:08:05.104Z"
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "france",
+      "tickets": 9,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T11:05:15.276Z",
+      "updatedAt": "2026-06-30T11:05:15.276Z"
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m65-bosnia-and-herzegovina",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m65",
+      "teamId": "bosnia-and-herzegovina",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T11:06:30.508Z",
+      "updatedAt": "2026-06-30T11:06:30.508Z"
     }
   ],
   "outcomes": [
@@ -71,7 +95,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-06-30T09:00:53.336Z",
+      "resultFetchedAt": "2026-06-30T11:00:42.255Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -89,6 +113,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france-outcome",
+      "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "france",
+      "tickets": 9,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m65-bosnia-and-herzegovina-outcome",
+      "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m65-bosnia-and-herzegovina",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m65",
+      "teamId": "bosnia-and-herzegovina",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -96,11 +152,11 @@
       "roundId": "round32",
       "matchCount": 16,
       "officialFinalCount": 4,
-      "submittedTickets": 91,
+      "submittedTickets": 101,
       "settledTickets": 4,
       "wonTickets": 0,
       "lostTickets": 4,
-      "pendingTickets": 87
+      "pendingTickets": 97
     },
     {
       "roundId": "round16",
@@ -116,7 +172,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-06-30T09:00:53.336Z",
-    "hash": "0x7816bbc27b89eaf7a79e1c5c6e9c7613cbda6185769fbade2de2463258ce17b8"
+    "generatedAt": "2026-06-30T11:00:42.255Z",
+    "hash": "0xd5c10bcc8f05d280848c230632e7d80456531c9ad8371781d2943f799529a274"
   }
 }
