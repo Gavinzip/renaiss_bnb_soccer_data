@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-29T16:00:24.136Z",
-  "eventCount": 2,
+  "generatedAt": "2026-06-30T09:08:05.108Z",
+  "eventCount": 3,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -27,6 +27,18 @@
       "official": false,
       "createdAt": "2026-06-29T16:00:24.130Z",
       "updatedAt": "2026-06-29T16:00:24.130Z"
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-sweden",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "sweden",
+      "tickets": 87,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T09:08:05.104Z",
+      "updatedAt": "2026-06-30T09:08:05.104Z"
     }
   ],
   "outcomes": [
@@ -54,6 +66,22 @@
       "matchId": "m58",
       "teamId": "germany",
       "tickets": 4,
+      "result": "lost",
+      "lostTickets": 4,
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
+      "resultFetchedAt": "2026-06-30T09:00:53.336Z",
+      "winnerTeamId": "paraguay"
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-sweden-outcome",
+      "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-sweden",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m61",
+      "teamId": "sweden",
+      "tickets": 87,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -67,12 +95,12 @@
     {
       "roundId": "round32",
       "matchCount": 16,
-      "officialFinalCount": 1,
-      "submittedTickets": 4,
-      "settledTickets": 0,
+      "officialFinalCount": 4,
+      "submittedTickets": 91,
+      "settledTickets": 4,
       "wonTickets": 0,
-      "lostTickets": 0,
-      "pendingTickets": 4
+      "lostTickets": 4,
+      "pendingTickets": 87
     },
     {
       "roundId": "round16",
@@ -88,7 +116,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-06-29T16:00:16.865Z",
-    "hash": "0x067445ada8015e67f367e803f9eb300a0678d8d8dfec10522c46980c09e5ff26"
+    "generatedAt": "2026-06-30T09:00:53.336Z",
+    "hash": "0x7816bbc27b89eaf7a79e1c5c6e9c7613cbda6185769fbade2de2463258ce17b8"
   }
 }
