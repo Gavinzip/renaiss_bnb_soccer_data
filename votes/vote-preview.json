@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-30T13:08:20.955Z",
-  "eventCount": 10,
+  "generatedAt": "2026-06-30T14:07:15.512Z",
+  "eventCount": 11,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -111,6 +111,18 @@
       "official": false,
       "createdAt": "2026-06-30T13:07:59.001Z",
       "updatedAt": "2026-06-30T13:07:59.001Z"
+    },
+    {
+      "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m64-congo-dr",
+      "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "congo-dr",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-06-30T14:07:15.510Z",
+      "updatedAt": "2026-06-30T14:07:15.510Z"
     }
   ],
   "outcomes": [
@@ -143,7 +155,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-06-30T13:00:09.185Z",
+      "resultFetchedAt": "2026-06-30T14:00:09.195Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -257,6 +269,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m64-congo-dr-outcome",
+      "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m64-congo-dr",
+      "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "congo-dr",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -264,11 +292,11 @@
       "roundId": "round32",
       "matchCount": 16,
       "officialFinalCount": 4,
-      "submittedTickets": 201,
+      "submittedTickets": 203,
       "settledTickets": 4,
       "wonTickets": 0,
       "lostTickets": 4,
-      "pendingTickets": 197
+      "pendingTickets": 199
     },
     {
       "roundId": "round16",
@@ -284,7 +312,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-06-30T13:00:09.185Z",
-    "hash": "0xce1f906a1139bd4d2add824476d8b3aca60b6506df8203fa19cbb85fadd980af"
+    "generatedAt": "2026-06-30T14:00:09.195Z",
+    "hash": "0xd9a166a00d60abd780ae521ac4f0c557f9e7946b689a7fe54cad2553fbb4a6d8"
   }
 }
