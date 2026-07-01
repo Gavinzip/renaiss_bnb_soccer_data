@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-01T04:44:36.989Z",
-  "eventCount": 28,
+  "generatedAt": "2026-07-01T09:28:28.341Z",
+  "eventCount": 29,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -315,6 +315,18 @@
       "official": false,
       "createdAt": "2026-07-01T04:44:36.984Z",
       "updatedAt": "2026-07-01T04:44:36.984Z"
+    },
+    {
+      "id": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m66-senegal",
+      "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+      "roundId": "round32",
+      "matchId": "m66",
+      "teamId": "senegal",
+      "tickets": 20,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T09:28:28.339Z",
+      "updatedAt": "2026-07-01T09:28:28.339Z"
     }
   ],
   "outcomes": [
@@ -347,7 +359,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -363,7 +375,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
       "winnerTeamId": "france"
     },
     {
@@ -379,7 +391,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
       "winnerTeamId": "france"
     },
     {
@@ -411,7 +423,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
       "winnerTeamId": "france"
     },
     {
@@ -427,7 +439,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
-      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
       "winnerTeamId": "norway"
     },
     {
@@ -438,13 +450,13 @@
       "matchId": "m63",
       "teamId": "ecuador",
       "tickets": 7,
-      "result": "pending",
-      "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
+      "result": "lost",
+      "lostTickets": 7,
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
+      "winnerTeamId": "mexico"
     },
     {
       "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england-outcome",
@@ -630,13 +642,13 @@
       "matchId": "m63",
       "teamId": "mexico",
       "tickets": 10,
-      "result": "pending",
+      "result": "won",
       "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
+      "resultFetchedAt": "2026-07-01T09:18:30.676Z",
+      "winnerTeamId": "mexico"
     },
     {
       "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m64-congo-dr-outcome",
@@ -733,18 +745,34 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m66-senegal-outcome",
+      "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m66-senegal",
+      "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+      "roundId": "round32",
+      "matchId": "m66",
+      "teamId": "senegal",
+      "tickets": 20,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
     {
       "roundId": "round32",
       "matchCount": 16,
-      "officialFinalCount": 6,
-      "submittedTickets": 381,
-      "settledTickets": 183,
-      "wonTickets": 92,
-      "lostTickets": 91,
-      "pendingTickets": 198
+      "officialFinalCount": 7,
+      "submittedTickets": 401,
+      "settledTickets": 200,
+      "wonTickets": 102,
+      "lostTickets": 98,
+      "pendingTickets": 201
     },
     {
       "roundId": "round16",
@@ -760,7 +788,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-07-01T04:38:30.646Z",
-    "hash": "0xdef9af646342bd339de114bdd8d34563a185c4c4f02fe0d9e0c39981e6f39502"
+    "generatedAt": "2026-07-01T09:18:30.676Z",
+    "hash": "0x1b29ecc95b495e8d0f43fc47a2fa90988b00c18d80f20552b9e160b8328e9d4f"
   }
 }
