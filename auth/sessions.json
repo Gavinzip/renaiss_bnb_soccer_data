@@ -1,28 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-01T06:48:22.192Z",
+  "updatedAt": "2026-07-01T09:53:41.664Z",
   "sessions": {
-    "3def9fbde4289b3024c19b66620f5cb0f7af53d1ce9620cfda4308ed4b6c63e9": {
-      "id": "3def9fbde4289b3024c19b66620f5cb0f7af53d1ce9620cfda4308ed4b6c63e9",
-      "createdAt": "2026-06-19T08:39:19.262Z",
-      "updatedAt": "2026-06-19T08:39:19.262Z",
-      "expiresAt": "2026-07-19T08:39:19.262Z",
-      "identity": {
-        "provider": "google",
-        "providerUserId": "109076366048179267858",
-        "email": "vincenttuandao@gmail.com",
-        "emailVerified": true,
-        "name": "Vincent",
-        "picture": "https://lh3.googleusercontent.com/a/ACg8ocKVu75oyGUXwdgFR6hD_G4o3p5wxL-_iBfV-jLLUshOdJxEtXI=s96-c"
-      },
-      "walletAddress": null,
-      "resolver": {
-        "status": "unresolved",
-        "source": "identity-resolver",
-        "walletAddress": null,
-        "reason": "identity-resolver-not-configured"
-      }
-    },
     "ac9e754e5102bcfc99b73d6078f59bd6d22bfd4abb9a71e149c80ffa9979b2dd": {
       "id": "ac9e754e5102bcfc99b73d6078f59bd6d22bfd4abb9a71e149c80ffa9979b2dd",
       "createdAt": "2026-06-19T13:25:07.898Z",
@@ -899,6 +878,39 @@
         "reason": null,
         "resolverId": "b7488cb8-7a6b-46b9-bddd-8da2730fe287",
         "legacyWalletAddress": "0xc153ee8b4f3c659f4a69539f03dcd20f23cee61e",
+        "chainId": "56"
+      }
+    },
+    "20144cd0d54384b02a2ecab517ce5edd265bb10442f5b718beb8ccb960ad8e98": {
+      "id": "20144cd0d54384b02a2ecab517ce5edd265bb10442f5b718beb8ccb960ad8e98",
+      "createdAt": "2026-07-01T09:53:41.664Z",
+      "updatedAt": "2026-07-01T09:53:41.664Z",
+      "expiresAt": "2026-07-31T09:53:41.664Z",
+      "identity": {
+        "provider": "renaiss",
+        "providerUserId": "7dc8752e-bd03-4ae7-9c53-b1a2fa962d73",
+        "issuer": "https://www.renaiss.xyz/api/auth",
+        "email": "vincent@renaiss.xyz",
+        "emailVerified": false,
+        "name": "PoetsAct2451",
+        "picture": "https://8nothtoc5ds7a0x3.public.blob.vercel-storage.com/avatars/20.jpg",
+        "safeWalletAddress": "0xd3d1d606c5774f4b6402ed9d36082aa61703b369",
+        "safeWalletReady": true,
+        "safeWalletClaimPresent": true,
+        "safeWalletInvalid": false,
+        "legacyWalletAddress": "0x483bd360cd9ff3ee7a025a26852d50c3311b8b27",
+        "chainId": "56",
+        "twitterUsername": null,
+        "userinfoError": null
+      },
+      "walletAddress": "0xd3d1d606c5774f4b6402ed9d36082aa61703b369",
+      "resolver": {
+        "status": "resolved",
+        "source": "renaiss-sso",
+        "walletAddress": "0xd3d1d606c5774f4b6402ed9d36082aa61703b369",
+        "reason": null,
+        "resolverId": "7dc8752e-bd03-4ae7-9c53-b1a2fa962d73",
+        "legacyWalletAddress": "0x483bd360cd9ff3ee7a025a26852d50c3311b8b27",
         "chainId": "56"
       }
     }
