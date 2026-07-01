@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-06-30T21:17:18.823Z",
-  "eventCount": 22,
+  "generatedAt": "2026-07-01T01:46:21.079Z",
+  "eventCount": 27,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -243,6 +243,66 @@
       "official": false,
       "createdAt": "2026-06-30T21:17:18.822Z",
       "updatedAt": "2026-06-30T21:17:18.822Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m64-congo-dr",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "congo-dr",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T01:44:07.144Z",
+      "updatedAt": "2026-07-01T01:44:07.144Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m66",
+      "teamId": "belgium",
+      "tickets": 3,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T01:45:46.933Z",
+      "updatedAt": "2026-07-01T01:45:46.933Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m65",
+      "teamId": "united-states",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T01:45:56.726Z",
+      "updatedAt": "2026-07-01T01:45:56.726Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m68",
+      "teamId": "spain",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T01:46:05.684Z",
+      "updatedAt": "2026-07-01T01:46:05.684Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m67",
+      "teamId": "portugal",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T01:46:21.078Z",
+      "updatedAt": "2026-07-01T01:46:21.078Z"
     }
   ],
   "outcomes": [
@@ -275,7 +335,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-06-30T21:16:55.858Z",
+      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -286,13 +346,13 @@
       "matchId": "m61",
       "teamId": "sweden",
       "tickets": 87,
-      "result": "pending",
-      "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
+      "result": "lost",
+      "lostTickets": 87,
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "winnerTeamId": "france"
     },
     {
       "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france-outcome",
@@ -302,13 +362,13 @@
       "matchId": "m61",
       "teamId": "france",
       "tickets": 9,
-      "result": "pending",
+      "result": "won",
       "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "winnerTeamId": "france"
     },
     {
       "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m65-bosnia-and-herzegovina-outcome",
@@ -334,13 +394,13 @@
       "matchId": "m61",
       "teamId": "france",
       "tickets": 78,
-      "result": "pending",
+      "result": "won",
       "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
+      "official": true,
+      "resultSourceStatus": "confirmed",
+      "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "winnerTeamId": "france"
     },
     {
       "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway-outcome",
@@ -355,7 +415,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
-      "resultFetchedAt": "2026-06-30T21:16:55.858Z",
+      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
       "winnerTeamId": "norway"
     },
     {
@@ -565,18 +625,98 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m64-congo-dr-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m64-congo-dr",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m64",
+      "teamId": "congo-dr",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m66",
+      "teamId": "belgium",
+      "tickets": 3,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m65",
+      "teamId": "united-states",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m68",
+      "teamId": "spain",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round32",
+      "matchId": "m67",
+      "teamId": "portugal",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
     {
       "roundId": "round32",
       "matchCount": 16,
-      "officialFinalCount": 5,
-      "submittedTickets": 263,
-      "settledTickets": 9,
-      "wonTickets": 5,
-      "lostTickets": 4,
-      "pendingTickets": 254
+      "officialFinalCount": 6,
+      "submittedTickets": 291,
+      "settledTickets": 183,
+      "wonTickets": 92,
+      "lostTickets": 91,
+      "pendingTickets": 108
     },
     {
       "roundId": "round16",
@@ -592,7 +732,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-06-30T21:16:55.858Z",
-    "hash": "0x2711f60e179610e357864130ed70d714e76c2eec85a27db3a74f19de0a31a2f9"
+    "generatedAt": "2026-07-01T01:36:55.966Z",
+    "hash": "0xd8234f95b6d65085b0e2fb3c1108f19269248fb3faf8f1cf49b09522f2d4262c"
   }
 }
