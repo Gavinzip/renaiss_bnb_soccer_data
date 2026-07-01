@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-01T01:46:21.079Z",
-  "eventCount": 27,
+  "generatedAt": "2026-07-01T04:44:36.989Z",
+  "eventCount": 28,
   "allocations": [
     {
       "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
@@ -303,6 +303,18 @@
       "official": false,
       "createdAt": "2026-07-01T01:46:21.078Z",
       "updatedAt": "2026-07-01T01:46:21.078Z"
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-cabo-verde",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m70",
+      "teamId": "cabo-verde",
+      "tickets": 90,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-01T04:44:36.984Z",
+      "updatedAt": "2026-07-01T04:44:36.984Z"
     }
   ],
   "outcomes": [
@@ -335,7 +347,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -351,7 +363,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
       "winnerTeamId": "france"
     },
     {
@@ -367,7 +379,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
       "winnerTeamId": "france"
     },
     {
@@ -399,7 +411,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
       "winnerTeamId": "france"
     },
     {
@@ -415,7 +427,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
-      "resultFetchedAt": "2026-07-01T01:36:55.966Z",
+      "resultFetchedAt": "2026-07-01T04:38:30.646Z",
       "winnerTeamId": "norway"
     },
     {
@@ -705,6 +717,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-cabo-verde-outcome",
+      "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-cabo-verde",
+      "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+      "roundId": "round32",
+      "matchId": "m70",
+      "teamId": "cabo-verde",
+      "tickets": 90,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -712,11 +740,11 @@
       "roundId": "round32",
       "matchCount": 16,
       "officialFinalCount": 6,
-      "submittedTickets": 291,
+      "submittedTickets": 381,
       "settledTickets": 183,
       "wonTickets": 92,
       "lostTickets": 91,
-      "pendingTickets": 108
+      "pendingTickets": 198
     },
     {
       "roundId": "round16",
@@ -732,7 +760,7 @@
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-07-01T01:36:55.966Z",
-    "hash": "0xd8234f95b6d65085b0e2fb3c1108f19269248fb3faf8f1cf49b09522f2d4262c"
+    "generatedAt": "2026-07-01T04:38:30.646Z",
+    "hash": "0xdef9af646342bd339de114bdd8d34563a185c4c4f02fe0d9e0c39981e6f39502"
   }
 }
