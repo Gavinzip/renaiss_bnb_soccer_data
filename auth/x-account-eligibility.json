@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-03T07:38:31.064Z",
+  "updatedAt": "2026-07-03T09:44:49.776Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -182,17 +182,18 @@
     "0xf367b0f46b49b886ba70e9090315c44359443631:x:1451439610291113986": {
       "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
       "xUserId": "1451439610291113986",
-      "eligible": false,
+      "eligible": true,
       "fireflyUid": "2223185519",
-      "verificationMethod": "x_account_id",
+      "verificationMethod": "ff_account_uid",
       "hasFireflyAccount": true,
-      "hasPlacedBet": false,
-      "status": "missing_predict_bet",
+      "hasPlacedBet": true,
+      "status": "eligible",
       "fireflyUidClaimedAt": "2026-07-01T16:43:07.994Z",
-      "lastCheckedAt": "2026-07-01T18:10:34.073Z",
-      "updatedAt": "2026-07-01T18:10:34.073Z",
+      "lastCheckedAt": "2026-07-03T09:43:18.933Z",
+      "updatedAt": "2026-07-03T09:43:18.933Z",
       "lastError": null,
-      "lastErrorCode": null
+      "lastErrorCode": null,
+      "requestedFireflyUid": "2223185519"
     },
     "0x17551fc08c3555671c3848835bd0addf61b76deb:x:1534765155426668544": {
       "walletAddress": "0x17551fc08c3555671c3848835bd0addf61b76deb",
@@ -372,6 +373,22 @@
       "fireflyUidClaimedAt": "2026-07-02T17:35:18.272Z",
       "lastCheckedAt": "2026-07-02T17:35:18.272Z",
       "updatedAt": "2026-07-02T17:35:18.272Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x333bc24027b2581946fc0f17516a6cbf6f500407:x:1475104522859315202": {
+      "walletAddress": "0x333bc24027b2581946fc0f17516a6cbf6f500407",
+      "xUserId": "1475104522859315202",
+      "eligible": false,
+      "fireflyUid": null,
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": false,
+      "hasPlacedBet": false,
+      "status": "missing_firefly_account",
+      "fireflyUidClaimedAt": null,
+      "lastCheckedAt": "2026-07-03T09:44:49.776Z",
+      "updatedAt": "2026-07-03T09:44:49.776Z",
       "lastError": null,
       "lastErrorCode": null
     }
