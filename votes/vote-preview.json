@@ -1,21 +1,9 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-03T19:10:23.041Z",
-  "eventCount": 68,
+  "generatedAt": "2026-07-03T20:26:00.408Z",
+  "eventCount": 70,
   "allocations": [
-    {
-      "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
-      "walletAddress": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4",
-      "roundId": "round16",
-      "matchId": "m74",
-      "teamId": "france",
-      "tickets": 1,
-      "source": "server-vote-store",
-      "official": false,
-      "createdAt": "2026-06-18T12:58:27.932Z",
-      "updatedAt": "2026-06-18T12:58:27.932Z"
-    },
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -735,25 +723,33 @@
       "official": false,
       "createdAt": "2026-07-03T19:10:23.034Z",
       "updatedAt": "2026-07-03T19:10:23.034Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m75-norway",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m75",
+      "teamId": "norway",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:25:21.694Z",
+      "updatedAt": "2026-07-03T20:25:21.694Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m73-france",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m73",
+      "teamId": "france",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:26:00.407Z",
+      "updatedAt": "2026-07-03T20:26:00.407Z"
     }
   ],
   "outcomes": [
-    {
-      "id": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france-outcome",
-      "allocationId": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4-m74-france",
-      "walletAddress": "0xdf58705a2333055ebf171d9b3fad8fd429b7a8c4",
-      "roundId": "round16",
-      "matchId": "m74",
-      "teamId": "france",
-      "tickets": 1,
-      "result": "pending",
-      "lostTickets": 0,
-      "official": false,
-      "resultSourceStatus": "pending",
-      "resultSourceUrl": null,
-      "resultFetchedAt": null,
-      "winnerTeamId": null
-    },
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany-outcome",
       "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -767,7 +763,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "paraguay"
     },
     {
@@ -783,7 +779,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "france"
     },
     {
@@ -799,7 +795,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "france"
     },
     {
@@ -815,7 +811,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "united-states"
     },
     {
@@ -831,7 +827,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "france"
     },
     {
@@ -847,7 +843,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "norway"
     },
     {
@@ -863,7 +859,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "mexico"
     },
     {
@@ -879,7 +875,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -895,7 +891,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -927,7 +923,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -943,7 +939,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -991,7 +987,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "switzerland"
     },
     {
@@ -1007,7 +1003,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "portugal"
     },
     {
@@ -1023,7 +1019,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "united-states"
     },
     {
@@ -1039,7 +1035,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "belgium"
     },
     {
@@ -1055,7 +1051,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "mexico"
     },
     {
@@ -1071,7 +1067,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -1087,7 +1083,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "belgium"
     },
     {
@@ -1103,7 +1099,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "united-states"
     },
     {
@@ -1119,7 +1115,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1135,7 +1131,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "portugal"
     },
     {
@@ -1167,7 +1163,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "belgium"
     },
     {
@@ -1183,7 +1179,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "switzerland"
     },
     {
@@ -1295,7 +1291,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "switzerland"
     },
     {
@@ -1311,7 +1307,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "portugal"
     },
     {
@@ -1327,7 +1323,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "portugal"
     },
     {
@@ -1343,7 +1339,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1359,7 +1355,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1375,7 +1371,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "united-states"
     },
     {
@@ -1391,7 +1387,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -1407,7 +1403,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -1423,7 +1419,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "england"
     },
     {
@@ -1439,7 +1435,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "belgium"
     },
     {
@@ -1455,7 +1451,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1471,7 +1467,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1487,7 +1483,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "portugal"
     },
     {
@@ -1535,7 +1531,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "switzerland"
     },
     {
@@ -1567,7 +1563,7 @@
       "official": true,
       "resultSourceStatus": "confirmed",
       "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
-      "resultFetchedAt": "2026-07-03T19:04:34.324Z",
+      "resultFetchedAt": "2026-07-03T20:20:56.999Z",
       "winnerTeamId": "spain"
     },
     {
@@ -1713,6 +1709,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m75-norway-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m75-norway",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m75",
+      "teamId": "norway",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m73-france-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m73-france",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m73",
+      "teamId": "france",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -1730,17 +1758,17 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 2,
+      "submittedTickets": 21,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 2
+      "pendingTickets": 21
     }
   ],
   "matchResults": {
     "sourceLabel": "fifa-public-api",
     "sourceStatus": "live",
-    "generatedAt": "2026-07-03T19:04:34.324Z",
-    "hash": "0x7703e6fd891ddae1ea3e1147e7099ae2d89518302ab7e0095371c7b035dd8e6e"
+    "generatedAt": "2026-07-03T20:20:56.999Z",
+    "hash": "0x38af0ba0c9b59fec690e6e63046a6758013081591e89715f9384d687a6f53fa4"
   }
 }
