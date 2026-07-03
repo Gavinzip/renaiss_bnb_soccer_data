@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-03T20:26:00.408Z",
-  "eventCount": 70,
+  "generatedAt": "2026-07-03T20:28:17.950Z",
+  "eventCount": 76,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -747,6 +747,54 @@
       "official": false,
       "createdAt": "2026-07-03T20:26:00.407Z",
       "updatedAt": "2026-07-03T20:26:00.407Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m77-portugal",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m77",
+      "teamId": "portugal",
+      "tickets": 50,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:26:27.509Z",
+      "updatedAt": "2026-07-03T20:28:17.948Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m76-mexico",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m76",
+      "teamId": "mexico",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:26:42.067Z",
+      "updatedAt": "2026-07-03T20:26:42.067Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m78-united-states",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m78",
+      "teamId": "united-states",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:26:49.237Z",
+      "updatedAt": "2026-07-03T20:26:49.237Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m74-morocco",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m74",
+      "teamId": "morocco",
+      "tickets": 11,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-03T20:26:58.868Z",
+      "updatedAt": "2026-07-03T20:27:11.167Z"
     }
   ],
   "outcomes": [
@@ -1741,6 +1789,70 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m77-portugal-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m77-portugal",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m77",
+      "teamId": "portugal",
+      "tickets": 50,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m76-mexico-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m76-mexico",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m76",
+      "teamId": "mexico",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m78-united-states-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m78-united-states",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m78",
+      "teamId": "united-states",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m74-morocco-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m74-morocco",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "m74",
+      "teamId": "morocco",
+      "tickets": 11,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -1758,11 +1870,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 21,
+      "submittedTickets": 102,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 21
+      "pendingTickets": 102
     }
   ],
   "matchResults": {
