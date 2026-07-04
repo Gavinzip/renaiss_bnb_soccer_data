@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T12:44:15.118Z",
-  "eventCount": 486,
+  "generatedAt": "2026-07-04T12:49:50.678Z",
+  "eventCount": 491,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -4954,11 +4954,59 @@
       "roundId": "round16",
       "matchId": "M91",
       "teamId": "brazil",
-      "tickets": 33,
+      "tickets": 41,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T12:44:15.108Z",
-      "updatedAt": "2026-07-04T12:44:15.108Z"
+      "updatedAt": "2026-07-04T12:47:06.644Z"
+    },
+    {
+      "id": "0xaf89f08affa6214210722c9926b29d73988192d4-M94-united-states",
+      "walletAddress": "0xaf89f08affa6214210722c9926b29d73988192d4",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "united-states",
+      "tickets": 30,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:46:39.968Z",
+      "updatedAt": "2026-07-04T12:46:39.968Z"
+    },
+    {
+      "id": "0xaf89f08affa6214210722c9926b29d73988192d4-M95-argentina",
+      "walletAddress": "0xaf89f08affa6214210722c9926b29d73988192d4",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
+      "tickets": 33,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:46:52.636Z",
+      "updatedAt": "2026-07-04T12:46:52.636Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M95-argentina",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:49:42.449Z",
+      "updatedAt": "2026-07-04T12:49:42.449Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M96-switzerland",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "switzerland",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:49:50.672Z",
+      "updatedAt": "2026-07-04T12:49:50.672Z"
     }
   ],
   "outcomes": [
@@ -11561,7 +11609,71 @@
       "roundId": "round16",
       "matchId": "M91",
       "teamId": "brazil",
+      "tickets": 41,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xaf89f08affa6214210722c9926b29d73988192d4-M94-united-states-outcome",
+      "allocationId": "0xaf89f08affa6214210722c9926b29d73988192d4-M94-united-states",
+      "walletAddress": "0xaf89f08affa6214210722c9926b29d73988192d4",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "united-states",
+      "tickets": 30,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xaf89f08affa6214210722c9926b29d73988192d4-M95-argentina-outcome",
+      "allocationId": "0xaf89f08affa6214210722c9926b29d73988192d4-M95-argentina",
+      "walletAddress": "0xaf89f08affa6214210722c9926b29d73988192d4",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
       "tickets": 33,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M95-argentina-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M95-argentina",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M96-switzerland-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M96-switzerland",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "switzerland",
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -11586,11 +11698,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 5664,
+      "submittedTickets": 5750,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5664
+      "pendingTickets": 5750
     }
   ],
   "matchResults": {
