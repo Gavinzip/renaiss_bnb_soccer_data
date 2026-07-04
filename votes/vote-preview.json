@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T08:24:43.015Z",
-  "eventCount": 294,
+  "generatedAt": "2026-07-04T08:25:14.609Z",
+  "eventCount": 295,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -2835,6 +2835,18 @@
       "official": false,
       "createdAt": "2026-07-04T08:24:43.008Z",
       "updatedAt": "2026-07-04T08:24:43.008Z"
+    },
+    {
+      "id": "0x6af8d79d46f011b203c01c8ccd9c47308f151b49-M93-portugal",
+      "walletAddress": "0x6af8d79d46f011b203c01c8ccd9c47308f151b49",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "portugal",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T08:25:14.602Z",
+      "updatedAt": "2026-07-04T08:25:14.602Z"
     }
   ],
   "outcomes": [
@@ -6613,6 +6625,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x6af8d79d46f011b203c01c8ccd9c47308f151b49-M93-portugal-outcome",
+      "allocationId": "0x6af8d79d46f011b203c01c8ccd9c47308f151b49-M93-portugal",
+      "walletAddress": "0x6af8d79d46f011b203c01c8ccd9c47308f151b49",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "portugal",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -6630,11 +6658,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 3601,
+      "submittedTickets": 3602,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 3601
+      "pendingTickets": 3602
     }
   ],
   "matchResults": {
