@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-04T12:35:48.742Z",
+  "updatedAt": "2026-07-04T12:43:52.922Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -1079,16 +1079,16 @@
     "0xaf89f08affa6214210722c9926b29d73988192d4:x:1406610036500033540": {
       "walletAddress": "0xaf89f08affa6214210722c9926b29d73988192d4",
       "xUserId": "1406610036500033540",
-      "eligible": false,
+      "eligible": true,
       "fireflyUid": "2795941544",
-      "verificationMethod": "x_account_id",
-      "requestedFireflyUid": null,
+      "verificationMethod": "ff_account_uid",
+      "requestedFireflyUid": "2795941544",
       "hasFireflyAccount": true,
-      "hasPlacedBet": false,
-      "status": "missing_predict_bet",
+      "hasPlacedBet": true,
+      "status": "eligible",
       "fireflyUidClaimedAt": "2026-07-04T06:17:38.017Z",
-      "lastCheckedAt": "2026-07-04T06:17:38.017Z",
-      "updatedAt": "2026-07-04T06:17:38.017Z",
+      "lastCheckedAt": "2026-07-04T12:43:07.601Z",
+      "updatedAt": "2026-07-04T12:43:07.601Z",
       "lastError": null,
       "lastErrorCode": null
     },
@@ -2385,6 +2385,38 @@
       "fireflyUidClaimedAt": "2026-07-04T12:32:18.502Z",
       "lastCheckedAt": "2026-07-04T12:32:18.502Z",
       "updatedAt": "2026-07-04T12:32:18.502Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef:x:1934666054384648192": {
+      "walletAddress": "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef",
+      "xUserId": "1934666054384648192",
+      "eligible": true,
+      "fireflyUid": "1459474118",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": true,
+      "hasPlacedBet": true,
+      "status": "eligible",
+      "fireflyUidClaimedAt": "2026-07-04T12:41:27.260Z",
+      "lastCheckedAt": "2026-07-04T12:41:27.260Z",
+      "updatedAt": "2026-07-04T12:41:27.260Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x08864d0e72725caed09be4ece23b9874ea8114ca:x:1981402838694797312": {
+      "walletAddress": "0x08864d0e72725caed09be4ece23b9874ea8114ca",
+      "xUserId": "1981402838694797312",
+      "eligible": false,
+      "fireflyUid": "1349627983",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": true,
+      "hasPlacedBet": false,
+      "status": "missing_predict_bet",
+      "fireflyUidClaimedAt": "2026-07-04T12:43:52.921Z",
+      "lastCheckedAt": "2026-07-04T12:43:52.921Z",
+      "updatedAt": "2026-07-04T12:43:52.921Z",
       "lastError": null,
       "lastErrorCode": null
     }
