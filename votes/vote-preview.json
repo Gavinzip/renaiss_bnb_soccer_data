@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T06:39:36.079Z",
-  "eventCount": 212,
+  "generatedAt": "2026-07-04T06:39:43.331Z",
+  "eventCount": 213,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -1887,6 +1887,18 @@
       "official": false,
       "createdAt": "2026-07-04T06:39:36.077Z",
       "updatedAt": "2026-07-04T06:39:36.077Z"
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-M91-norway",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "norway",
+      "tickets": 125,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T06:39:43.329Z",
+      "updatedAt": "2026-07-04T06:39:43.329Z"
     }
   ],
   "outcomes": [
@@ -4401,6 +4413,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xef6c52085d12397c37652c4918036c1492fcf7a6-M91-norway-outcome",
+      "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-M91-norway",
+      "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "norway",
+      "tickets": 125,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -4418,11 +4446,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 2865,
+      "submittedTickets": 2990,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 2865
+      "pendingTickets": 2990
     }
   ],
   "matchResults": {
