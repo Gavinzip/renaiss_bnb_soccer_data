@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T13:10:44.095Z",
-  "eventCount": 502,
+  "generatedAt": "2026-07-04T13:12:45.213Z",
+  "eventCount": 506,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -5127,6 +5127,54 @@
       "official": false,
       "createdAt": "2026-07-04T13:10:44.055Z",
       "updatedAt": "2026-07-04T13:10:44.055Z"
+    },
+    {
+      "id": "0x0ecfbd647fbc448ae9cc6408742a20771d409a9e-M89-france",
+      "walletAddress": "0x0ecfbd647fbc448ae9cc6408742a20771d409a9e",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T13:10:54.253Z",
+      "updatedAt": "2026-07-04T13:10:54.253Z"
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M89-france",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T13:12:19.387Z",
+      "updatedAt": "2026-07-04T13:12:19.387Z"
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M92-mexico",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "mexico",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T13:12:32.435Z",
+      "updatedAt": "2026-07-04T13:12:32.435Z"
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M91-brazil",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "brazil",
+      "tickets": 20,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T13:12:45.208Z",
+      "updatedAt": "2026-07-04T13:12:45.208Z"
     }
   ],
   "outcomes": [
@@ -11961,6 +12009,70 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x0ecfbd647fbc448ae9cc6408742a20771d409a9e-M89-france-outcome",
+      "allocationId": "0x0ecfbd647fbc448ae9cc6408742a20771d409a9e-M89-france",
+      "walletAddress": "0x0ecfbd647fbc448ae9cc6408742a20771d409a9e",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M89-france-outcome",
+      "allocationId": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M89-france",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M92-mexico-outcome",
+      "allocationId": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M92-mexico",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "mexico",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M91-brazil-outcome",
+      "allocationId": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac-M91-brazil",
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "brazil",
+      "tickets": 20,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -11978,11 +12090,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 5902,
+      "submittedTickets": 5935,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5902
+      "pendingTickets": 5935
     }
   ],
   "matchResults": {
