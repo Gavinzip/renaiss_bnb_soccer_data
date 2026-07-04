@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-04T05:54:14.860Z",
+  "updatedAt": "2026-07-04T05:59:25.586Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -87,9 +87,14 @@
       "hasFireflyAccount": true,
       "hasPlacedBet": true,
       "status": "eligible",
-      "lastCheckedAt": "2026-07-01T09:21:51.284Z",
-      "updatedAt": "2026-07-01T09:21:51.284Z",
-      "lastError": null
+      "lastCheckedAt": "2026-07-04T05:58:22.049Z",
+      "updatedAt": "2026-07-04T05:58:22.049Z",
+      "lastError": null,
+      "fireflyUid": "1922420709",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "fireflyUidClaimedAt": "2026-07-04T05:58:22.049Z",
+      "lastErrorCode": null
     },
     "0xef6c52085d12397c37652c4918036c1492fcf7a6:x:1832462441537843200": {
       "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
@@ -792,16 +797,16 @@
     "0x312cb5bee6d753e540f4a1472c47e97e0e5be045:x:1778323802046545920": {
       "walletAddress": "0x312cb5bee6d753e540f4a1472c47e97e0e5be045",
       "xUserId": "1778323802046545920",
-      "eligible": false,
+      "eligible": true,
       "fireflyUid": "1637327232",
       "verificationMethod": "ff_account_uid",
       "requestedFireflyUid": "1637327232",
       "hasFireflyAccount": true,
-      "hasPlacedBet": false,
-      "status": "missing_predict_bet",
+      "hasPlacedBet": true,
+      "status": "eligible",
       "fireflyUidClaimedAt": "2026-07-04T05:53:15.577Z",
-      "lastCheckedAt": "2026-07-04T05:53:15.577Z",
-      "updatedAt": "2026-07-04T05:53:15.577Z",
+      "lastCheckedAt": "2026-07-04T05:55:45.293Z",
+      "updatedAt": "2026-07-04T05:55:45.293Z",
       "lastError": null,
       "lastErrorCode": null
     },
@@ -946,6 +951,54 @@
       "fireflyUidClaimedAt": "2026-07-04T05:49:46.635Z",
       "lastCheckedAt": "2026-07-04T05:49:46.635Z",
       "updatedAt": "2026-07-04T05:49:46.635Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0xef109396ca4285f868a5d809bd0d97a95b17c213:x:824290100854919168": {
+      "walletAddress": "0xef109396ca4285f868a5d809bd0d97a95b17c213",
+      "xUserId": "824290100854919168",
+      "eligible": false,
+      "fireflyUid": null,
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": false,
+      "hasPlacedBet": false,
+      "status": "missing_firefly_account",
+      "fireflyUidClaimedAt": null,
+      "lastCheckedAt": "2026-07-04T05:56:52.385Z",
+      "updatedAt": "2026-07-04T05:56:52.385Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x9145500764aabb576b40127c6c1b0155822ba0d5:x:1910931472091144192": {
+      "walletAddress": "0x9145500764aabb576b40127c6c1b0155822ba0d5",
+      "xUserId": "1910931472091144192",
+      "eligible": false,
+      "fireflyUid": "3235326084",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": true,
+      "hasPlacedBet": false,
+      "status": "missing_predict_bet",
+      "fireflyUidClaimedAt": "2026-07-04T05:56:52.410Z",
+      "lastCheckedAt": "2026-07-04T05:59:25.585Z",
+      "updatedAt": "2026-07-04T05:59:25.585Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac:x:1533400389734649856": {
+      "walletAddress": "0x115b21d2a89ab834cbab5175b4e6ad5cf068d6ac",
+      "xUserId": "1533400389734649856",
+      "eligible": false,
+      "fireflyUid": "1303678313",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": true,
+      "hasPlacedBet": false,
+      "status": "missing_predict_bet",
+      "fireflyUidClaimedAt": "2026-07-04T05:58:39.768Z",
+      "lastCheckedAt": "2026-07-04T05:58:39.768Z",
+      "updatedAt": "2026-07-04T05:58:39.768Z",
       "lastError": null,
       "lastErrorCode": null
     }
