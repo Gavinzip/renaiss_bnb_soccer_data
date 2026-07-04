@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T01:06:06.453Z",
-  "eventCount": 83,
+  "generatedAt": "2026-07-04T01:10:20.189Z",
+  "eventCount": 88,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -802,11 +802,11 @@
       "roundId": "round16",
       "matchId": "m73",
       "teamId": "france",
-      "tickets": 4,
+      "tickets": 5,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T00:59:15.014Z",
-      "updatedAt": "2026-07-04T00:59:15.014Z"
+      "updatedAt": "2026-07-04T01:10:20.187Z"
     },
     {
       "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m78-united-states",
@@ -814,11 +814,11 @@
       "roundId": "round16",
       "matchId": "m78",
       "teamId": "united-states",
-      "tickets": 4,
+      "tickets": 5,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T00:59:49.662Z",
-      "updatedAt": "2026-07-04T00:59:49.662Z"
+      "updatedAt": "2026-07-04T01:09:59.264Z"
     },
     {
       "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m76-england",
@@ -826,11 +826,11 @@
       "roundId": "round16",
       "matchId": "m76",
       "teamId": "england",
-      "tickets": 4,
+      "tickets": 5,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T01:02:29.063Z",
-      "updatedAt": "2026-07-04T01:02:29.063Z"
+      "updatedAt": "2026-07-04T01:10:13.851Z"
     },
     {
       "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m74-morocco",
@@ -850,11 +850,11 @@
       "roundId": "round16",
       "matchId": "m77",
       "teamId": "spain",
-      "tickets": 4,
+      "tickets": 5,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T01:05:32.604Z",
-      "updatedAt": "2026-07-04T01:05:32.604Z"
+      "updatedAt": "2026-07-04T01:10:06.530Z"
     },
     {
       "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m79-argentina",
@@ -867,6 +867,18 @@
       "official": false,
       "createdAt": "2026-07-04T01:05:48.518Z",
       "updatedAt": "2026-07-04T01:06:06.451Z"
+    },
+    {
+      "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m75-norway",
+      "walletAddress": "0x0b519641714bd7b715577576d22f4b6065ec6b8f",
+      "roundId": "round16",
+      "matchId": "m75",
+      "teamId": "norway",
+      "tickets": 3,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T01:09:05.182Z",
+      "updatedAt": "2026-07-04T01:09:05.182Z"
     }
   ],
   "outcomes": [
@@ -1933,7 +1945,7 @@
       "roundId": "round16",
       "matchId": "m73",
       "teamId": "france",
-      "tickets": 4,
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -1949,7 +1961,7 @@
       "roundId": "round16",
       "matchId": "m78",
       "teamId": "united-states",
-      "tickets": 4,
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -1965,7 +1977,7 @@
       "roundId": "round16",
       "matchId": "m76",
       "teamId": "england",
-      "tickets": 4,
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -1997,7 +2009,7 @@
       "roundId": "round16",
       "matchId": "m77",
       "teamId": "spain",
-      "tickets": 4,
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -2014,6 +2026,22 @@
       "matchId": "m79",
       "teamId": "argentina",
       "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m75-norway-outcome",
+      "allocationId": "0x0b519641714bd7b715577576d22f4b6065ec6b8f-m75-norway",
+      "walletAddress": "0x0b519641714bd7b715577576d22f4b6065ec6b8f",
+      "roundId": "round16",
+      "matchId": "m75",
+      "teamId": "norway",
+      "tickets": 3,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -2038,11 +2066,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 127,
+      "submittedTickets": 134,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 127
+      "pendingTickets": 134
     }
   ],
   "matchResults": {
