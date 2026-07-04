@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T12:15:21.021Z",
-  "eventCount": 453,
+  "generatedAt": "2026-07-04T12:18:08.269Z",
+  "eventCount": 455,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -4587,6 +4587,30 @@
       "official": false,
       "createdAt": "2026-07-04T12:15:21.007Z",
       "updatedAt": "2026-07-04T12:15:21.007Z"
+    },
+    {
+      "id": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M89-france",
+      "walletAddress": "0x819e983af6dd77f71cebb9c212345faf2c7d001e",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:15:42.059Z",
+      "updatedAt": "2026-07-04T12:15:42.059Z"
+    },
+    {
+      "id": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M90-canada",
+      "walletAddress": "0x819e983af6dd77f71cebb9c212345faf2c7d001e",
+      "roundId": "round16",
+      "matchId": "M90",
+      "teamId": "canada",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:18:08.263Z",
+      "updatedAt": "2026-07-04T12:18:08.263Z"
     }
   ],
   "outcomes": [
@@ -10701,6 +10725,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M89-france-outcome",
+      "allocationId": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M89-france",
+      "walletAddress": "0x819e983af6dd77f71cebb9c212345faf2c7d001e",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M90-canada-outcome",
+      "allocationId": "0x819e983af6dd77f71cebb9c212345faf2c7d001e-M90-canada",
+      "walletAddress": "0x819e983af6dd77f71cebb9c212345faf2c7d001e",
+      "roundId": "round16",
+      "matchId": "M90",
+      "teamId": "canada",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -10718,11 +10774,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 5302,
+      "submittedTickets": 5313,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5302
+      "pendingTickets": 5313
     }
   ],
   "matchResults": {
