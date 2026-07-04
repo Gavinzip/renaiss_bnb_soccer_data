@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T13:34:38.695Z",
-  "eventCount": 510,
+  "generatedAt": "2026-07-04T13:36:19.580Z",
+  "eventCount": 511,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -5211,6 +5211,18 @@
       "official": false,
       "createdAt": "2026-07-04T13:34:38.690Z",
       "updatedAt": "2026-07-04T13:34:38.690Z"
+    },
+    {
+      "id": "0x088b309e4ea85999538e79683338dba97b98271f-M89-france",
+      "walletAddress": "0x088b309e4ea85999538e79683338dba97b98271f",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 20,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T13:36:19.575Z",
+      "updatedAt": "2026-07-04T13:36:19.575Z"
     }
   ],
   "outcomes": [
@@ -12157,6 +12169,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x088b309e4ea85999538e79683338dba97b98271f-M89-france-outcome",
+      "allocationId": "0x088b309e4ea85999538e79683338dba97b98271f-M89-france",
+      "walletAddress": "0x088b309e4ea85999538e79683338dba97b98271f",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 20,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -12174,11 +12202,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 5975,
+      "submittedTickets": 5995,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5975
+      "pendingTickets": 5995
     }
   ],
   "matchResults": {
