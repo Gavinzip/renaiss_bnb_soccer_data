@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T05:45:10.129Z",
-  "eventCount": 175,
+  "generatedAt": "2026-07-04T05:48:03.222Z",
+  "eventCount": 177,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -1467,6 +1467,30 @@
       "official": false,
       "createdAt": "2026-07-04T05:39:33.793Z",
       "updatedAt": "2026-07-04T05:39:33.793Z"
+    },
+    {
+      "id": "0xd72d9573c0447b9da9f943749db2c1aad2252cb2-M89-france",
+      "walletAddress": "0xd72d9573c0447b9da9f943749db2c1aad2252cb2",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T05:46:48.880Z",
+      "updatedAt": "2026-07-04T05:46:48.880Z"
+    },
+    {
+      "id": "0x49f57922460fc2f1812190b74b66000feaa9ec0a-M96-colombia",
+      "walletAddress": "0x49f57922460fc2f1812190b74b66000feaa9ec0a",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T05:48:03.219Z",
+      "updatedAt": "2026-07-04T05:48:03.219Z"
     }
   ],
   "outcomes": [
@@ -3421,6 +3445,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xd72d9573c0447b9da9f943749db2c1aad2252cb2-M89-france-outcome",
+      "allocationId": "0xd72d9573c0447b9da9f943749db2c1aad2252cb2-M89-france",
+      "walletAddress": "0xd72d9573c0447b9da9f943749db2c1aad2252cb2",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "france",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x49f57922460fc2f1812190b74b66000feaa9ec0a-M96-colombia-outcome",
+      "allocationId": "0x49f57922460fc2f1812190b74b66000feaa9ec0a-M96-colombia",
+      "walletAddress": "0x49f57922460fc2f1812190b74b66000feaa9ec0a",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -3438,11 +3494,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 2196,
+      "submittedTickets": 2199,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 2196
+      "pendingTickets": 2199
     }
   ],
   "matchResults": {
