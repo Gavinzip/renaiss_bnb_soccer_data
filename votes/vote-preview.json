@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T15:47:07.881Z",
-  "eventCount": 602,
+  "generatedAt": "2026-07-04T15:51:46.531Z",
+  "eventCount": 604,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -6082,11 +6082,11 @@
       "roundId": "round16",
       "matchId": "M90",
       "teamId": "morocco",
-      "tickets": 20,
+      "tickets": 50,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T15:38:51.879Z",
-      "updatedAt": "2026-07-04T15:38:51.879Z"
+      "updatedAt": "2026-07-04T15:50:20.442Z"
     },
     {
       "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M94-united-states",
@@ -6159,6 +6159,18 @@
       "official": false,
       "createdAt": "2026-07-04T15:47:07.873Z",
       "updatedAt": "2026-07-04T15:47:07.873Z"
+    },
+    {
+      "id": "0x674889dd855a7dd0508a3bc2c48a12636d706881-M90-morocco",
+      "walletAddress": "0x674889dd855a7dd0508a3bc2c48a12636d706881",
+      "roundId": "round16",
+      "matchId": "M90",
+      "teamId": "morocco",
+      "tickets": 13,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T15:51:46.525Z",
+      "updatedAt": "2026-07-04T15:51:46.525Z"
     }
   ],
   "outcomes": [
@@ -14265,7 +14277,7 @@
       "roundId": "round16",
       "matchId": "M90",
       "teamId": "morocco",
-      "tickets": 20,
+      "tickets": 50,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -14369,6 +14381,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x674889dd855a7dd0508a3bc2c48a12636d706881-M90-morocco-outcome",
+      "allocationId": "0x674889dd855a7dd0508a3bc2c48a12636d706881-M90-morocco",
+      "walletAddress": "0x674889dd855a7dd0508a3bc2c48a12636d706881",
+      "roundId": "round16",
+      "matchId": "M90",
+      "teamId": "morocco",
+      "tickets": 13,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -14386,11 +14414,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 9832,
+      "submittedTickets": 9875,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 9832
+      "pendingTickets": 9875
     }
   ],
   "matchResults": {
