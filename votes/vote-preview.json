@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T08:54:34.918Z",
-  "eventCount": 350,
+  "generatedAt": "2026-07-04T08:59:04.906Z",
+  "eventCount": 356,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -3238,11 +3238,11 @@
       "roundId": "round16",
       "matchId": "M90",
       "teamId": "canada",
-      "tickets": 10,
+      "tickets": 60,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T08:53:26.435Z",
-      "updatedAt": "2026-07-04T08:53:26.435Z"
+      "updatedAt": "2026-07-04T08:56:55.478Z"
     },
     {
       "id": "0x20105f900f277786c6ba48c7147f28e294c9aac6-M94-belgium",
@@ -3298,11 +3298,11 @@
       "roundId": "round16",
       "matchId": "M89",
       "teamId": "paraguay",
-      "tickets": 12,
+      "tickets": 25,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T08:53:49.717Z",
-      "updatedAt": "2026-07-04T08:53:49.717Z"
+      "updatedAt": "2026-07-04T08:56:00.800Z"
     },
     {
       "id": "0x2a84bb3d2525f50270ea194e60d8a6826d1d6572-M91-brazil",
@@ -3382,11 +3382,11 @@
       "roundId": "round16",
       "matchId": "M93",
       "teamId": "spain",
-      "tickets": 12,
+      "tickets": 62,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T08:54:01.760Z",
-      "updatedAt": "2026-07-04T08:54:01.760Z"
+      "updatedAt": "2026-07-04T08:59:04.902Z"
     },
     {
       "id": "0x2a84bb3d2525f50270ea194e60d8a6826d1d6572-M94-belgium",
@@ -3418,11 +3418,11 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "egypt",
-      "tickets": 12,
+      "tickets": 24,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T08:54:06.955Z",
-      "updatedAt": "2026-07-04T08:54:06.955Z"
+      "updatedAt": "2026-07-04T08:55:49.063Z"
     },
     {
       "id": "0x2a84bb3d2525f50270ea194e60d8a6826d1d6572-M95-argentina",
@@ -3495,6 +3495,18 @@
       "official": false,
       "createdAt": "2026-07-04T08:54:34.912Z",
       "updatedAt": "2026-07-04T08:54:34.912Z"
+    },
+    {
+      "id": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M91-brazil",
+      "walletAddress": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "brazil",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T08:54:59.261Z",
+      "updatedAt": "2026-07-04T08:54:59.261Z"
     }
   ],
   "outcomes": [
@@ -7809,7 +7821,7 @@
       "roundId": "round16",
       "matchId": "M90",
       "teamId": "canada",
-      "tickets": 10,
+      "tickets": 60,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -7889,7 +7901,7 @@
       "roundId": "round16",
       "matchId": "M89",
       "teamId": "paraguay",
-      "tickets": 12,
+      "tickets": 25,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -8001,7 +8013,7 @@
       "roundId": "round16",
       "matchId": "M93",
       "teamId": "spain",
-      "tickets": 12,
+      "tickets": 62,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -8049,7 +8061,7 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "egypt",
-      "tickets": 12,
+      "tickets": 24,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -8153,6 +8165,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M91-brazil-outcome",
+      "allocationId": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M91-brazil",
+      "walletAddress": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "brazil",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -8170,11 +8198,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 3929,
+      "submittedTickets": 4064,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 3929
+      "pendingTickets": 4064
     }
   ],
   "matchResults": {
