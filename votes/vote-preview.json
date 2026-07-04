@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-04T12:03:26.450Z",
-  "eventCount": 434,
+  "generatedAt": "2026-07-04T12:07:51.790Z",
+  "eventCount": 436,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -4371,6 +4371,18 @@
       "official": false,
       "createdAt": "2026-07-04T12:03:26.444Z",
       "updatedAt": "2026-07-04T12:03:26.444Z"
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M89-paraguay",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "paraguay",
+      "tickets": 33,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-04T12:07:35.799Z",
+      "updatedAt": "2026-07-04T12:07:51.786Z"
     }
   ],
   "outcomes": [
@@ -10197,6 +10209,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M89-paraguay-outcome",
+      "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-M89-paraguay",
+      "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+      "roundId": "round16",
+      "matchId": "M89",
+      "teamId": "paraguay",
+      "tickets": 33,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -10214,11 +10242,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 5204,
+      "submittedTickets": 5237,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5204
+      "pendingTickets": 5237
     }
   ],
   "matchResults": {
