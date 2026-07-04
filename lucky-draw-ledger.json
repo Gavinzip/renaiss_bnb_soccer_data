@@ -1,6 +1,6 @@
 {
   "mode": "buyback-ledger",
-  "generatedAt": 1783201649,
+  "generatedAt": 1783201937,
   "campaignStart": 1783058400,
   "campaignEnd": 1784469600,
   "totalEntries": 1096,
@@ -13,7 +13,7 @@
   "totalVotingTickets": 82424,
   "sourceEntries": 339,
   "candidateSourceLimited": false,
-  "ledgerHash": "0x8d0197277b453e941a9ed962d376f5380ee41cbc4d2d99a33cf78d8b9f72ec16",
+  "ledgerHash": "0xc3ad2c8298ffc6de262eaa04f1dc89cb7472304b06098942fb37c802b0d37c11",
   "drawContractAddress": null,
   "bonusShuffleVersion": null,
   "bonusShuffleSeed": null,
@@ -24,11 +24,11 @@
     "fromBlock": 107776960,
     "fromBlockSource": "timestamp",
     "fromBlockTimestampError": null,
-    "toBlock": 108095144,
+    "toBlock": 108095811,
     "toBlockSource": "latest-block",
     "campaignStart": 1783058400,
     "campaignEnd": 1784469600,
-    "windowEnd": 1783201624,
+    "windowEnd": 1783201925,
     "toBlockTimestamp": null,
     "toBlockTimestampLagSeconds": null,
     "eventCacheLookbackMinutes": 60,
@@ -36,11 +36,6 @@
     "eventCacheLookbackCheckpoints": 12,
     "eventCacheLookbackCheckpointCount": 12,
     "eventCacheLookbackBlocks": [
-      {
-        "block": 108087141,
-        "updatedAt": 1783198034494,
-        "source": "refresh"
-      },
       {
         "block": 108087803,
         "updatedAt": 1783198334495,
@@ -95,10 +90,15 @@
         "block": 108094472,
         "updatedAt": 1783201334510,
         "source": "refresh"
+      },
+      {
+        "block": 108095144,
+        "updatedAt": 1783201646207,
+        "source": "refresh"
       }
     ],
     "eventCacheLookbackTimestamp": null,
-    "eventCacheLookbackFromBlock": 108087141,
+    "eventCacheLookbackFromBlock": 108087803,
     "packEventSources": [
       {
         "pack": "omega",
@@ -217,11 +217,11 @@
         "splitWindows": 0,
         "cachedEvents": 957,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811
       }
     ],
     "contracts": [
@@ -235,13 +235,13 @@
         "configSource": "built-in",
         "calls": 1,
         "events": 2831,
-        "cachedEvents": 2814,
-        "fetchedEvents": 17,
-        "scanStart": 108087141,
+        "cachedEvents": 2815,
+        "fetchedEvents": 16,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -256,11 +256,11 @@
         "events": 42,
         "cachedEvents": 42,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -279,11 +279,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -302,11 +302,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -325,11 +325,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -348,11 +348,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       },
       {
@@ -371,11 +371,11 @@
         "wrongUser": 0,
         "cachedEvents": 998,
         "fetchedEvents": 0,
-        "scanStart": 108087141,
+        "scanStart": 108087803,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108094472,
-        "eventCacheLookbackFromBlock": 108087141,
-        "cacheToBlock": 108095144,
+        "cachedToBlock": 108095144,
+        "eventCacheLookbackFromBlock": 108087803,
+        "cacheToBlock": 108095811,
         "splitWindows": 0
       }
     ]
@@ -679,7 +679,7 @@
   "entriesWithOldSourceAddresses": 757,
   "walletMigrationSource": {
     "url": "https://tcgpro.zeabur.app/api/wallet-migrations.json",
-    "cacheStatus": "hit",
+    "cacheStatus": "refresh",
     "cachePath": "/data/soccer/cache/wallet-migrations.json",
     "version": 1,
     "updatedAt": "2026-07-04T07:00:04.682989+08:00",
@@ -91605,7 +91605,7 @@
     "Applied 27 insider ticket grant address(es): 100 practice ticket(s) for round32 and 100 shared reward ticket(s) across round16-final by default.",
     "Leaderboard rank is sorted by final tickets, then raw buyback tickets, then first eligible event time.",
     "Wallet migration resolver was applied to merge old and canonical addresses.",
-    "Applied 5995 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: hit.",
+    "Applied 5995 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: refresh.",
     "API cache enabled: wallet migrations TTL 15 minute(s), wallet resolver TTL 1440 minute(s), on-chain event overlap 200 block(s).",
     "Wallet resolver cache hits 29, fetched 0, skipped by migration map 310.",
     "No local old-wallet migration map was provided."
