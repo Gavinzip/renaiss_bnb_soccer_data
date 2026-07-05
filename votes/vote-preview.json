@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-05T00:01:46.754Z",
-  "eventCount": 693,
+  "generatedAt": "2026-07-05T00:04:46.188Z",
+  "eventCount": 694,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -7107,6 +7107,18 @@
       "official": false,
       "createdAt": "2026-07-05T00:01:46.746Z",
       "updatedAt": "2026-07-05T00:01:46.746Z"
+    },
+    {
+      "id": "0x59ed3dd63d14942e2850d93ca7e4d8e041f92868-M92-england",
+      "walletAddress": "0x59ed3dd63d14942e2850d93ca7e4d8e041f92868",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "england",
+      "tickets": 21,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-05T00:04:46.181Z",
+      "updatedAt": "2026-07-05T00:04:46.181Z"
     }
   ],
   "outcomes": [
@@ -16581,6 +16593,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x59ed3dd63d14942e2850d93ca7e4d8e041f92868-M92-england-outcome",
+      "allocationId": "0x59ed3dd63d14942e2850d93ca7e4d8e041f92868-M92-england",
+      "walletAddress": "0x59ed3dd63d14942e2850d93ca7e4d8e041f92868",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "england",
+      "tickets": 21,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -16598,11 +16626,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 11344,
+      "submittedTickets": 11365,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 11344
+      "pendingTickets": 11365
     }
   ],
   "matchResults": {
