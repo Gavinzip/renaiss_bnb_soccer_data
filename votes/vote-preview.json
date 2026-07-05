@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-05T18:43:43.405Z",
-  "eventCount": 837,
+  "generatedAt": "2026-07-05T18:46:13.578Z",
+  "eventCount": 838,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -8595,6 +8595,18 @@
       "official": false,
       "createdAt": "2026-07-05T18:43:43.380Z",
       "updatedAt": "2026-07-05T18:43:43.380Z"
+    },
+    {
+      "id": "0xc582a19f977274e2293f2b0c30550ba99fc06ad3-M92-mexico",
+      "walletAddress": "0xc582a19f977274e2293f2b0c30550ba99fc06ad3",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "mexico",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-05T18:46:13.571Z",
+      "updatedAt": "2026-07-05T18:46:13.571Z"
     }
   ],
   "outcomes": [
@@ -20053,6 +20065,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xc582a19f977274e2293f2b0c30550ba99fc06ad3-M92-mexico-outcome",
+      "allocationId": "0xc582a19f977274e2293f2b0c30550ba99fc06ad3-M92-mexico",
+      "walletAddress": "0xc582a19f977274e2293f2b0c30550ba99fc06ad3",
+      "roundId": "round16",
+      "matchId": "M92",
+      "teamId": "mexico",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -20070,11 +20098,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 2,
-      "submittedTickets": 12627,
+      "submittedTickets": 12632,
       "settledTickets": 7327,
       "wonTickets": 7050,
       "lostTickets": 277,
-      "pendingTickets": 5300
+      "pendingTickets": 5305
     }
   ],
   "matchResults": {
