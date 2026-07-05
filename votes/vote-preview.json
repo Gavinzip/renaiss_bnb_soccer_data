@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-05T02:29:21.043Z",
-  "eventCount": 700,
+  "generatedAt": "2026-07-05T02:34:25.768Z",
+  "eventCount": 703,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -7174,11 +7174,23 @@
       "roundId": "round16",
       "matchId": "M91",
       "teamId": "norway",
-      "tickets": 1,
+      "tickets": 3,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-05T02:29:21.037Z",
-      "updatedAt": "2026-07-05T02:29:21.037Z"
+      "updatedAt": "2026-07-05T02:31:10.021Z"
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-M93-portugal",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "portugal",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-05T02:34:25.761Z",
+      "updatedAt": "2026-07-05T02:34:25.761Z"
     }
   ],
   "outcomes": [
@@ -16741,6 +16753,22 @@
       "roundId": "round16",
       "matchId": "M91",
       "teamId": "norway",
+      "tickets": 3,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-M93-portugal-outcome",
+      "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-M93-portugal",
+      "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "portugal",
       "tickets": 1,
       "result": "pending",
       "lostTickets": 0,
@@ -16766,11 +16794,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 11426,
+      "submittedTickets": 11429,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 11426
+      "pendingTickets": 11429
     }
   ],
   "matchResults": {
