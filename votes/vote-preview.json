@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-05T03:27:20.305Z",
-  "eventCount": 710,
+  "generatedAt": "2026-07-05T03:34:02.049Z",
+  "eventCount": 712,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -7251,6 +7251,30 @@
       "official": false,
       "createdAt": "2026-07-05T03:27:20.297Z",
       "updatedAt": "2026-07-05T03:27:20.297Z"
+    },
+    {
+      "id": "0xbfab4158622328bb6212bf54f34a63ab17922a12-M91-norway",
+      "walletAddress": "0xbfab4158622328bb6212bf54f34a63ab17922a12",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "norway",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-05T03:30:49.645Z",
+      "updatedAt": "2026-07-05T03:30:49.645Z"
+    },
+    {
+      "id": "0x36b10d96fd2229b21476782babd1d53f6c9b9074-M94-belgium",
+      "walletAddress": "0x36b10d96fd2229b21476782babd1d53f6c9b9074",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "belgium",
+      "tickets": 14,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-05T03:34:02.042Z",
+      "updatedAt": "2026-07-05T03:34:02.042Z"
     }
   ],
   "outcomes": [
@@ -16917,6 +16941,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xbfab4158622328bb6212bf54f34a63ab17922a12-M91-norway-outcome",
+      "allocationId": "0xbfab4158622328bb6212bf54f34a63ab17922a12-M91-norway",
+      "walletAddress": "0xbfab4158622328bb6212bf54f34a63ab17922a12",
+      "roundId": "round16",
+      "matchId": "M91",
+      "teamId": "norway",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x36b10d96fd2229b21476782babd1d53f6c9b9074-M94-belgium-outcome",
+      "allocationId": "0x36b10d96fd2229b21476782babd1d53f6c9b9074-M94-belgium",
+      "walletAddress": "0x36b10d96fd2229b21476782babd1d53f6c9b9074",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "belgium",
+      "tickets": 14,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -16934,11 +16990,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 0,
-      "submittedTickets": 11656,
+      "submittedTickets": 11671,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 11656
+      "pendingTickets": 11671
     }
   ],
   "matchResults": {
