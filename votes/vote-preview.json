@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-06T04:05:22.845Z",
-  "eventCount": 870,
+  "generatedAt": "2026-07-06T04:13:13.950Z",
+  "eventCount": 872,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -1222,11 +1222,11 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "argentina",
-      "tickets": 10,
+      "tickets": 30,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T05:29:59.506Z",
-      "updatedAt": "2026-07-04T05:29:59.506Z"
+      "updatedAt": "2026-07-06T04:13:13.943Z"
     },
     {
       "id": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b-M89-france",
@@ -8943,6 +8943,18 @@
       "official": false,
       "createdAt": "2026-07-06T04:05:22.835Z",
       "updatedAt": "2026-07-06T04:05:22.835Z"
+    },
+    {
+      "id": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M94-united-states",
+      "walletAddress": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "united-states",
+      "tickets": 30,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T04:13:03.150Z",
+      "updatedAt": "2026-07-06T04:13:03.150Z"
     }
   ],
   "outcomes": [
@@ -10569,7 +10581,7 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "argentina",
-      "tickets": 10,
+      "tickets": 30,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -20865,6 +20877,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M94-united-states-outcome",
+      "allocationId": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7-M94-united-states",
+      "walletAddress": "0x62137f414a4e26f5df8169f7f36aee5a23e58ec7",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "united-states",
+      "tickets": 30,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -20882,11 +20910,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 4,
-      "submittedTickets": 13202,
+      "submittedTickets": 13252,
       "settledTickets": 10045,
       "wonTickets": 8338,
       "lostTickets": 1707,
-      "pendingTickets": 3157
+      "pendingTickets": 3207
     }
   ],
   "matchResults": {
