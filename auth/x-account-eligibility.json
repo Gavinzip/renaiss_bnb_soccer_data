@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-06T17:05:31.632Z",
+  "updatedAt": "2026-07-06T17:09:50.753Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -3768,16 +3768,48 @@
     "0x5dbd8b74f945fd5e7392abd465043a9c8be2f5e5:x:1696470421691101184": {
       "walletAddress": "0x5dbd8b74f945fd5e7392abd465043a9c8be2f5e5",
       "xUserId": "1696470421691101184",
-      "eligible": false,
+      "eligible": true,
       "fireflyUid": "3290451007",
+      "verificationMethod": "ff_account_uid",
+      "requestedFireflyUid": "3290451007",
+      "hasFireflyAccount": true,
+      "hasPlacedBet": true,
+      "status": "eligible",
+      "fireflyUidClaimedAt": "2026-07-06T17:05:31.630Z",
+      "lastCheckedAt": "2026-07-06T17:09:50.752Z",
+      "updatedAt": "2026-07-06T17:09:50.752Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0xde6a743dbc897f5f94053c955c8300fb7c26414f:x:1860486632161611776": {
+      "walletAddress": "0xde6a743dbc897f5f94053c955c8300fb7c26414f",
+      "xUserId": "1860486632161611776",
+      "eligible": false,
+      "fireflyUid": "1582385814",
       "verificationMethod": "x_account_id",
       "requestedFireflyUid": null,
       "hasFireflyAccount": true,
       "hasPlacedBet": false,
       "status": "missing_predict_bet",
-      "fireflyUidClaimedAt": "2026-07-06T17:05:31.630Z",
-      "lastCheckedAt": "2026-07-06T17:05:31.630Z",
-      "updatedAt": "2026-07-06T17:05:31.630Z",
+      "fireflyUidClaimedAt": "2026-07-06T17:06:51.261Z",
+      "lastCheckedAt": "2026-07-06T17:06:51.261Z",
+      "updatedAt": "2026-07-06T17:06:51.261Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x1d75f9b92ef54d2557683fbd1e1d7b092c139996:x:1139577989794893825": {
+      "walletAddress": "0x1d75f9b92ef54d2557683fbd1e1d7b092c139996",
+      "xUserId": "1139577989794893825",
+      "eligible": false,
+      "fireflyUid": null,
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": false,
+      "hasPlacedBet": false,
+      "status": "missing_firefly_account",
+      "fireflyUidClaimedAt": null,
+      "lastCheckedAt": "2026-07-06T17:09:13.470Z",
+      "updatedAt": "2026-07-06T17:09:13.470Z",
       "lastError": null,
       "lastErrorCode": null
     }
