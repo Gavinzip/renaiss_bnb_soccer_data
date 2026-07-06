@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-06T01:58:20.899Z",
-  "eventCount": 859,
+  "generatedAt": "2026-07-06T01:59:01.629Z",
+  "eventCount": 860,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -8811,6 +8811,18 @@
       "official": false,
       "createdAt": "2026-07-06T01:58:20.892Z",
       "updatedAt": "2026-07-06T01:58:20.892Z"
+    },
+    {
+      "id": "0xa5d0ea66de923ebfb3102ca6a6874dea3f687ea1-M93-spain",
+      "walletAddress": "0xa5d0ea66de923ebfb3102ca6a6874dea3f687ea1",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "spain",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T01:59:01.619Z",
+      "updatedAt": "2026-07-06T01:59:01.619Z"
     }
   ],
   "outcomes": [
@@ -20557,6 +20569,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xa5d0ea66de923ebfb3102ca6a6874dea3f687ea1-M93-spain-outcome",
+      "allocationId": "0xa5d0ea66de923ebfb3102ca6a6874dea3f687ea1-M93-spain",
+      "walletAddress": "0xa5d0ea66de923ebfb3102ca6a6874dea3f687ea1",
+      "roundId": "round16",
+      "matchId": "M93",
+      "teamId": "spain",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -20574,11 +20602,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 3,
-      "submittedTickets": 13102,
+      "submittedTickets": 13107,
       "settledTickets": 8708,
       "wonTickets": 7507,
       "lostTickets": 1201,
-      "pendingTickets": 4394
+      "pendingTickets": 4399
     }
   ],
   "matchResults": {
