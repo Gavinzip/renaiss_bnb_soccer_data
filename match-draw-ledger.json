@@ -3,35 +3,35 @@
   "mode": "match-draw-ledger",
   "sourceLabel": "backend-official-result-eligibility",
   "sourceStatus": "ready",
-  "generatedAt": "2026-07-05T16:42:42.354Z",
-  "generatedAtUnix": 1783269762,
+  "generatedAt": "2026-07-06T12:56:31.865Z",
+  "generatedAtUnix": 1783342591,
   "candidateSourceLimited": false,
   "sourceTicketLedger": {
     "path": "/data/soccer/lucky-draw-ledger.json",
     "mode": "buyback-ledger",
-    "generatedAt": 1783269531,
-    "ledgerHash": "0x85d8d57d55567dd8c4e1cd205d024492da6e52176b67d4eeed67f498a571f2b9",
-    "totalEntries": 1122,
-    "totalFinalTickets": 74905
+    "generatedAt": 1783342561,
+    "ledgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+    "totalEntries": 1131,
+    "totalFinalTickets": 78617
   },
   "voteState": {
     "source": "sqlite",
     "path": "/data/soccer/votes/vote-state.json",
     "dbPath": "/data/soccer/votes/vote-store.sqlite",
     "generatedAt": "2026-06-18T12:58:27.932Z",
-    "updatedAt": "2026-07-05T16:29:53.761Z",
-    "eventCount": 828,
-    "allocationCount": 708
+    "updatedAt": "2026-07-06T12:07:40.970Z",
+    "eventCount": 931,
+    "allocationCount": 786
   },
   "matchResults": {
     "path": "/data/soccer/match-results.json",
-    "hash": "0x5ef450368eca0c16f277c9fad5a9b4e262ed948f27903327c86167485932a6ae",
-    "generatedAt": "2026-07-05T16:33:37.657Z",
+    "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+    "generatedAt": "2026-07-06T12:55:46.416Z",
     "sourceStatus": "live",
     "summary": {
       "total": 24,
-      "confirmed": 18,
-      "pending": 6,
+      "confirmed": 20,
+      "pending": 4,
       "mismatch": 0,
       "source_error": 0,
       "unmapped": 0
@@ -388,6 +388,348 @@
               "winnerTeamId": "egypt",
               "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
               "fetchedAt": "2026-07-05T16:33:37.657Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "redrawOf": "round32",
+      "roundKey": "0x3d457ad16bb90d03e9c5f3e3fd78e6260193f47c7efbd4128e6547b77a604114",
+      "drawId": "round32-redraw-1",
+      "ledgerHash": "0xcb3301582e4ead65d0052062f97a4abbb2591e0d8d97929586a7b49992cb3a1e",
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#round32-redraw-1",
+      "sourceMode": "round-match-vote-ledger",
+      "matchCount": 16,
+      "totalPrizeSlots": 16,
+      "totalAlternateSlots": 32,
+      "matches": [
+        {
+          "matchId": "m57",
+          "matchKey": "0x915d0bfdb2e43ec8ba784582e80c0eaf619cd29d071e4bea351ee2c214e1d9d9",
+          "ledgerHash": "0x52a43e3310df62ca885cc6ca6b25205e57f7af1d9da455f29b31b29291bfada4",
+          "totalTickets": 3,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m57"
+        },
+        {
+          "matchId": "m58",
+          "matchKey": "0x7326df8a563f3ea4d97457291efb2b3b67bc6c3bebd59381ed9f051d11695d94",
+          "ledgerHash": "0x64878bafc84eee2708651f4d328eb1357d8717c5e34dc10f9ab8b40a07c0575b",
+          "totalTickets": 3,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m58"
+        },
+        {
+          "matchId": "m59",
+          "matchKey": "0xfd5e5f3c988b06ca2cb747f81336e7d0b152de8dfb7a731004e5d27241ca3c3e",
+          "ledgerHash": "0xe63c4a86ac990425e59107144d48affe603380146c33a48aa8765ef2a976bfad",
+          "totalTickets": 3,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m59"
+        },
+        {
+          "matchId": "m60",
+          "matchKey": "0xa3bef4b7edff610415cb5832d35e632587093c59ab55f689c7ff565386e9ce9b",
+          "ledgerHash": "0x4a68950582a639cd64c167262c926eafbc2efdee3c1cf4e177f4196e2bc8402a",
+          "totalTickets": 3,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m60"
+        },
+        {
+          "matchId": "m61",
+          "matchKey": "0xe968617d21ce4cdd2ce3ffa390a5419492fecb6f6ac25b1a23ddc50e746b94b8",
+          "ledgerHash": "0x7f0877eeec86cb980bb54271246c8f0654eea9290c0dba4ff5674822165a8bd9",
+          "totalTickets": 87,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m61"
+        },
+        {
+          "matchId": "m62",
+          "matchKey": "0x26f4dc60c15aa7c590415a475d8a4bcd6588c7d14c2a487f6eb45cba57caf84c",
+          "ledgerHash": "0xb6497139f85726c42e2bb412bcdc048f2f43fd8921d9f166fb5cca7cc76413c8",
+          "totalTickets": 5,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m62"
+        },
+        {
+          "matchId": "m63",
+          "matchKey": "0xc83cddec4c08050b287b0cd622a9e9044a1e14fcefe37ab72cb50bde967ad081",
+          "ledgerHash": "0x71fc7324c44980e4769fe830231e3d0cc79fc3924d2a483f775070acffbfb5ca",
+          "totalTickets": 10,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m63"
+        },
+        {
+          "matchId": "m64",
+          "matchKey": "0x07a4d252f9e21398b42b368717c203fb2beff84c5925b9d8c0463990e22bb5f0",
+          "ledgerHash": "0xd9256d3b7f7caa1168e6fe10f8e4f15b70a21a7a825fbd1d105e04ed546b25bd",
+          "totalTickets": 477,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m64"
+        },
+        {
+          "matchId": "m65",
+          "matchKey": "0xd6f86baf448423964888bdb962dbd8a3cd0b45f4373f71b12d2f46622a580b4d",
+          "ledgerHash": "0x93cab550bd2059e177dd8f6b14eba41f4633bebc04e2a391161c929e070df453",
+          "totalTickets": 22,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m65"
+        },
+        {
+          "matchId": "m66",
+          "matchKey": "0x4acb531a1e1232e30e93a7600cc32bebe14c3840e1e9ffcb28470580126a1184",
+          "ledgerHash": "0x82146e66f94eac5bd3d342cc27acf6095bda995a5bf245368bacf007d3e84cd4",
+          "totalTickets": 58,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m66"
+        },
+        {
+          "matchId": "m67",
+          "matchKey": "0x91469a2c850c709ff9289b0ba66ce22bc0532f24ed46897216e29fcb7baaa6e0",
+          "ledgerHash": "0xb127f3dd35bf24ec632ed541f056706ee7c3327316ed1d9d8d8cbd9f281bc111",
+          "totalTickets": 96,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m67"
+        },
+        {
+          "matchId": "m68",
+          "matchKey": "0x306c9985e97f1728f0bcfc0908f9cfb3fe2a21582c2246d0a5fcad5152d20088",
+          "ledgerHash": "0x556df38d79e5fc844b0d1e3500d163eba0f84419c36e79c2dfe7ead8e87a1d58",
+          "totalTickets": 182,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m68"
+        },
+        {
+          "matchId": "m69",
+          "matchKey": "0x84cef877342eecd576c3398fdd3250f03adc53ba08e296eeba065554341edbdb",
+          "ledgerHash": "0x4d341c5b31c70e94df3473680027bfd8badf98effff8ebeacc3ec1f447f9a83b",
+          "totalTickets": 43,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m69"
+        },
+        {
+          "matchId": "m70",
+          "matchKey": "0x4d7d27e352143f10a492fca9787c440061d180d9ea04f9c3c3c13756ef7a0552",
+          "ledgerHash": "0x97737419058faeadbd16eae036342729a2095cfe7c5468632bcf126bbd4d9cae",
+          "totalTickets": 308,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m70"
+        },
+        {
+          "matchId": "m71",
+          "matchKey": "0x21b4a2e96038de6d767a25869a2fa26b0e7410d9ec6465b6f2c1e08fe01cc009",
+          "ledgerHash": "0xa70bdd600c314723ad522175401391260df4a8632f405c337a1f404ae9349ec9",
+          "totalTickets": 207,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m71"
+        },
+        {
+          "matchId": "m72",
+          "matchKey": "0x43a2e863d91a0c13e478903b5a07f32052c40240d3278d128becde9d1f1bf31a",
+          "ledgerHash": "0xe9f5e5ff10216fab3f978ded79830d912a206541a2b920191ef6dd59cb75cfc0",
+          "totalTickets": 52,
+          "prizeSlotCount": 1,
+          "alternateCount": 2,
+          "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m72"
+        }
+      ],
+      "hashPayload": {
+        "version": "round-draw-ledger-v2",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "matchDraws": [
+          {
+            "matchId": "m57",
+            "ledgerHash": "0x52a43e3310df62ca885cc6ca6b25205e57f7af1d9da455f29b31b29291bfada4",
+            "totalTickets": 3,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "canada",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021518?language=en"
+            }
+          },
+          {
+            "matchId": "m58",
+            "ledgerHash": "0x64878bafc84eee2708651f4d328eb1357d8717c5e34dc10f9ab8b40a07c0575b",
+            "totalTickets": 3,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "paraguay",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en"
+            }
+          },
+          {
+            "matchId": "m59",
+            "ledgerHash": "0xe63c4a86ac990425e59107144d48affe603380146c33a48aa8765ef2a976bfad",
+            "totalTickets": 3,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "morocco",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021522?language=en"
+            }
+          },
+          {
+            "matchId": "m60",
+            "ledgerHash": "0x4a68950582a639cd64c167262c926eafbc2efdee3c1cf4e177f4196e2bc8402a",
+            "totalTickets": 3,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "brazil",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021516?language=en"
+            }
+          },
+          {
+            "matchId": "m61",
+            "ledgerHash": "0x7f0877eeec86cb980bb54271246c8f0654eea9290c0dba4ff5674822165a8bd9",
+            "totalTickets": 87,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "france",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en"
+            }
+          },
+          {
+            "matchId": "m62",
+            "ledgerHash": "0xb6497139f85726c42e2bb412bcdc048f2f43fd8921d9f166fb5cca7cc76413c8",
+            "totalTickets": 5,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "norway",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en"
+            }
+          },
+          {
+            "matchId": "m63",
+            "ledgerHash": "0x71fc7324c44980e4769fe830231e3d0cc79fc3924d2a483f775070acffbfb5ca",
+            "totalTickets": 10,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "mexico",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en"
+            }
+          },
+          {
+            "matchId": "m64",
+            "ledgerHash": "0xd9256d3b7f7caa1168e6fe10f8e4f15b70a21a7a825fbd1d105e04ed546b25bd",
+            "totalTickets": 477,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "england",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en"
+            }
+          },
+          {
+            "matchId": "m65",
+            "ledgerHash": "0x93cab550bd2059e177dd8f6b14eba41f4633bebc04e2a391161c929e070df453",
+            "totalTickets": 22,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "united-states",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en"
+            }
+          },
+          {
+            "matchId": "m66",
+            "ledgerHash": "0x82146e66f94eac5bd3d342cc27acf6095bda995a5bf245368bacf007d3e84cd4",
+            "totalTickets": 58,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "belgium",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en"
+            }
+          },
+          {
+            "matchId": "m67",
+            "ledgerHash": "0xb127f3dd35bf24ec632ed541f056706ee7c3327316ed1d9d8d8cbd9f281bc111",
+            "totalTickets": 96,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "portugal",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en"
+            }
+          },
+          {
+            "matchId": "m68",
+            "ledgerHash": "0x556df38d79e5fc844b0d1e3500d163eba0f84419c36e79c2dfe7ead8e87a1d58",
+            "totalTickets": 182,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "spain",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en"
+            }
+          },
+          {
+            "matchId": "m69",
+            "ledgerHash": "0x4d341c5b31c70e94df3473680027bfd8badf98effff8ebeacc3ec1f447f9a83b",
+            "totalTickets": 43,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "switzerland",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en"
+            }
+          },
+          {
+            "matchId": "m70",
+            "ledgerHash": "0x97737419058faeadbd16eae036342729a2095cfe7c5468632bcf126bbd4d9cae",
+            "totalTickets": 308,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "argentina",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en"
+            }
+          },
+          {
+            "matchId": "m71",
+            "ledgerHash": "0xa70bdd600c314723ad522175401391260df4a8632f405c337a1f404ae9349ec9",
+            "totalTickets": 207,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "colombia",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en"
+            }
+          },
+          {
+            "matchId": "m72",
+            "ledgerHash": "0xe9f5e5ff10216fab3f978ded79830d912a206541a2b920191ef6dd59cb75cfc0",
+            "totalTickets": 52,
+            "prizeSlotCount": 1,
+            "alternateCount": 2,
+            "result": {
+              "winnerTeamId": "egypt",
+              "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en"
             }
           }
         ]
@@ -3877,6 +4219,3617 @@
           }
         ]
       }
+    },
+    {
+      "matchId": "m57",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m57",
+      "ledgerHash": "0x52a43e3310df62ca885cc6ca6b25205e57f7af1d9da455f29b31b29291bfada4",
+      "totalTickets": 3,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m57",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m57",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "canada",
+        "winnerFifaTeamId": "43899",
+        "score": {
+          "home": 0,
+          "away": 1,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021518?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021518",
+          "matchNumber": 73,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43899"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "userAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "sourceAddresses": [
+            "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f"
+          ],
+          "roundId": "round32",
+          "matchId": "m57",
+          "teamId": "canada",
+          "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m57-canada",
+          "allocationTickets": 3,
+          "multiplier": 1,
+          "eligibleTickets": 3,
+          "ticketStart": 1,
+          "ticketEnd": 3,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 3,
+              "displayStart": 1,
+              "displayEnd": 3,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m57-canada",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021518?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "finalTickets": 0,
+            "totalVotingTickets": 401,
+            "taskRewardTickets": 1,
+            "rank": 1118
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m57",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 3,
+        "matchResult": {
+          "matchId": "m57",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021518?language=en",
+          "winnerTeamId": "canada",
+          "winnerFifaTeamId": "43899",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021518",
+            "matchNumber": 73,
+            "resultType": 1,
+            "winnerTeamId": "43899"
+          },
+          "score": {
+            "home": 0,
+            "away": 1,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m57-canada",
+            "teamId": "canada",
+            "allocationTickets": 3,
+            "multiplier": 1,
+            "eligibleTickets": 3,
+            "ticketStart": 1,
+            "ticketEnd": 3
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m58",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m58",
+      "ledgerHash": "0x64878bafc84eee2708651f4d328eb1357d8717c5e34dc10f9ab8b40a07c0575b",
+      "totalTickets": 3,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m58",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m58",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "paraguay",
+        "winnerFifaTeamId": "43928",
+        "score": {
+          "home": 1,
+          "away": 1,
+          "homePenalty": 3,
+          "awayPenalty": 4
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021513",
+          "matchNumber": 74,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 2,
+          "winnerTeamId": "43928"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "userAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "sourceAddresses": [
+            "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f"
+          ],
+          "roundId": "round32",
+          "matchId": "m58",
+          "teamId": "paraguay",
+          "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-paraguay",
+          "allocationTickets": 3,
+          "multiplier": 1,
+          "eligibleTickets": 3,
+          "ticketStart": 1,
+          "ticketEnd": 3,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 3,
+              "displayStart": 1,
+              "displayEnd": 3,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-paraguay",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "finalTickets": 0,
+            "totalVotingTickets": 401,
+            "taskRewardTickets": 1,
+            "rank": 1118
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m58",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 3,
+        "matchResult": {
+          "matchId": "m58",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021513?language=en",
+          "winnerTeamId": "paraguay",
+          "winnerFifaTeamId": "43928",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021513",
+            "matchNumber": 74,
+            "resultType": 2,
+            "winnerTeamId": "43928"
+          },
+          "score": {
+            "home": 1,
+            "away": 1,
+            "homePenalty": 3,
+            "awayPenalty": 4
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-paraguay",
+            "teamId": "paraguay",
+            "allocationTickets": 3,
+            "multiplier": 1,
+            "eligibleTickets": 3,
+            "ticketStart": 1,
+            "ticketEnd": 3
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m59",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m59",
+      "ledgerHash": "0xe63c4a86ac990425e59107144d48affe603380146c33a48aa8765ef2a976bfad",
+      "totalTickets": 3,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m59",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m59",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "morocco",
+        "winnerFifaTeamId": "43872",
+        "score": {
+          "home": 1,
+          "away": 1,
+          "homePenalty": 2,
+          "awayPenalty": 3
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021522?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021522",
+          "matchNumber": 75,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 2,
+          "winnerTeamId": "43872"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "userAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "sourceAddresses": [
+            "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f"
+          ],
+          "roundId": "round32",
+          "matchId": "m59",
+          "teamId": "morocco",
+          "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m59-morocco",
+          "allocationTickets": 3,
+          "multiplier": 1,
+          "eligibleTickets": 3,
+          "ticketStart": 1,
+          "ticketEnd": 3,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 3,
+              "displayStart": 1,
+              "displayEnd": 3,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m59-morocco",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021522?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "finalTickets": 0,
+            "totalVotingTickets": 401,
+            "taskRewardTickets": 1,
+            "rank": 1118
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m59",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 3,
+        "matchResult": {
+          "matchId": "m59",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021522?language=en",
+          "winnerTeamId": "morocco",
+          "winnerFifaTeamId": "43872",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021522",
+            "matchNumber": 75,
+            "resultType": 2,
+            "winnerTeamId": "43872"
+          },
+          "score": {
+            "home": 1,
+            "away": 1,
+            "homePenalty": 2,
+            "awayPenalty": 3
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m59-morocco",
+            "teamId": "morocco",
+            "allocationTickets": 3,
+            "multiplier": 1,
+            "eligibleTickets": 3,
+            "ticketStart": 1,
+            "ticketEnd": 3
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m60",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m60",
+      "ledgerHash": "0x4a68950582a639cd64c167262c926eafbc2efdee3c1cf4e177f4196e2bc8402a",
+      "totalTickets": 3,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m60",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m60",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "brazil",
+        "winnerFifaTeamId": "43924",
+        "score": {
+          "home": 2,
+          "away": 1,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021516?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021516",
+          "matchNumber": 76,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43924"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "userAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "sourceAddresses": [
+            "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f"
+          ],
+          "roundId": "round32",
+          "matchId": "m60",
+          "teamId": "brazil",
+          "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m60-brazil",
+          "allocationTickets": 3,
+          "multiplier": 1,
+          "eligibleTickets": 3,
+          "ticketStart": 1,
+          "ticketEnd": 3,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 3,
+              "displayStart": 1,
+              "displayEnd": 3,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m60-brazil",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021516?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "finalTickets": 0,
+            "totalVotingTickets": 401,
+            "taskRewardTickets": 1,
+            "rank": 1118
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m60",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 3,
+        "matchResult": {
+          "matchId": "m60",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021516?language=en",
+          "winnerTeamId": "brazil",
+          "winnerFifaTeamId": "43924",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021516",
+            "matchNumber": 76,
+            "resultType": 1,
+            "winnerTeamId": "43924"
+          },
+          "score": {
+            "home": 2,
+            "away": 1,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m60-brazil",
+            "teamId": "brazil",
+            "allocationTickets": 3,
+            "multiplier": 1,
+            "eligibleTickets": 3,
+            "ticketStart": 1,
+            "ticketEnd": 3
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m61",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m61",
+      "ledgerHash": "0x7f0877eeec86cb980bb54271246c8f0654eea9290c0dba4ff5674822165a8bd9",
+      "totalTickets": 87,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m61",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m61",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "france",
+        "winnerFifaTeamId": "43946",
+        "score": {
+          "home": 3,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021523",
+          "matchNumber": 77,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43946"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 2,
+      "eligibleWalletCount": 2,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "userAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "sourceAddresses": [
+            "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "0xa1fd9d666858632e57305412bc6b2e50a3978cee"
+          ],
+          "roundId": "round32",
+          "matchId": "m61",
+          "teamId": "france",
+          "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france",
+          "allocationTickets": 9,
+          "multiplier": 1,
+          "eligibleTickets": 9,
+          "ticketStart": 1,
+          "ticketEnd": 9,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 9,
+              "displayStart": 1,
+              "displayEnd": 9,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 809
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "userAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "sourceAddresses": [
+            "0x232ebb470cbcb8b90391f5e2979dfc6047ea77c0",
+            "0xef6c52085d12397c37652c4918036c1492fcf7a6"
+          ],
+          "roundId": "round32",
+          "matchId": "m61",
+          "teamId": "france",
+          "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france",
+          "allocationTickets": 78,
+          "multiplier": 1,
+          "eligibleTickets": 78,
+          "ticketStart": 10,
+          "ticketEnd": 87,
+          "ticketIntervals": [
+            {
+              "start": 10,
+              "end": 87,
+              "displayStart": 10,
+              "displayEnd": 87,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "finalTickets": 199,
+            "totalVotingTickets": 600,
+            "taskRewardTickets": 1,
+            "rank": 111
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m61",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 87,
+        "matchResult": {
+          "matchId": "m61",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021523?language=en",
+          "winnerTeamId": "france",
+          "winnerFifaTeamId": "43946",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021523",
+            "matchNumber": 77,
+            "resultType": 1,
+            "winnerTeamId": "43946"
+          },
+          "score": {
+            "home": 3,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m61-france",
+            "teamId": "france",
+            "allocationTickets": 9,
+            "multiplier": 1,
+            "eligibleTickets": 9,
+            "ticketStart": 1,
+            "ticketEnd": 9
+          },
+          {
+            "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m61-france",
+            "teamId": "france",
+            "allocationTickets": 78,
+            "multiplier": 1,
+            "eligibleTickets": 78,
+            "ticketStart": 10,
+            "ticketEnd": 87
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m62",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m62",
+      "ledgerHash": "0xb6497139f85726c42e2bb412bcdc048f2f43fd8921d9f166fb5cca7cc76413c8",
+      "totalTickets": 5,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m62",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m62",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "norway",
+        "winnerFifaTeamId": "43961",
+        "score": {
+          "home": 1,
+          "away": 2,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021514",
+          "matchNumber": 78,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43961"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "userAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "sourceAddresses": [
+            "0x232ebb470cbcb8b90391f5e2979dfc6047ea77c0",
+            "0xef6c52085d12397c37652c4918036c1492fcf7a6"
+          ],
+          "roundId": "round32",
+          "matchId": "m62",
+          "teamId": "norway",
+          "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "finalTickets": 199,
+            "totalVotingTickets": 600,
+            "taskRewardTickets": 1,
+            "rank": 111
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m62",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 5,
+        "matchResult": {
+          "matchId": "m62",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021514?language=en",
+          "winnerTeamId": "norway",
+          "winnerFifaTeamId": "43961",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021514",
+            "matchNumber": 78,
+            "resultType": 1,
+            "winnerTeamId": "43961"
+          },
+          "score": {
+            "home": 1,
+            "away": 2,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m62-norway",
+            "teamId": "norway",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m63",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m63",
+      "ledgerHash": "0x71fc7324c44980e4769fe830231e3d0cc79fc3924d2a483f775070acffbfb5ca",
+      "totalTickets": 10,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m63",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m63",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "mexico",
+        "winnerFifaTeamId": "43911",
+        "score": {
+          "home": 2,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021520",
+          "matchNumber": 79,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43911"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 1,
+      "eligibleWalletCount": 1,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m63",
+          "teamId": "mexico",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m63-mexico",
+          "allocationTickets": 10,
+          "multiplier": 1,
+          "eligibleTickets": 10,
+          "ticketStart": 1,
+          "ticketEnd": 10,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 10,
+              "displayStart": 1,
+              "displayEnd": 10,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m63-mexico",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m63",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 10,
+        "matchResult": {
+          "matchId": "m63",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021520?language=en",
+          "winnerTeamId": "mexico",
+          "winnerFifaTeamId": "43911",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021520",
+            "matchNumber": 79,
+            "resultType": 1,
+            "winnerTeamId": "43911"
+          },
+          "score": {
+            "home": 2,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m63-mexico",
+            "teamId": "mexico",
+            "allocationTickets": 10,
+            "multiplier": 1,
+            "eligibleTickets": 10,
+            "ticketStart": 1,
+            "ticketEnd": 10
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m64",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m64",
+      "ledgerHash": "0xd9256d3b7f7caa1168e6fe10f8e4f15b70a21a7a825fbd1d105e04ed546b25bd",
+      "totalTickets": 477,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m64",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m64",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "england",
+        "winnerFifaTeamId": "43942",
+        "score": {
+          "home": 2,
+          "away": 1,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021512",
+          "matchNumber": 80,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43942"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 5,
+      "eligibleWalletCount": 5,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "userAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "sourceAddresses": [
+            "0x232ebb470cbcb8b90391f5e2979dfc6047ea77c0",
+            "0xef6c52085d12397c37652c4918036c1492fcf7a6"
+          ],
+          "roundId": "round32",
+          "matchId": "m64",
+          "teamId": "england",
+          "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england",
+          "allocationTickets": 110,
+          "multiplier": 1,
+          "eligibleTickets": 110,
+          "ticketStart": 1,
+          "ticketEnd": 110,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 110,
+              "displayStart": 1,
+              "displayEnd": 110,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "finalTickets": 199,
+            "totalVotingTickets": 600,
+            "taskRewardTickets": 1,
+            "rank": 111
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m64",
+          "teamId": "england",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m64-england",
+          "allocationTickets": 18,
+          "multiplier": 1,
+          "eligibleTickets": 18,
+          "ticketStart": 111,
+          "ticketEnd": 128,
+          "ticketIntervals": [
+            {
+              "start": 111,
+              "end": 128,
+              "displayStart": 111,
+              "displayEnd": 128,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m64-england",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m64",
+          "teamId": "england",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m64-england",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 129,
+          "ticketEnd": 133,
+          "ticketIntervals": [
+            {
+              "start": 129,
+              "end": 133,
+              "displayStart": 129,
+              "displayEnd": 133,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m64-england",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 4,
+          "walletAddress": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194",
+          "userAddress": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194",
+          "sourceAddresses": [
+            "0x9cce7385f4ce72b14f22fe97cecb8f59f53ab258",
+            "0xa853b24d31b57fae7a6972a5799ac931cc9cf194"
+          ],
+          "roundId": "round32",
+          "matchId": "m64",
+          "teamId": "england",
+          "allocationId": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194-m64-england",
+          "allocationTickets": 300,
+          "multiplier": 1,
+          "eligibleTickets": 300,
+          "ticketStart": 134,
+          "ticketEnd": 433,
+          "ticketIntervals": [
+            {
+              "start": 134,
+              "end": 433,
+              "displayStart": 134,
+              "displayEnd": 433,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194-m64-england",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194",
+            "finalTickets": 44,
+            "totalVotingTickets": 445,
+            "taskRewardTickets": 1,
+            "rank": 447
+          }
+        },
+        {
+          "rank": 5,
+          "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "userAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "sourceAddresses": [
+            "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "0xa1fd9d666858632e57305412bc6b2e50a3978cee"
+          ],
+          "roundId": "round32",
+          "matchId": "m64",
+          "teamId": "england",
+          "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m64-england",
+          "allocationTickets": 44,
+          "multiplier": 1,
+          "eligibleTickets": 44,
+          "ticketStart": 434,
+          "ticketEnd": 477,
+          "ticketIntervals": [
+            {
+              "start": 434,
+              "end": 477,
+              "displayStart": 434,
+              "displayEnd": 477,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m64-england",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 809
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m64",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 477,
+        "matchResult": {
+          "matchId": "m64",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021512?language=en",
+          "winnerTeamId": "england",
+          "winnerFifaTeamId": "43942",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021512",
+            "matchNumber": 80,
+            "resultType": 1,
+            "winnerTeamId": "43942"
+          },
+          "score": {
+            "home": 2,
+            "away": 1,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m64-england",
+            "teamId": "england",
+            "allocationTickets": 110,
+            "multiplier": 1,
+            "eligibleTickets": 110,
+            "ticketStart": 1,
+            "ticketEnd": 110
+          },
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m64-england",
+            "teamId": "england",
+            "allocationTickets": 18,
+            "multiplier": 1,
+            "eligibleTickets": 18,
+            "ticketStart": 111,
+            "ticketEnd": 128
+          },
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m64-england",
+            "teamId": "england",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 129,
+            "ticketEnd": 133
+          },
+          {
+            "walletAddress": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194",
+            "allocationId": "0xa853b24d31b57fae7a6972a5799ac931cc9cf194-m64-england",
+            "teamId": "england",
+            "allocationTickets": 300,
+            "multiplier": 1,
+            "eligibleTickets": 300,
+            "ticketStart": 134,
+            "ticketEnd": 433
+          },
+          {
+            "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m64-england",
+            "teamId": "england",
+            "allocationTickets": 44,
+            "multiplier": 1,
+            "eligibleTickets": 44,
+            "ticketStart": 434,
+            "ticketEnd": 477
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m65",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m65",
+      "ledgerHash": "0x93cab550bd2059e177dd8f6b14eba41f4633bebc04e2a391161c929e070df453",
+      "totalTickets": 22,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m65",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m65",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "united-states",
+        "winnerFifaTeamId": "43921",
+        "score": {
+          "home": 2,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021524",
+          "matchNumber": 81,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43921"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 3,
+      "eligibleWalletCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m65",
+          "teamId": "united-states",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m65-united-states",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m65-united-states",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "userAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "sourceAddresses": [
+            "0x0f0291d9bef43622a9858be12d6a7f70183817c5",
+            "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e"
+          ],
+          "roundId": "round32",
+          "matchId": "m65",
+          "teamId": "united-states",
+          "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 6,
+          "ticketEnd": 10,
+          "ticketIntervals": [
+            {
+              "start": 6,
+              "end": 10,
+              "displayStart": 6,
+              "displayEnd": 10,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "finalTickets": 57,
+            "totalVotingTickets": 458,
+            "taskRewardTickets": 1,
+            "rank": 384
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m65",
+          "teamId": "united-states",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m65-united-states",
+          "allocationTickets": 12,
+          "multiplier": 1,
+          "eligibleTickets": 12,
+          "ticketStart": 11,
+          "ticketEnd": 22,
+          "ticketIntervals": [
+            {
+              "start": 11,
+              "end": 22,
+              "displayStart": 11,
+              "displayEnd": 22,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m65-united-states",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m65",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 22,
+        "matchResult": {
+          "matchId": "m65",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021524?language=en",
+          "winnerTeamId": "united-states",
+          "winnerFifaTeamId": "43921",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021524",
+            "matchNumber": 81,
+            "resultType": 1,
+            "winnerTeamId": "43921"
+          },
+          "score": {
+            "home": 2,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m65-united-states",
+            "teamId": "united-states",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          },
+          {
+            "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m65-united-states",
+            "teamId": "united-states",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 6,
+            "ticketEnd": 10
+          },
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m65-united-states",
+            "teamId": "united-states",
+            "allocationTickets": 12,
+            "multiplier": 1,
+            "eligibleTickets": 12,
+            "ticketStart": 11,
+            "ticketEnd": 22
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m66",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m66",
+      "ledgerHash": "0x82146e66f94eac5bd3d342cc27acf6095bda995a5bf245368bacf007d3e84cd4",
+      "totalTickets": 58,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m66",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m66",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "belgium",
+        "winnerFifaTeamId": "43935",
+        "score": {
+          "home": 3,
+          "away": 2,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021525",
+          "matchNumber": 82,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 3,
+          "winnerTeamId": "43935"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 3,
+      "eligibleWalletCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m66",
+          "teamId": "belgium",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m66-belgium",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m66-belgium",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "userAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "sourceAddresses": [
+            "0x0f0291d9bef43622a9858be12d6a7f70183817c5",
+            "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e"
+          ],
+          "roundId": "round32",
+          "matchId": "m66",
+          "teamId": "belgium",
+          "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium",
+          "allocationTickets": 3,
+          "multiplier": 1,
+          "eligibleTickets": 3,
+          "ticketStart": 6,
+          "ticketEnd": 8,
+          "ticketIntervals": [
+            {
+              "start": 6,
+              "end": 8,
+              "displayStart": 6,
+              "displayEnd": 8,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "finalTickets": 57,
+            "totalVotingTickets": 458,
+            "taskRewardTickets": 1,
+            "rank": 384
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "userAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "sourceAddresses": [
+            "0x232ebb470cbcb8b90391f5e2979dfc6047ea77c0",
+            "0xef6c52085d12397c37652c4918036c1492fcf7a6"
+          ],
+          "roundId": "round32",
+          "matchId": "m66",
+          "teamId": "belgium",
+          "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m66-belgium",
+          "allocationTickets": 50,
+          "multiplier": 1,
+          "eligibleTickets": 50,
+          "ticketStart": 9,
+          "ticketEnd": 58,
+          "ticketIntervals": [
+            {
+              "start": 9,
+              "end": 58,
+              "displayStart": 9,
+              "displayEnd": 58,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m66-belgium",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "finalTickets": 199,
+            "totalVotingTickets": 600,
+            "taskRewardTickets": 1,
+            "rank": 111
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m66",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 58,
+        "matchResult": {
+          "matchId": "m66",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021525?language=en",
+          "winnerTeamId": "belgium",
+          "winnerFifaTeamId": "43935",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021525",
+            "matchNumber": 82,
+            "resultType": 3,
+            "winnerTeamId": "43935"
+          },
+          "score": {
+            "home": 3,
+            "away": 2,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m66-belgium",
+            "teamId": "belgium",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          },
+          {
+            "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m66-belgium",
+            "teamId": "belgium",
+            "allocationTickets": 3,
+            "multiplier": 1,
+            "eligibleTickets": 3,
+            "ticketStart": 6,
+            "ticketEnd": 8
+          },
+          {
+            "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m66-belgium",
+            "teamId": "belgium",
+            "allocationTickets": 50,
+            "multiplier": 1,
+            "eligibleTickets": 50,
+            "ticketStart": 9,
+            "ticketEnd": 58
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m67",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m67",
+      "ledgerHash": "0xb127f3dd35bf24ec632ed541f056706ee7c3327316ed1d9d8d8cbd9f281bc111",
+      "totalTickets": 96,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m67",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m67",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "portugal",
+        "winnerFifaTeamId": "43963",
+        "score": {
+          "home": 2,
+          "away": 1,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021526",
+          "matchNumber": 83,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43963"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 4,
+      "eligibleWalletCount": 4,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m67",
+          "teamId": "portugal",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m67-portugal",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m67-portugal",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "userAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "sourceAddresses": [
+            "0x0f0291d9bef43622a9858be12d6a7f70183817c5",
+            "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e"
+          ],
+          "roundId": "round32",
+          "matchId": "m67",
+          "teamId": "portugal",
+          "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 6,
+          "ticketEnd": 10,
+          "ticketIntervals": [
+            {
+              "start": 6,
+              "end": 10,
+              "displayStart": 6,
+              "displayEnd": 10,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "finalTickets": 57,
+            "totalVotingTickets": 458,
+            "taskRewardTickets": 1,
+            "rank": 384
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m67",
+          "teamId": "portugal",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m67-portugal",
+          "allocationTickets": 2,
+          "multiplier": 1,
+          "eligibleTickets": 2,
+          "ticketStart": 11,
+          "ticketEnd": 12,
+          "ticketIntervals": [
+            {
+              "start": 11,
+              "end": 12,
+              "displayStart": 11,
+              "displayEnd": 12,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m67-portugal",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 4,
+          "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "sourceAddresses": [
+            "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
+            "0x700a6d2d736a50c6fb95af19632814e9f8e5394b"
+          ],
+          "roundId": "round32",
+          "matchId": "m67",
+          "teamId": "portugal",
+          "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m67-portugal",
+          "allocationTickets": 84,
+          "multiplier": 1,
+          "eligibleTickets": 84,
+          "ticketStart": 13,
+          "ticketEnd": 96,
+          "ticketIntervals": [
+            {
+              "start": 13,
+              "end": 96,
+              "displayStart": 13,
+              "displayEnd": 96,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m67-portugal",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 826
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m67",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 96,
+        "matchResult": {
+          "matchId": "m67",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021526?language=en",
+          "winnerTeamId": "portugal",
+          "winnerFifaTeamId": "43963",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021526",
+            "matchNumber": 83,
+            "resultType": 1,
+            "winnerTeamId": "43963"
+          },
+          "score": {
+            "home": 2,
+            "away": 1,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m67-portugal",
+            "teamId": "portugal",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          },
+          {
+            "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m67-portugal",
+            "teamId": "portugal",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 6,
+            "ticketEnd": 10
+          },
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m67-portugal",
+            "teamId": "portugal",
+            "allocationTickets": 2,
+            "multiplier": 1,
+            "eligibleTickets": 2,
+            "ticketStart": 11,
+            "ticketEnd": 12
+          },
+          {
+            "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m67-portugal",
+            "teamId": "portugal",
+            "allocationTickets": 84,
+            "multiplier": 1,
+            "eligibleTickets": 84,
+            "ticketStart": 13,
+            "ticketEnd": 96
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m68",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m68",
+      "ledgerHash": "0x556df38d79e5fc844b0d1e3500d163eba0f84419c36e79c2dfe7ead8e87a1d58",
+      "totalTickets": 182,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m68",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m68",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "spain",
+        "winnerFifaTeamId": "43969",
+        "score": {
+          "home": 3,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021519",
+          "matchNumber": 84,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43969"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 6,
+      "eligibleWalletCount": 6,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m68-spain",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "userAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+          "sourceAddresses": [
+            "0x0f0291d9bef43622a9858be12d6a7f70183817c5",
+            "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain",
+          "allocationTickets": 10,
+          "multiplier": 1,
+          "eligibleTickets": 10,
+          "ticketStart": 6,
+          "ticketEnd": 15,
+          "ticketIntervals": [
+            {
+              "start": 6,
+              "end": 15,
+              "displayStart": 6,
+              "displayEnd": 15,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "finalTickets": 57,
+            "totalVotingTickets": 458,
+            "taskRewardTickets": 1,
+            "rank": 384
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m68-spain",
+          "allocationTickets": 2,
+          "multiplier": 1,
+          "eligibleTickets": 2,
+          "ticketStart": 16,
+          "ticketEnd": 17,
+          "ticketIntervals": [
+            {
+              "start": 16,
+              "end": 17,
+              "displayStart": 16,
+              "displayEnd": 17,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 4,
+          "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "userAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+          "sourceAddresses": [
+            "0x232ebb470cbcb8b90391f5e2979dfc6047ea77c0",
+            "0xef6c52085d12397c37652c4918036c1492fcf7a6"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m68-spain",
+          "allocationTickets": 50,
+          "multiplier": 1,
+          "eligibleTickets": 50,
+          "ticketStart": 18,
+          "ticketEnd": 67,
+          "ticketIntervals": [
+            {
+              "start": 18,
+              "end": 67,
+              "displayStart": 18,
+              "displayEnd": 67,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "finalTickets": 199,
+            "totalVotingTickets": 600,
+            "taskRewardTickets": 1,
+            "rank": 111
+          }
+        },
+        {
+          "rank": 5,
+          "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "sourceAddresses": [
+            "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
+            "0x700a6d2d736a50c6fb95af19632814e9f8e5394b"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m68-spain",
+          "allocationTickets": 63,
+          "multiplier": 1,
+          "eligibleTickets": 63,
+          "ticketStart": 68,
+          "ticketEnd": 130,
+          "ticketIntervals": [
+            {
+              "start": 68,
+              "end": 130,
+              "displayStart": 68,
+              "displayEnd": 130,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 826
+          }
+        },
+        {
+          "rank": 6,
+          "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "userAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+          "sourceAddresses": [
+            "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f"
+          ],
+          "roundId": "round32",
+          "matchId": "m68",
+          "teamId": "spain",
+          "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m68-spain",
+          "allocationTickets": 52,
+          "multiplier": 1,
+          "eligibleTickets": 52,
+          "ticketStart": 131,
+          "ticketEnd": 182,
+          "ticketIntervals": [
+            {
+              "start": 131,
+              "end": 182,
+              "displayStart": 131,
+              "displayEnd": 182,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m68-spain",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "finalTickets": 0,
+            "totalVotingTickets": 401,
+            "taskRewardTickets": 1,
+            "rank": 1118
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m68",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 182,
+        "matchResult": {
+          "matchId": "m68",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021519?language=en",
+          "winnerTeamId": "spain",
+          "winnerFifaTeamId": "43969",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021519",
+            "matchNumber": 84,
+            "resultType": 1,
+            "winnerTeamId": "43969"
+          },
+          "score": {
+            "home": 3,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          },
+          {
+            "walletAddress": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e",
+            "allocationId": "0x5e91c8f4c928af15db7ed27b5c07bfe05d8d6c1e-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 10,
+            "multiplier": 1,
+            "eligibleTickets": 10,
+            "ticketStart": 6,
+            "ticketEnd": 15
+          },
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 2,
+            "multiplier": 1,
+            "eligibleTickets": 2,
+            "ticketStart": 16,
+            "ticketEnd": 17
+          },
+          {
+            "walletAddress": "0xef6c52085d12397c37652c4918036c1492fcf7a6",
+            "allocationId": "0xef6c52085d12397c37652c4918036c1492fcf7a6-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 50,
+            "multiplier": 1,
+            "eligibleTickets": 50,
+            "ticketStart": 18,
+            "ticketEnd": 67
+          },
+          {
+            "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 63,
+            "multiplier": 1,
+            "eligibleTickets": 63,
+            "ticketStart": 68,
+            "ticketEnd": 130
+          },
+          {
+            "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+            "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m68-spain",
+            "teamId": "spain",
+            "allocationTickets": 52,
+            "multiplier": 1,
+            "eligibleTickets": 52,
+            "ticketStart": 131,
+            "ticketEnd": 182
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m69",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m69",
+      "ledgerHash": "0x4d341c5b31c70e94df3473680027bfd8badf98effff8ebeacc3ec1f447f9a83b",
+      "totalTickets": 43,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m69",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m69",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "switzerland",
+        "winnerFifaTeamId": "43971",
+        "score": {
+          "home": 2,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021527",
+          "matchNumber": 85,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43971"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 3,
+      "eligibleWalletCount": 3,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "userAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+          "sourceAddresses": [
+            "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "0xa5c3d0b8e0cfafc0bb7792fa3dcb8d7b1d57fc4f"
+          ],
+          "roundId": "round32",
+          "matchId": "m69",
+          "teamId": "switzerland",
+          "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m69-switzerland",
+          "allocationTickets": 5,
+          "multiplier": 1,
+          "eligibleTickets": 5,
+          "ticketStart": 1,
+          "ticketEnd": 5,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 5,
+              "displayStart": 1,
+              "displayEnd": 5,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m69-switzerland",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "finalTickets": 87,
+            "totalVotingTickets": 488,
+            "taskRewardTickets": 1,
+            "rank": 254
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m69",
+          "teamId": "switzerland",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m69-switzerland",
+          "allocationTickets": 2,
+          "multiplier": 1,
+          "eligibleTickets": 2,
+          "ticketStart": 6,
+          "ticketEnd": 7,
+          "ticketIntervals": [
+            {
+              "start": 6,
+              "end": 7,
+              "displayStart": 6,
+              "displayEnd": 7,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m69-switzerland",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "sourceAddresses": [
+            "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
+            "0x700a6d2d736a50c6fb95af19632814e9f8e5394b"
+          ],
+          "roundId": "round32",
+          "matchId": "m69",
+          "teamId": "switzerland",
+          "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m69-switzerland",
+          "allocationTickets": 36,
+          "multiplier": 1,
+          "eligibleTickets": 36,
+          "ticketStart": 8,
+          "ticketEnd": 43,
+          "ticketIntervals": [
+            {
+              "start": 8,
+              "end": 43,
+              "displayStart": 8,
+              "displayEnd": 43,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m69-switzerland",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 826
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m69",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 43,
+        "matchResult": {
+          "matchId": "m69",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021527?language=en",
+          "winnerTeamId": "switzerland",
+          "winnerFifaTeamId": "43971",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021527",
+            "matchNumber": 85,
+            "resultType": 1,
+            "winnerTeamId": "43971"
+          },
+          "score": {
+            "home": 2,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4",
+            "allocationId": "0x8ff38b8968055fc0e0e1bd07315b15b1d53512f4-m69-switzerland",
+            "teamId": "switzerland",
+            "allocationTickets": 5,
+            "multiplier": 1,
+            "eligibleTickets": 5,
+            "ticketStart": 1,
+            "ticketEnd": 5
+          },
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m69-switzerland",
+            "teamId": "switzerland",
+            "allocationTickets": 2,
+            "multiplier": 1,
+            "eligibleTickets": 2,
+            "ticketStart": 6,
+            "ticketEnd": 7
+          },
+          {
+            "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m69-switzerland",
+            "teamId": "switzerland",
+            "allocationTickets": 36,
+            "multiplier": 1,
+            "eligibleTickets": 36,
+            "ticketStart": 8,
+            "ticketEnd": 43
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m70",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m70",
+      "ledgerHash": "0x97737419058faeadbd16eae036342729a2095cfe7c5468632bcf126bbd4d9cae",
+      "totalTickets": 308,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m70",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m70",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "argentina",
+        "winnerFifaTeamId": "43922",
+        "score": {
+          "home": 3,
+          "away": 2,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021521",
+          "matchNumber": 86,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 3,
+          "winnerTeamId": "43922"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 6,
+      "eligibleWalletCount": 6,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m70-argentina",
+          "allocationTickets": 2,
+          "multiplier": 1,
+          "eligibleTickets": 2,
+          "ticketStart": 1,
+          "ticketEnd": 2,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 2,
+              "displayStart": 1,
+              "displayEnd": 2,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "sourceAddresses": [
+            "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
+            "0x700a6d2d736a50c6fb95af19632814e9f8e5394b"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m70-argentina",
+          "allocationTickets": 30,
+          "multiplier": 1,
+          "eligibleTickets": 30,
+          "ticketStart": 3,
+          "ticketEnd": 32,
+          "ticketIntervals": [
+            {
+              "start": 3,
+              "end": 32,
+              "displayStart": 3,
+              "displayEnd": 32,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 826
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "userAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+          "sourceAddresses": [
+            "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "0xa1fd9d666858632e57305412bc6b2e50a3978cee"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-argentina",
+          "allocationTickets": 6,
+          "multiplier": 1,
+          "eligibleTickets": 6,
+          "ticketStart": 33,
+          "ticketEnd": 38,
+          "ticketIntervals": [
+            {
+              "start": 33,
+              "end": 38,
+              "displayStart": 33,
+              "displayEnd": 38,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 809
+          }
+        },
+        {
+          "rank": 4,
+          "walletAddress": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b",
+          "userAddress": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b",
+          "sourceAddresses": [
+            "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b",
+            "0xf024410d78df980c46e1bec570641aff2227324e"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b-m70-argentina",
+          "allocationTickets": 48,
+          "multiplier": 1,
+          "eligibleTickets": 48,
+          "ticketStart": 39,
+          "ticketEnd": 86,
+          "ticketIntervals": [
+            {
+              "start": 39,
+              "end": 86,
+              "displayStart": 39,
+              "displayEnd": 86,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b",
+            "finalTickets": 8,
+            "totalVotingTickets": 409,
+            "taskRewardTickets": 1,
+            "rank": 680
+          }
+        },
+        {
+          "rank": 5,
+          "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "userAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "sourceAddresses": [
+            "0x642fb63947a957a029dcdf82aa114216e4367561",
+            "0xedf6cb3875e264bdb8f887790d013ed01657806f"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m70-argentina",
+          "allocationTickets": 122,
+          "multiplier": 1,
+          "eligibleTickets": 122,
+          "ticketStart": 87,
+          "ticketEnd": 208,
+          "ticketIntervals": [
+            {
+              "start": 87,
+              "end": 208,
+              "displayStart": 87,
+              "displayEnd": 208,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "finalTickets": 263,
+            "totalVotingTickets": 664,
+            "taskRewardTickets": 1,
+            "rank": 55
+          }
+        },
+        {
+          "rank": 6,
+          "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "userAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "sourceAddresses": [
+            "0x13bee8596881767e4d4509a0837027445c349daa",
+            "0xf367b0f46b49b886ba70e9090315c44359443631"
+          ],
+          "roundId": "round32",
+          "matchId": "m70",
+          "teamId": "argentina",
+          "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m70-argentina",
+          "allocationTickets": 100,
+          "multiplier": 1,
+          "eligibleTickets": 100,
+          "ticketStart": 209,
+          "ticketEnd": 308,
+          "ticketIntervals": [
+            {
+              "start": 209,
+              "end": 308,
+              "displayStart": 209,
+              "displayEnd": 308,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m70-argentina",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+            "finalTickets": 780,
+            "totalVotingTickets": 1181,
+            "taskRewardTickets": 1,
+            "rank": 8
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m70",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 308,
+        "matchResult": {
+          "matchId": "m70",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021521?language=en",
+          "winnerTeamId": "argentina",
+          "winnerFifaTeamId": "43922",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021521",
+            "matchNumber": 86,
+            "resultType": 3,
+            "winnerTeamId": "43922"
+          },
+          "score": {
+            "home": 3,
+            "away": 2,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 2,
+            "multiplier": 1,
+            "eligibleTickets": 2,
+            "ticketStart": 1,
+            "ticketEnd": 2
+          },
+          {
+            "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 30,
+            "multiplier": 1,
+            "eligibleTickets": 30,
+            "ticketStart": 3,
+            "ticketEnd": 32
+          },
+          {
+            "walletAddress": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b",
+            "allocationId": "0x14f84ff15797fadb27a866c5f5afd831f3b43d8b-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 6,
+            "multiplier": 1,
+            "eligibleTickets": 6,
+            "ticketStart": 33,
+            "ticketEnd": 38
+          },
+          {
+            "walletAddress": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b",
+            "allocationId": "0xe70daa9e9a20c26769885b59b6af26bcd5ad4f3b-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 48,
+            "multiplier": 1,
+            "eligibleTickets": 48,
+            "ticketStart": 39,
+            "ticketEnd": 86
+          },
+          {
+            "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 122,
+            "multiplier": 1,
+            "eligibleTickets": 122,
+            "ticketStart": 87,
+            "ticketEnd": 208
+          },
+          {
+            "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+            "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m70-argentina",
+            "teamId": "argentina",
+            "allocationTickets": 100,
+            "multiplier": 1,
+            "eligibleTickets": 100,
+            "ticketStart": 209,
+            "ticketEnd": 308
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m71",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m71",
+      "ledgerHash": "0xa70bdd600c314723ad522175401391260df4a8632f405c337a1f404ae9349ec9",
+      "totalTickets": 207,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m71",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m71",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "colombia",
+        "winnerFifaTeamId": "43926",
+        "score": {
+          "home": 1,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021517",
+          "matchNumber": 87,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43926"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 4,
+      "eligibleWalletCount": 4,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m71",
+          "teamId": "colombia",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m71-colombia",
+          "allocationTickets": 2,
+          "multiplier": 1,
+          "eligibleTickets": 2,
+          "ticketStart": 1,
+          "ticketEnd": 2,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 2,
+              "displayStart": 1,
+              "displayEnd": 2,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m71-colombia",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+          "sourceAddresses": [
+            "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
+            "0x700a6d2d736a50c6fb95af19632814e9f8e5394b"
+          ],
+          "roundId": "round32",
+          "matchId": "m71",
+          "teamId": "colombia",
+          "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m71-colombia",
+          "allocationTickets": 33,
+          "multiplier": 1,
+          "eligibleTickets": 33,
+          "ticketStart": 3,
+          "ticketEnd": 35,
+          "ticketIntervals": [
+            {
+              "start": 3,
+              "end": 35,
+              "displayStart": 3,
+              "displayEnd": 35,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m71-colombia",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "finalTickets": 4,
+            "totalVotingTickets": 405,
+            "taskRewardTickets": 1,
+            "rank": 826
+          }
+        },
+        {
+          "rank": 3,
+          "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "userAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "sourceAddresses": [
+            "0x642fb63947a957a029dcdf82aa114216e4367561",
+            "0xedf6cb3875e264bdb8f887790d013ed01657806f"
+          ],
+          "roundId": "round32",
+          "matchId": "m71",
+          "teamId": "colombia",
+          "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m71-colombia",
+          "allocationTickets": 72,
+          "multiplier": 1,
+          "eligibleTickets": 72,
+          "ticketStart": 36,
+          "ticketEnd": 107,
+          "ticketIntervals": [
+            {
+              "start": 36,
+              "end": 107,
+              "displayStart": 36,
+              "displayEnd": 107,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m71-colombia",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "finalTickets": 263,
+            "totalVotingTickets": 664,
+            "taskRewardTickets": 1,
+            "rank": 55
+          }
+        },
+        {
+          "rank": 4,
+          "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "userAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "sourceAddresses": [
+            "0x13bee8596881767e4d4509a0837027445c349daa",
+            "0xf367b0f46b49b886ba70e9090315c44359443631"
+          ],
+          "roundId": "round32",
+          "matchId": "m71",
+          "teamId": "colombia",
+          "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m71-colombia",
+          "allocationTickets": 100,
+          "multiplier": 1,
+          "eligibleTickets": 100,
+          "ticketStart": 108,
+          "ticketEnd": 207,
+          "ticketIntervals": [
+            {
+              "start": 108,
+              "end": 207,
+              "displayStart": 108,
+              "displayEnd": 207,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m71-colombia",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+            "finalTickets": 780,
+            "totalVotingTickets": 1181,
+            "taskRewardTickets": 1,
+            "rank": 8
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m71",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 207,
+        "matchResult": {
+          "matchId": "m71",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021517?language=en",
+          "winnerTeamId": "colombia",
+          "winnerFifaTeamId": "43926",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021517",
+            "matchNumber": 87,
+            "resultType": 1,
+            "winnerTeamId": "43926"
+          },
+          "score": {
+            "home": 1,
+            "away": 0,
+            "homePenalty": null,
+            "awayPenalty": null
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m71-colombia",
+            "teamId": "colombia",
+            "allocationTickets": 2,
+            "multiplier": 1,
+            "eligibleTickets": 2,
+            "ticketStart": 1,
+            "ticketEnd": 2
+          },
+          {
+            "walletAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
+            "allocationId": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b-m71-colombia",
+            "teamId": "colombia",
+            "allocationTickets": 33,
+            "multiplier": 1,
+            "eligibleTickets": 33,
+            "ticketStart": 3,
+            "ticketEnd": 35
+          },
+          {
+            "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m71-colombia",
+            "teamId": "colombia",
+            "allocationTickets": 72,
+            "multiplier": 1,
+            "eligibleTickets": 72,
+            "ticketStart": 36,
+            "ticketEnd": 107
+          },
+          {
+            "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+            "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-m71-colombia",
+            "teamId": "colombia",
+            "allocationTickets": 100,
+            "multiplier": 1,
+            "eligibleTickets": 100,
+            "ticketStart": 108,
+            "ticketEnd": 207
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "m72",
+      "roundId": "round32-redraw-1",
+      "sourceRoundId": "round32",
+      "drawId": "m72",
+      "ledgerHash": "0xe9f5e5ff10216fab3f978ded79830d912a206541a2b920191ef6dd59cb75cfc0",
+      "totalTickets": 52,
+      "prizeSlotCount": 1,
+      "alternateCount": 2,
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#m72",
+      "sourceMode": "official-result-match-vote-ledger",
+      "result": {
+        "matchId": "m72",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "egypt",
+        "winnerFifaTeamId": "43855",
+        "score": {
+          "home": 1,
+          "away": 1,
+          "homePenalty": 2,
+          "awayPenalty": 4
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
+        "fetchedAt": "2026-07-06T12:55:46.416Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289287",
+          "matchId": "400021515",
+          "matchNumber": 88,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 2,
+          "winnerTeamId": "43855"
+        }
+      },
+      "audit": {
+        "sourceTicketLedger": {
+          "path": "/data/soccer/lucky-draw-ledger.json",
+          "hash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+          "generatedAt": 1783342561
+        },
+        "matchResults": {
+          "hash": "0x1979a206ec7ad94580db28cae12327f00ebcc84aa24dd88dbebfb198780ea126",
+          "generatedAt": "2026-07-06T12:55:46.416Z",
+          "fetchedAt": "2026-07-06T12:55:46.416Z"
+        },
+        "voteState": {
+          "source": "sqlite",
+          "generatedAt": "2026-06-18T12:58:27.932Z",
+          "updatedAt": "2026-07-06T12:07:40.970Z",
+          "eventCount": 931
+        }
+      },
+      "sourceTicketLedgerHash": "0x56b6751106cc891487bdef2b405047a5929594acfaefca7b3e79c19634f5db32",
+      "eligibleEntryCount": 2,
+      "eligibleWalletCount": 2,
+      "entries": [
+        {
+          "rank": 1,
+          "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "userAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+          "sourceAddresses": [
+            "0x16255e95ced1c0bf66576808f5a25d35d50b67f8",
+            "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d"
+          ],
+          "roundId": "round32",
+          "matchId": "m72",
+          "teamId": "egypt",
+          "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m72-egypt",
+          "allocationTickets": 20,
+          "multiplier": 1,
+          "eligibleTickets": 20,
+          "ticketStart": 1,
+          "ticketEnd": 20,
+          "ticketIntervals": [
+            {
+              "start": 1,
+              "end": 20,
+              "displayStart": 1,
+              "displayEnd": 20,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m72-egypt",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "finalTickets": 11,
+            "totalVotingTickets": 412,
+            "taskRewardTickets": 1,
+            "rank": 629
+          }
+        },
+        {
+          "rank": 2,
+          "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "userAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+          "sourceAddresses": [
+            "0x642fb63947a957a029dcdf82aa114216e4367561",
+            "0xedf6cb3875e264bdb8f887790d013ed01657806f"
+          ],
+          "roundId": "round32",
+          "matchId": "m72",
+          "teamId": "egypt",
+          "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m72-egypt",
+          "allocationTickets": 32,
+          "multiplier": 1,
+          "eligibleTickets": 32,
+          "ticketStart": 21,
+          "ticketEnd": 52,
+          "ticketIntervals": [
+            {
+              "start": 21,
+              "end": 52,
+              "displayStart": 21,
+              "displayEnd": 52,
+              "namespace": "match-vote",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m72-egypt",
+              "resultSourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
+              "resultFetchedAt": "2026-07-06T12:55:46.416Z"
+            }
+          ],
+          "sourceTicketLedger": {
+            "ledgerUserAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "finalTickets": 263,
+            "totalVotingTickets": 664,
+            "taskRewardTickets": 1,
+            "rank": 55
+          }
+        }
+      ],
+      "hashPayload": {
+        "version": "match-draw-ledger-v2",
+        "matchId": "m72",
+        "roundId": "round32",
+        "sourceRoundId": "round32",
+        "prizeSlotCount": 1,
+        "alternateCount": 2,
+        "totalTickets": 52,
+        "matchResult": {
+          "matchId": "m72",
+          "sourceLabel": "fifa-public-api",
+          "sourceStatus": "official",
+          "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021515?language=en",
+          "winnerTeamId": "egypt",
+          "winnerFifaTeamId": "43855",
+          "fifa": {
+            "competitionId": "17",
+            "seasonId": "285023",
+            "stageId": "289287",
+            "matchId": "400021515",
+            "matchNumber": 88,
+            "resultType": 2,
+            "winnerTeamId": "43855"
+          },
+          "score": {
+            "home": 1,
+            "away": 1,
+            "homePenalty": 2,
+            "awayPenalty": 4
+          }
+        },
+        "entries": [
+          {
+            "walletAddress": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d",
+            "allocationId": "0x5b80f40f740f11888e05aa5a04257f3b12e11b6d-m72-egypt",
+            "teamId": "egypt",
+            "allocationTickets": 20,
+            "multiplier": 1,
+            "eligibleTickets": 20,
+            "ticketStart": 1,
+            "ticketEnd": 20
+          },
+          {
+            "walletAddress": "0xedf6cb3875e264bdb8f887790d013ed01657806f",
+            "allocationId": "0xedf6cb3875e264bdb8f887790d013ed01657806f-m72-egypt",
+            "teamId": "egypt",
+            "allocationTickets": 32,
+            "multiplier": 1,
+            "eligibleTickets": 32,
+            "ticketStart": 21,
+            "ticketEnd": 52
+          }
+        ]
+      }
     }
   ],
   "notes": [
@@ -3886,13 +7839,16 @@
     "Every prize slot receives one primary winner ticket and the configured alternate ticket count.",
     "Round draw hashes lock all match draw rows before requesting one VRF random word for the round.",
     "No fallback result logic is used. Pending, missing, stale, source_error, and mismatch results do not enter the draw pool.",
-    "When --round-id is used, existing locked draw rows for other rounds are preserved instead of overwritten."
+    "When --round-id is used, existing locked draw rows for other rounds are preserved instead of overwritten.",
+    "Each locked round is also written to match-draw-ledgers/<roundId>.json and reused as the immutable round snapshot.",
+    "Volatile sync metadata such as fetchedAt, generatedAt, and vote event counts are retained for audit but excluded from v2 ledger hashes."
   ],
   "mergedFrom": {
     "path": "/data/soccer/match-draw-ledger.json",
-    "generatedAt": "2026-07-05T16:42:16.298Z",
-    "replacedRoundId": "round32",
-    "preservedRoundCount": 0,
-    "preservedDrawCount": 0
+    "generatedAt": "2026-07-05T16:42:42.354Z",
+    "replacedRoundId": "round32-redraw-1",
+    "preservedRoundCount": 1,
+    "preservedDrawCount": 16,
+    "forcedReplace": false
   }
 }
