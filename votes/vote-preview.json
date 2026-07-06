@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-06T07:54:22.786Z",
-  "eventCount": 903,
+  "generatedAt": "2026-07-06T08:04:11.020Z",
+  "eventCount": 907,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -9183,6 +9183,54 @@
       "official": false,
       "createdAt": "2026-07-06T07:54:22.777Z",
       "updatedAt": "2026-07-06T07:54:22.777Z"
+    },
+    {
+      "id": "0x69d9d96839f9950a14f22ac0b548503986168080-M95-argentina",
+      "walletAddress": "0x69d9d96839f9950a14f22ac0b548503986168080",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
+      "tickets": 53,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T07:59:25.559Z",
+      "updatedAt": "2026-07-06T07:59:25.559Z"
+    },
+    {
+      "id": "0xbb7dd23fe9203e10ae318aa473c19a47f308b802-M96-colombia",
+      "walletAddress": "0xbb7dd23fe9203e10ae318aa473c19a47f308b802",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 58,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T08:01:38.860Z",
+      "updatedAt": "2026-07-06T08:01:38.860Z"
+    },
+    {
+      "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-M97-france",
+      "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 10,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T08:03:56.588Z",
+      "updatedAt": "2026-07-06T08:03:56.588Z"
+    },
+    {
+      "id": "0x7ea378811a50692549e10f0b99bb8805c696b346-M94-belgium",
+      "walletAddress": "0x7ea378811a50692549e10f0b99bb8805c696b346",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "belgium",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-06T08:04:11.007Z",
+      "updatedAt": "2026-07-06T08:04:11.007Z"
     }
   ],
   "outcomes": [
@@ -21425,6 +21473,70 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x69d9d96839f9950a14f22ac0b548503986168080-M95-argentina-outcome",
+      "allocationId": "0x69d9d96839f9950a14f22ac0b548503986168080-M95-argentina",
+      "walletAddress": "0x69d9d96839f9950a14f22ac0b548503986168080",
+      "roundId": "round16",
+      "matchId": "M95",
+      "teamId": "argentina",
+      "tickets": 53,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xbb7dd23fe9203e10ae318aa473c19a47f308b802-M96-colombia-outcome",
+      "allocationId": "0xbb7dd23fe9203e10ae318aa473c19a47f308b802-M96-colombia",
+      "walletAddress": "0xbb7dd23fe9203e10ae318aa473c19a47f308b802",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 58,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-M97-france-outcome",
+      "allocationId": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-M97-france",
+      "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 10,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x7ea378811a50692549e10f0b99bb8805c696b346-M94-belgium-outcome",
+      "allocationId": "0x7ea378811a50692549e10f0b99bb8805c696b346-M94-belgium",
+      "walletAddress": "0x7ea378811a50692549e10f0b99bb8805c696b346",
+      "roundId": "round16",
+      "matchId": "M94",
+      "teamId": "belgium",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -21442,11 +21554,21 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 4,
-      "submittedTickets": 13711,
+      "submittedTickets": 13827,
       "settledTickets": 10045,
       "wonTickets": 8338,
       "lostTickets": 1707,
-      "pendingTickets": 3666
+      "pendingTickets": 3782
+    },
+    {
+      "roundId": "quarterFinal",
+      "matchCount": 4,
+      "officialFinalCount": 0,
+      "submittedTickets": 10,
+      "settledTickets": 0,
+      "wonTickets": 0,
+      "lostTickets": 0,
+      "pendingTickets": 10
     }
   ],
   "matchResults": {
