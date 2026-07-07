@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-07T03:50:27.911Z",
-  "eventCount": 1019,
+  "generatedAt": "2026-07-07T03:51:30.144Z",
+  "eventCount": 1021,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -5290,11 +5290,11 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "argentina",
-      "tickets": 2,
+      "tickets": 5,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-04T13:59:21.902Z",
-      "updatedAt": "2026-07-04T13:59:21.902Z"
+      "updatedAt": "2026-07-07T03:51:25.102Z"
     },
     {
       "id": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9-M92-england",
@@ -10311,6 +10311,18 @@
       "official": false,
       "createdAt": "2026-07-07T03:50:27.902Z",
       "updatedAt": "2026-07-07T03:50:27.902Z"
+    },
+    {
+      "id": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9-M96-colombia",
+      "walletAddress": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 3,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-07T03:51:30.125Z",
+      "updatedAt": "2026-07-07T03:51:30.125Z"
     }
   ],
   "outcomes": [
@@ -17361,7 +17373,7 @@
       "roundId": "round16",
       "matchId": "M95",
       "teamId": "argentina",
-      "tickets": 2,
+      "tickets": 5,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -24057,6 +24069,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9-M96-colombia-outcome",
+      "allocationId": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9-M96-colombia",
+      "walletAddress": "0xf11059c5db5370a5d6ef9cc774b31e6d7d8067a9",
+      "roundId": "round16",
+      "matchId": "M96",
+      "teamId": "colombia",
+      "tickets": 3,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -24074,11 +24102,11 @@
       "roundId": "round16",
       "matchCount": 8,
       "officialFinalCount": 6,
-      "submittedTickets": 15094,
+      "submittedTickets": 15100,
       "settledTickets": 12747,
       "wonTickets": 10054,
       "lostTickets": 2693,
-      "pendingTickets": 2347
+      "pendingTickets": 2353
     },
     {
       "roundId": "quarterFinal",
