@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-08T09:18:21.542Z",
-  "eventCount": 1171,
+  "generatedAt": "2026-07-08T09:24:06.198Z",
+  "eventCount": 1174,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -11715,6 +11715,42 @@
       "official": false,
       "createdAt": "2026-07-08T09:18:21.533Z",
       "updatedAt": "2026-07-08T09:18:21.533Z"
+    },
+    {
+      "id": "0x3864c00dfa41fbd8ee9560c9c09d5e92103fa111-M97-france",
+      "walletAddress": "0x3864c00dfa41fbd8ee9560c9c09d5e92103fa111",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 3,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T09:22:25.066Z",
+      "updatedAt": "2026-07-08T09:22:25.066Z"
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M97-france",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 40,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T09:23:19.061Z",
+      "updatedAt": "2026-07-08T09:23:19.061Z"
+    },
+    {
+      "id": "0x16b62699ecc11599e7a6bca21c6b3b9190152d03-M100-argentina",
+      "walletAddress": "0x16b62699ecc11599e7a6bca21c6b3b9190152d03",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T09:24:06.190Z",
+      "updatedAt": "2026-07-08T09:24:06.190Z"
     }
   ],
   "outcomes": [
@@ -27333,6 +27369,54 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x3864c00dfa41fbd8ee9560c9c09d5e92103fa111-M97-france-outcome",
+      "allocationId": "0x3864c00dfa41fbd8ee9560c9c09d5e92103fa111-M97-france",
+      "walletAddress": "0x3864c00dfa41fbd8ee9560c9c09d5e92103fa111",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 3,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M97-france-outcome",
+      "allocationId": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M97-france",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 40,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x16b62699ecc11599e7a6bca21c6b3b9190152d03-M100-argentina-outcome",
+      "allocationId": "0x16b62699ecc11599e7a6bca21c6b3b9190152d03-M100-argentina",
+      "walletAddress": "0x16b62699ecc11599e7a6bca21c6b3b9190152d03",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -27360,11 +27444,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 2385,
+      "submittedTickets": 2429,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 2385
+      "pendingTickets": 2429
     }
   ],
   "matchResults": {
