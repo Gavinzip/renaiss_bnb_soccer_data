@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-08T05:27:00.662Z",
-  "eventCount": 1094,
+  "generatedAt": "2026-07-08T05:32:04.128Z",
+  "eventCount": 1098,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -10971,6 +10971,30 @@
       "official": false,
       "createdAt": "2026-07-08T05:27:00.654Z",
       "updatedAt": "2026-07-08T05:27:00.654Z"
+    },
+    {
+      "id": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-norway",
+      "walletAddress": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "norway",
+      "tickets": 37,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T05:31:44.124Z",
+      "updatedAt": "2026-07-08T05:32:00.890Z"
+    },
+    {
+      "id": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-england",
+      "walletAddress": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 38,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T05:31:51.736Z",
+      "updatedAt": "2026-07-08T05:32:04.121Z"
     }
   ],
   "outcomes": [
@@ -25597,6 +25621,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-norway-outcome",
+      "allocationId": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-norway",
+      "walletAddress": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "norway",
+      "tickets": 37,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-england-outcome",
+      "allocationId": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1-M99-england",
+      "walletAddress": "0x252b4fb9e854315c9baa6941b8ca820e6246dbd1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 38,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -25624,11 +25680,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 1412,
+      "submittedTickets": 1487,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 1412
+      "pendingTickets": 1487
     }
   ],
   "matchResults": {
