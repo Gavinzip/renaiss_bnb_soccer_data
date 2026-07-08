@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-08T09:59:43.025Z",
-  "eventCount": 1187,
+  "generatedAt": "2026-07-08T10:04:38.514Z",
+  "eventCount": 1190,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -11871,6 +11871,42 @@
       "official": false,
       "createdAt": "2026-07-08T09:59:43.015Z",
       "updatedAt": "2026-07-08T09:59:43.015Z"
+    },
+    {
+      "id": "0x8b112e3f344ef79a23ba6e1f37151f5a1be4f0e1-M99-england",
+      "walletAddress": "0x8b112e3f344ef79a23ba6e1f37151f5a1be4f0e1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 18,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T10:00:08.737Z",
+      "updatedAt": "2026-07-08T10:00:08.737Z"
+    },
+    {
+      "id": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M97-france",
+      "walletAddress": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 20,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T10:04:16.834Z",
+      "updatedAt": "2026-07-08T10:04:16.834Z"
+    },
+    {
+      "id": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M100-argentina",
+      "walletAddress": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 20,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-08T10:04:38.506Z",
+      "updatedAt": "2026-07-08T10:04:38.506Z"
     }
   ],
   "outcomes": [
@@ -27697,6 +27733,54 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x8b112e3f344ef79a23ba6e1f37151f5a1be4f0e1-M99-england-outcome",
+      "allocationId": "0x8b112e3f344ef79a23ba6e1f37151f5a1be4f0e1-M99-england",
+      "walletAddress": "0x8b112e3f344ef79a23ba6e1f37151f5a1be4f0e1",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 18,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M97-france-outcome",
+      "allocationId": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M97-france",
+      "walletAddress": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0",
+      "roundId": "quarterFinal",
+      "matchId": "M97",
+      "teamId": "france",
+      "tickets": 20,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M100-argentina-outcome",
+      "allocationId": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0-M100-argentina",
+      "walletAddress": "0x6e9b1c49acf745943e43c499f2fb5c2950ba69b0",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 20,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -27724,11 +27808,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 2786,
+      "submittedTickets": 2844,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 2786
+      "pendingTickets": 2844
     }
   ],
   "matchResults": {
