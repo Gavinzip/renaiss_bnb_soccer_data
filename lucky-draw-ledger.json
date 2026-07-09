@@ -1,19 +1,19 @@
 {
   "mode": "buyback-ledger",
-  "generatedAt": 1783599897,
+  "generatedAt": 1783600497,
   "campaignStart": 1783058400,
   "campaignEnd": 1784469600,
   "totalEntries": 1148,
-  "totalRawTickets": 20982,
+  "totalRawTickets": 20984,
   "totalBonusTickets": 0,
   "totalCarryoverTickets": 66753,
   "totalInsiderPracticeTickets": 8100,
   "totalInsiderGrantTickets": 2700,
-  "totalFinalTickets": 87735,
-  "totalVotingTickets": 98535,
+  "totalFinalTickets": 87737,
+  "totalVotingTickets": 98537,
   "sourceEntries": 422,
   "candidateSourceLimited": false,
-  "ledgerHash": "0x0dc12e4853203cedde8a174e7e92f99313ef2553d1b5d6fc2d012c6c3df10326",
+  "ledgerHash": "0x38a9dc61b58e5dcf7bf525cb8c3b62522eb7775e823343477c00a2ca9ca47318",
   "drawContractAddress": null,
   "bonusShuffleVersion": null,
   "bonusShuffleSeed": null,
@@ -24,11 +24,11 @@
     "fromBlock": 107776960,
     "fromBlockSource": "timestamp",
     "fromBlockTimestampError": null,
-    "toBlock": 108979242,
+    "toBlock": 108980589,
     "toBlockSource": "latest-block",
     "campaignStart": 1783058400,
     "campaignEnd": 1784469600,
-    "windowEnd": 1783599882,
+    "windowEnd": 1783600482,
     "toBlockTimestamp": null,
     "toBlockTimestampLagSeconds": null,
     "eventCacheLookbackMinutes": 60,
@@ -36,16 +36,6 @@
     "eventCacheLookbackCheckpoints": 12,
     "eventCacheLookbackCheckpointCount": 12,
     "eventCacheLookbackBlocks": [
-      {
-        "block": 108971245,
-        "updatedAt": 1783596294068,
-        "source": "refresh"
-      },
-      {
-        "block": 108971907,
-        "updatedAt": 1783596595746,
-        "source": "refresh"
-      },
       {
         "block": 108972586,
         "updatedAt": 1783596894450,
@@ -95,10 +85,20 @@
         "block": 108978580,
         "updatedAt": 1783599595802,
         "source": "refresh"
+      },
+      {
+        "block": 108979242,
+        "updatedAt": 1783599893919,
+        "source": "refresh"
+      },
+      {
+        "block": 108979922,
+        "updatedAt": 1783600195739,
+        "source": "refresh"
       }
     ],
     "eventCacheLookbackTimestamp": null,
-    "eventCacheLookbackFromBlock": 108971245,
+    "eventCacheLookbackFromBlock": 108972586,
     "packEventSources": [
       {
         "pack": "omega",
@@ -232,11 +232,11 @@
         "splitWindows": 0,
         "cachedEvents": 957,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589
       }
     ],
     "contracts": [
@@ -249,14 +249,14 @@
         "buybackContract": null,
         "configSource": "built-in",
         "calls": 1,
-        "events": 17885,
+        "events": 17887,
         "cachedEvents": 17885,
-        "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "fetchedEvents": 2,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -271,11 +271,11 @@
         "events": 425,
         "cachedEvents": 424,
         "fetchedEvents": 1,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -290,11 +290,11 @@
         "events": 111,
         "cachedEvents": 111,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -313,11 +313,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -336,11 +336,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -359,11 +359,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -382,11 +382,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       },
       {
@@ -405,11 +405,11 @@
         "wrongUser": 0,
         "cachedEvents": 998,
         "fetchedEvents": 0,
-        "scanStart": 108971245,
+        "scanStart": 108972586,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 108978580,
-        "eventCacheLookbackFromBlock": 108971245,
-        "cacheToBlock": 108979242,
+        "cachedToBlock": 108979922,
+        "eventCacheLookbackFromBlock": 108972586,
+        "cacheToBlock": 108980589,
         "splitWindows": 0
       }
     ]
@@ -728,7 +728,7 @@
   "entriesWithOldSourceAddresses": 782,
   "walletMigrationSource": {
     "url": "https://tcgpro.zeabur.app/api/wallet-migrations.json",
-    "cacheStatus": "hit",
+    "cacheStatus": "refresh",
     "cachePath": "/data/soccer/cache/wallet-migrations.json",
     "version": 1,
     "updatedAt": "2026-07-09T07:00:05.109195+08:00",
@@ -295223,6 +295223,84 @@
     },
     {
       "rank": 733,
+      "userAddress": "0x9602b2b71226ad4f06d07b39962c50dcd6e0396e",
+      "sourceAddresses": [
+        "0x5f782e6ccda46f918f3a2c168b017335f9348244",
+        "0x9602b2b71226ad4f06d07b39962c50dcd6e0396e"
+      ],
+      "packs": {
+        "omega": 2,
+        "renacrypt-pack": 0,
+        "eden": 0,
+        "costume-pack": 0,
+        "magma": 0,
+        "starry-pack": 0,
+        "plasma-pack": 0,
+        "world-cup-pack": 1
+      },
+      "baseTickets": 4,
+      "bonusTickets": 0,
+      "carryoverTickets": 3,
+      "insiderPracticeTickets": 0,
+      "insiderGrantTickets": 0,
+      "rawTickets": 4,
+      "sbt": "none",
+      "sbtMultiplier": 1,
+      "finalTickets": 7,
+      "totalVotingTickets": 7,
+      "ticketStart": 1015,
+      "ticketEnd": 20984,
+      "ticketIntervals": [
+        {
+          "start": 1015,
+          "end": 1016,
+          "displayStart": 1015,
+          "displayEnd": 1016,
+          "namespace": "raw",
+          "source": "legacy-buyback-success-v3",
+          "pack": "world-cup-pack",
+          "txHash": "0x866d75da7a8b772eaceb0c22b2abbdb988256c09aead54d73d715aca96997e7e",
+          "timestamp": 1783069463,
+          "blockNumber": 107801539,
+          "ordinal": 115,
+          "legacyOpenTxHash": "0xb24588d052c411ff785f88d0abd02f4d4fde200623a0e341f9cdcee2474dd198"
+        },
+        {
+          "start": 20983,
+          "end": 20983,
+          "displayStart": 20983,
+          "displayEnd": 20983,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0x8cd4c818e779c3033141240ae1ba39a714cd6e1d45dd1002cb2c62f7abe2d3f7",
+          "timestamp": 1783600260,
+          "blockNumber": 108980093,
+          "ordinal": 128,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 20984,
+          "end": 20984,
+          "displayStart": 20984,
+          "displayEnd": 20984,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0xb63b7de6d325764eadcf6bfd059b8383213fa3a7b70e5ef4e88442a93a5bff5c",
+          "timestamp": 1783600384,
+          "blockNumber": 108980369,
+          "ordinal": 199,
+          "legacyOpenTxHash": null
+        }
+      ],
+      "firstBuybackAt": 1783069463,
+      "lastBuybackAt": 1783600384,
+      "eventCount": 3,
+      "dataWarnings": []
+    },
+    {
+      "rank": 734,
       "userAddress": "0x90382baaa74114f8a188f86cf861ee1531bd945a",
       "sourceAddresses": [
         "0x200f7a180ec78533b54674f8248e5826d9ac6701",
@@ -295286,7 +295364,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 734,
+      "rank": 735,
       "userAddress": "0xebc8ca6bc0e93e461324542b689b5c6ef9e42090",
       "sourceAddresses": [
         "0x815d05fbd150def98e14328a8611ae0e0df2e0f3",
@@ -295350,7 +295428,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 735,
+      "rank": 736,
       "userAddress": "0x0a73d7d8b2c946106e362348cabf02854a029a18",
       "sourceAddresses": [
         "0x0a73d7d8b2c946106e362348cabf02854a029a18",
@@ -295400,7 +295478,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 736,
+      "rank": 737,
       "userAddress": "0x41cbb4e4a94a63a7c2e5deb02ad898e2943defed",
       "sourceAddresses": [
         "0x41cbb4e4a94a63a7c2e5deb02ad898e2943defed",
@@ -295450,7 +295528,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 737,
+      "rank": 738,
       "userAddress": "0x5aae60352ebc9f6065ae2206761aa781901d6da2",
       "sourceAddresses": [
         "0x5aae60352ebc9f6065ae2206761aa781901d6da2",
@@ -295500,7 +295578,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 738,
+      "rank": 739,
       "userAddress": "0x25b2894b987ccfdeaa77b23c41820fad2a355ab4",
       "sourceAddresses": [
         "0x25b2894b987ccfdeaa77b23c41820fad2a355ab4",
@@ -295550,7 +295628,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 739,
+      "rank": 740,
       "userAddress": "0xd8363ae23618ee988e78206573ac70f4dc8cdc1a",
       "sourceAddresses": [
         "0x23a33fc668e7cd8a7f5dfd344af2015e34758ea0",
@@ -295600,7 +295678,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 740,
+      "rank": 741,
       "userAddress": "0xe80a56d687edc0b4966db7389fd4d0a9e617f0d4",
       "sourceAddresses": [
         "0x47b2802fa1c5fcd76001c332a0ea8696bb93ab09",
@@ -295650,7 +295728,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 741,
+      "rank": 742,
       "userAddress": "0x052c2ae233ea9b0071189a6b84e06b1d72a1cb20",
       "sourceAddresses": [
         "0x052c2ae233ea9b0071189a6b84e06b1d72a1cb20",
@@ -295685,7 +295763,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 742,
+      "rank": 743,
       "userAddress": "0x37b72f0030407663393956e06525dfac954235bd",
       "sourceAddresses": [
         "0x37b72f0030407663393956e06525dfac954235bd",
@@ -295720,7 +295798,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 743,
+      "rank": 744,
       "userAddress": "0x9e36be4918faf7878c05750b8cabc0a35a3626e2",
       "sourceAddresses": [
         "0x922c78e561d9ad8dc0ffdea43a753940a9e19616",
@@ -295755,7 +295833,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 744,
+      "rank": 745,
       "userAddress": "0xa3c638aa5d97063055087b12e20131fb54663852",
       "sourceAddresses": [
         "0xa3c638aa5d97063055087b12e20131fb54663852",
@@ -295790,7 +295868,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 745,
+      "rank": 746,
       "userAddress": "0xa5faff26b6d947e80517374a091d28b9405f427c",
       "sourceAddresses": [
         "0x75c6fcdcd4fdd4b666cde2fd986aa8501581dc4a",
@@ -295825,7 +295903,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 746,
+      "rank": 747,
       "userAddress": "0xab74c21ea2ee76a4bf648d5a32bf6022ea268a3e",
       "sourceAddresses": [
         "0xab74c21ea2ee76a4bf648d5a32bf6022ea268a3e",
@@ -295860,7 +295938,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 747,
+      "rank": 748,
       "userAddress": "0xbb7c19b6bbdba011ab2ec2051780380aceaa0a08",
       "sourceAddresses": [
         "0x59657a8cc9c459824fc33800b6ba54e5d142355f",
@@ -295895,7 +295973,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 748,
+      "rank": 749,
       "userAddress": "0xc7030d398baa7a70f2d69171b266249e92d697df",
       "sourceAddresses": [
         "0x9e8d9392ed245f7b3bb4ecd2e1112a78e181c209",
@@ -295930,7 +296008,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 749,
+      "rank": 750,
       "userAddress": "0xce77fd1a6a609c1b96d2b054975f8b94cc8af210",
       "sourceAddresses": [
         "0x9ee7fa209bec3e58ddded4bd4ed2c8a52c71f0f6",
@@ -295965,7 +296043,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 750,
+      "rank": 751,
       "userAddress": "0xd6cb27a0373c4899818da1550c7cf725f1bcbd1a",
       "sourceAddresses": [
         "0x869965895f7962bee71690a6848805d33e3deaca",
@@ -296000,7 +296078,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 751,
+      "rank": 752,
       "userAddress": "0xe7addc40be9c530d66d5aeed0589e897f88c2b7e",
       "sourceAddresses": [
         "0x2c36b7ede54148b55038ae52eed8ac8a9d1b40e1",
@@ -296035,7 +296113,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 752,
+      "rank": 753,
       "userAddress": "0x43c3f4eb5f47d4f705c76f5bc12167c1c0dc29b7",
       "sourceAddresses": [
         "0x43c3f4eb5f47d4f705c76f5bc12167c1c0dc29b7",
@@ -296113,7 +296191,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 753,
+      "rank": 754,
       "userAddress": "0xaa3b0a708c40143cc0b765340a3a6c929cd348ae",
       "sourceAddresses": [
         "0xaa3b0a708c40143cc0b765340a3a6c929cd348ae",
@@ -296191,7 +296269,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 754,
+      "rank": 755,
       "userAddress": "0xb9037dd3e21b9e47da24df42f1e6b781a0fbf736",
       "sourceAddresses": [
         "0xb9037dd3e21b9e47da24df42f1e6b781a0fbf736"
@@ -296268,7 +296346,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 755,
+      "rank": 756,
       "userAddress": "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef",
       "sourceAddresses": [
         "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef",
@@ -296346,7 +296424,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 756,
+      "rank": 757,
       "userAddress": "0xbd975adad069b3910335450c86501a973cc10d3c",
       "sourceAddresses": [
         "0xbd975adad069b3910335450c86501a973cc10d3c",
@@ -296466,7 +296544,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 757,
+      "rank": 758,
       "userAddress": "0x72a5c69fb393b81e1cf96255453072a1348b9532",
       "sourceAddresses": [
         "0x72a5c69fb393b81e1cf96255453072a1348b9532",
@@ -296530,7 +296608,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 758,
+      "rank": 759,
       "userAddress": "0x633767970e1249acb594ae845e5608cdafd5f340",
       "sourceAddresses": [
         "0x0e40b67578d881e1ee3c3d63bf9f38773ed80329",
@@ -296580,7 +296658,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 759,
+      "rank": 760,
       "userAddress": "0xaa7da84071e6349a8e25795f09c9b6b1e19a7719",
       "sourceAddresses": [
         "0x8aac240c1298284ba04135d8d66775aecee73912",
@@ -296630,7 +296708,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 760,
+      "rank": 761,
       "userAddress": "0x0cfbea449dba17f1d00aecaeb519a3ef144b7e23",
       "sourceAddresses": [
         "0x0cfbea449dba17f1d00aecaeb519a3ef144b7e23",
@@ -296680,7 +296758,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 761,
+      "rank": 762,
       "userAddress": "0x9145500764aabb576b40127c6c1b0155822ba0d5",
       "sourceAddresses": [
         "0x218fb7cab37d8cca7599f653eeb68927923da5ef",
@@ -296730,7 +296808,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 762,
+      "rank": 763,
       "userAddress": "0x010272866fb8d3da8635b715b01571c37135b528",
       "sourceAddresses": [
         "0x010272866fb8d3da8635b715b01571c37135b528",
@@ -296780,7 +296858,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 763,
+      "rank": 764,
       "userAddress": "0x514d5f748a00ad6db1ed12c4fdefb4ddb21511eb",
       "sourceAddresses": [
         "0x514d5f748a00ad6db1ed12c4fdefb4ddb21511eb",
@@ -296830,7 +296908,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 764,
+      "rank": 765,
       "userAddress": "0xc6c58b01396784ee5b6cbc84b06321e4c474f1d8",
       "sourceAddresses": [
         "0x8c5a86ab1d2fab47a105cae6ca62dcf51a28a201",
@@ -296880,7 +296958,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 765,
+      "rank": 766,
       "userAddress": "0x2d776d71722a2724598e7c36faed521226fa58b1",
       "sourceAddresses": [
         "0x2d776d71722a2724598e7c36faed521226fa58b1",
@@ -296930,7 +297008,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 766,
+      "rank": 767,
       "userAddress": "0x6712c4a1a2c98f29c9c20c1b35d8cf3accfeb5ae",
       "sourceAddresses": [
         "0x6712c4a1a2c98f29c9c20c1b35d8cf3accfeb5ae",
@@ -296980,7 +297058,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 767,
+      "rank": 768,
       "userAddress": "0xed8179ea4e8d366907c9245ba4ac4493ae491a75",
       "sourceAddresses": [
         "0x0368ea7a4994d7929b1a6df4215f227fea3bb86c",
@@ -297030,7 +297108,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 768,
+      "rank": 769,
       "userAddress": "0x8cdd864fa1e0431c842d308f32fd37432f712115",
       "sourceAddresses": [
         "0x7c5b95924819718ca94ddb0e320e48d2e54c445e",
@@ -297080,7 +297158,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 769,
+      "rank": 770,
       "userAddress": "0x497033353a3aac9cbc3b83fa0300c5429d884262",
       "sourceAddresses": [
         "0x17c011298047e8ebd116749782a3d5f3c618d8b7",
@@ -297130,7 +297208,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 770,
+      "rank": 771,
       "userAddress": "0xf2ee4711efc1577c9e31fbd29e3efbdd2b357c8a",
       "sourceAddresses": [
         "0x98422114ecbc4d46ab1e45d0ac34bc30e050945a",
@@ -297180,7 +297258,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 771,
+      "rank": 772,
       "userAddress": "0xec01a45e2acb8339e717f5da855813bf803aba99",
       "sourceAddresses": [
         "0x5817a2fed3eec5e4b78b701e25db4f8ed225d5d9",
@@ -297230,7 +297308,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 772,
+      "rank": 773,
       "userAddress": "0x7cb62668396462077695ea9cefc560ffd621f4d3",
       "sourceAddresses": [
         "0x71c5b308ef6a5dbaebd24d327e6dea26523f8d89",
@@ -297280,7 +297358,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 773,
+      "rank": 774,
       "userAddress": "0xb8108dc145ce4f33915fd4c9412f1d3a434c9a17",
       "sourceAddresses": [
         "0xb8108dc145ce4f33915fd4c9412f1d3a434c9a17",
@@ -297330,7 +297408,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 774,
+      "rank": 775,
       "userAddress": "0x0777c34ae955d8a2fe84c7b2842b40f33f82353b",
       "sourceAddresses": [
         "0x0777c34ae955d8a2fe84c7b2842b40f33f82353b",
@@ -297365,7 +297443,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 775,
+      "rank": 776,
       "userAddress": "0x0adf3ddaa74c8084f2a6c09c9b85004379a767b8",
       "sourceAddresses": [
         "0x0adf3ddaa74c8084f2a6c09c9b85004379a767b8"
@@ -297399,7 +297477,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 776,
+      "rank": 777,
       "userAddress": "0x251dc9018e766b56d2c8f8be60b67b421211c61e",
       "sourceAddresses": [
         "0x251dc9018e766b56d2c8f8be60b67b421211c61e",
@@ -297434,7 +297512,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 777,
+      "rank": 778,
       "userAddress": "0x28a3dec892707723445dd42e211338acdee09d56",
       "sourceAddresses": [
         "0x28a3dec892707723445dd42e211338acdee09d56",
@@ -297469,7 +297547,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 778,
+      "rank": 779,
       "userAddress": "0x2d35f740b327fd6b052f0dae601eb344517df75f",
       "sourceAddresses": [
         "0x2d35f740b327fd6b052f0dae601eb344517df75f",
@@ -297504,7 +297582,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 779,
+      "rank": 780,
       "userAddress": "0x2e3320bf6888299dade1bdafe793a16ae114ee40",
       "sourceAddresses": [
         "0x26600949144916526e23c20117625226d6e5af63",
@@ -297539,7 +297617,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 780,
+      "rank": 781,
       "userAddress": "0x47553d44c07ec6651fe65976c9658e39498d4b69",
       "sourceAddresses": [
         "0x47553d44c07ec6651fe65976c9658e39498d4b69",
@@ -297574,7 +297652,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 781,
+      "rank": 782,
       "userAddress": "0x5411933874f76b959a23c63c61cff15435e4d566",
       "sourceAddresses": [
         "0x5411933874f76b959a23c63c61cff15435e4d566",
@@ -297609,7 +297687,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 782,
+      "rank": 783,
       "userAddress": "0x54c8b3ed09fd0010486262e64f85ee972e47b931",
       "sourceAddresses": [
         "0x1bd3deb86f2d771b9b2fca4ff87044bdd8e0ae08",
@@ -297644,7 +297722,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 783,
+      "rank": 784,
       "userAddress": "0x567621e6c8fed14c8865079f5d56ab12e56e9534",
       "sourceAddresses": [
         "0x567621e6c8fed14c8865079f5d56ab12e56e9534",
@@ -297679,7 +297757,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 784,
+      "rank": 785,
       "userAddress": "0x62d3c84bbbfba1fdf8e8781216af7e8044ef7f98",
       "sourceAddresses": [
         "0x62d3c84bbbfba1fdf8e8781216af7e8044ef7f98",
@@ -297714,7 +297792,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 785,
+      "rank": 786,
       "userAddress": "0x6cf7c66dde4dc47bfcbd07a98fa20b5f6eaa7958",
       "sourceAddresses": [
         "0x6cf7c66dde4dc47bfcbd07a98fa20b5f6eaa7958",
@@ -297749,7 +297827,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 786,
+      "rank": 787,
       "userAddress": "0xa9893c6a4ed792ad6de2f48c6b6f1f1b161d0ba6",
       "sourceAddresses": [
         "0x54495b457caf3d493c4da5d22724632dedbe561e",
@@ -297784,7 +297862,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 787,
+      "rank": 788,
       "userAddress": "0xae63f3cdfa7f92f28609c2f4cc4eafbe13b099ef",
       "sourceAddresses": [
         "0xae63f3cdfa7f92f28609c2f4cc4eafbe13b099ef",
@@ -297819,7 +297897,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 788,
+      "rank": 789,
       "userAddress": "0xb7391b21394aa531d2957bcf3d8842545ae85de2",
       "sourceAddresses": [
         "0x8fcea631f508657118d8b3b190388e4f57903c11",
@@ -297854,7 +297932,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 789,
+      "rank": 790,
       "userAddress": "0xba1a3100c2d4b3ab3a6554cf4c5e0ce1fd6675fa",
       "sourceAddresses": [
         "0xab3df201149f1434075ea01db4afbc3fc3d967a2",
@@ -297889,7 +297967,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 790,
+      "rank": 791,
       "userAddress": "0xbb249bf5d94710ea13703e7bb9a3185330e78ae8",
       "sourceAddresses": [
         "0xa3f0572b314ba27aeab3687695eae9b4c76ec0c5",
@@ -297924,7 +298002,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 791,
+      "rank": 792,
       "userAddress": "0xd1f75f406471d5e464865dec2fda046f49154157",
       "sourceAddresses": [
         "0x809cfaefc7b16c7fbb2b4bb00903c8399e97b815",
@@ -297959,7 +298037,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 792,
+      "rank": 793,
       "userAddress": "0xd45d8e73008aa481773c7d072cf39799b8b17a04",
       "sourceAddresses": [
         "0x47ab0017700ce37601da5290bc0dd97084a9087d",
@@ -297994,7 +298072,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 793,
+      "rank": 794,
       "userAddress": "0xda0474690ac61ef49b5d45b2436a37c40fb5cc4e",
       "sourceAddresses": [
         "0xda0474690ac61ef49b5d45b2436a37c40fb5cc4e"
@@ -298028,7 +298106,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 794,
+      "rank": 795,
       "userAddress": "0xed6490a91861358707de6012b876736350570a62",
       "sourceAddresses": [
         "0xec1b6a847c90d7a4642ed0827e630edcd7c9a7f0",
@@ -298063,7 +298141,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 795,
+      "rank": 796,
       "userAddress": "0xf0ef70fe3512f96564fec16e9a0a91f70d36870c",
       "sourceAddresses": [
         "0xf0ef70fe3512f96564fec16e9a0a91f70d36870c"
@@ -298097,7 +298175,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 796,
+      "rank": 797,
       "userAddress": "0xf6b16afa1344994b35f2483f57978dbef30a1cba",
       "sourceAddresses": [
         "0xf6b16afa1344994b35f2483f57978dbef30a1cba"
@@ -298131,7 +298209,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 797,
+      "rank": 798,
       "userAddress": "0xb18d306be2f33f3e93a3a9a9317038eaad72e57e",
       "sourceAddresses": [
         "0xb18d306be2f33f3e93a3a9a9317038eaad72e57e",
@@ -298209,7 +298287,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 798,
+      "rank": 799,
       "userAddress": "0x9ef74373958e137ec1af9563954dc0171b80df40",
       "sourceAddresses": [
         "0x9ef74373958e137ec1af9563954dc0171b80df40",
@@ -298315,7 +298393,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 799,
+      "rank": 800,
       "userAddress": "0x50f48e0f726882d8905bfe34911215af9b418e5f",
       "sourceAddresses": [
         "0x50f48e0f726882d8905bfe34911215af9b418e5f",
@@ -298421,7 +298499,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 800,
+      "rank": 801,
       "userAddress": "0x7ba1b8d7797b321ace4c153c0cb57ee00e135152",
       "sourceAddresses": [
         "0x7ba1b8d7797b321ace4c153c0cb57ee00e135152",
@@ -298499,7 +298577,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 801,
+      "rank": 802,
       "userAddress": "0x7c8221419c67c8a68f6efda9d913cbb1622e944f",
       "sourceAddresses": [
         "0x7c8221419c67c8a68f6efda9d913cbb1622e944f",
@@ -298563,7 +298641,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 802,
+      "rank": 803,
       "userAddress": "0xfbec8ad5381824541874006d7dc14664b53eddf9",
       "sourceAddresses": [
         "0x4ea9f7ab211a4890185b55bcfece3cb9e2b72794",
@@ -298627,7 +298705,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 803,
+      "rank": 804,
       "userAddress": "0xbfcdfcf1787d81ab0e8abd0ec44820c3db533d85",
       "sourceAddresses": [
         "0x732e46f25c17c5e9e7db8e1ac5d5e510abb8bbff",
@@ -298691,7 +298769,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 804,
+      "rank": 805,
       "userAddress": "0x485931a87edde557a43a644d3b731a8a83502665",
       "sourceAddresses": [
         "0x485931a87edde557a43a644d3b731a8a83502665",
@@ -298741,7 +298819,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 805,
+      "rank": 806,
       "userAddress": "0xa8b740858e54c3a14c7070afb37ef691e79a4ea4",
       "sourceAddresses": [
         "0xa8b740858e54c3a14c7070afb37ef691e79a4ea4",
@@ -298791,7 +298869,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 806,
+      "rank": 807,
       "userAddress": "0xf9fcb20841f09a6eeb9e7380db0b891d3968d040",
       "sourceAddresses": [
         "0x24ccd53c1bdf415a9c6fbb91245c4b038266573a",
@@ -298841,7 +298919,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 807,
+      "rank": 808,
       "userAddress": "0x76bf7ff21f5ef0f8ddd85eca69e0e0bec3f88870",
       "sourceAddresses": [
         "0x673c408ed45572b6120ce493db0c457988f88bb4",
@@ -298891,7 +298969,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 808,
+      "rank": 809,
       "userAddress": "0x36fd6ef7328d66e1c24ba210d11fcdfd43378866",
       "sourceAddresses": [
         "0x36fd6ef7328d66e1c24ba210d11fcdfd43378866",
@@ -298937,56 +299015,6 @@
       ],
       "firstBuybackAt": 1783069354,
       "lastBuybackAt": 1783069354,
-      "eventCount": 1,
-      "dataWarnings": []
-    },
-    {
-      "rank": 809,
-      "userAddress": "0x9602b2b71226ad4f06d07b39962c50dcd6e0396e",
-      "sourceAddresses": [
-        "0x5f782e6ccda46f918f3a2c168b017335f9348244",
-        "0x9602b2b71226ad4f06d07b39962c50dcd6e0396e"
-      ],
-      "packs": {
-        "omega": 0,
-        "renacrypt-pack": 0,
-        "eden": 0,
-        "costume-pack": 0,
-        "magma": 0,
-        "starry-pack": 0,
-        "plasma-pack": 0,
-        "world-cup-pack": 1
-      },
-      "baseTickets": 2,
-      "bonusTickets": 0,
-      "carryoverTickets": 3,
-      "insiderPracticeTickets": 0,
-      "insiderGrantTickets": 0,
-      "rawTickets": 2,
-      "sbt": "none",
-      "sbtMultiplier": 1,
-      "finalTickets": 5,
-      "totalVotingTickets": 5,
-      "ticketStart": 1015,
-      "ticketEnd": 1016,
-      "ticketIntervals": [
-        {
-          "start": 1015,
-          "end": 1016,
-          "displayStart": 1015,
-          "displayEnd": 1016,
-          "namespace": "raw",
-          "source": "legacy-buyback-success-v3",
-          "pack": "world-cup-pack",
-          "txHash": "0x866d75da7a8b772eaceb0c22b2abbdb988256c09aead54d73d715aca96997e7e",
-          "timestamp": 1783069463,
-          "blockNumber": 107801539,
-          "ordinal": 115,
-          "legacyOpenTxHash": "0xb24588d052c411ff785f88d0abd02f4d4fde200623a0e341f9cdcee2474dd198"
-        }
-      ],
-      "firstBuybackAt": 1783069463,
-      "lastBuybackAt": 1783069463,
       "eventCount": 1,
       "dataWarnings": []
     },
@@ -312299,7 +312327,7 @@
     "Applied 27 insider ticket grant address(es): 100 practice ticket(s) for round32 and 100 shared reward ticket(s) across round16-final by default.",
     "Leaderboard rank is sorted by final tickets, then raw buyback tickets, then first eligible event time.",
     "Wallet migration resolver was applied to merge old and canonical addresses.",
-    "Applied 6041 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: hit.",
+    "Applied 6041 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: refresh.",
     "API cache enabled: wallet migrations TTL 15 minute(s), wallet resolver TTL 1440 minute(s), on-chain event overlap 200 block(s).",
     "Wallet resolver cache hits 69, fetched 0, skipped by migration map 353.",
     "No local old-wallet migration map was provided."
