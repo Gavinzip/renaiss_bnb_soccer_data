@@ -1,6 +1,6 @@
 {
   "mode": "buyback-ledger",
-  "generatedAt": 1783645373,
+  "generatedAt": 1783645973,
   "campaignStart": 1783058400,
   "campaignEnd": 1784469600,
   "totalEntries": 1157,
@@ -13,7 +13,7 @@
   "totalVotingTickets": 100370,
   "sourceEntries": 434,
   "candidateSourceLimited": false,
-  "ledgerHash": "0x14205825f8030cefed33bccc8085ed2dabd4056d357047f790bba512540d283d",
+  "ledgerHash": "0xf52f901c92cd71387d1e0b3272eebae1817534e1feff168f9b615ccd9aa30715",
   "drawContractAddress": null,
   "bonusShuffleVersion": null,
   "bonusShuffleSeed": null,
@@ -24,11 +24,11 @@
     "fromBlock": 107776960,
     "fromBlockSource": "timestamp",
     "fromBlockTimestampError": null,
-    "toBlock": 109080260,
+    "toBlock": 109081600,
     "toBlockSource": "latest-block",
     "campaignStart": 1783058400,
     "campaignEnd": 1784469600,
-    "windowEnd": 1783645357,
+    "windowEnd": 1783645957,
     "toBlockTimestamp": null,
     "toBlockTimestampLagSeconds": null,
     "eventCacheLookbackMinutes": 60,
@@ -36,16 +36,6 @@
     "eventCacheLookbackCheckpoints": 12,
     "eventCacheLookbackCheckpointCount": 12,
     "eventCacheLookbackBlocks": [
-      {
-        "block": 109071871,
-        "updatedAt": 1783641599718,
-        "source": "refresh"
-      },
-      {
-        "block": 109072541,
-        "updatedAt": 1783641894061,
-        "source": "refresh"
-      },
       {
         "block": 109073212,
         "updatedAt": 1783642195781,
@@ -95,10 +85,20 @@
         "block": 109079595,
         "updatedAt": 1783645072115,
         "source": "refresh"
+      },
+      {
+        "block": 109080260,
+        "updatedAt": 1783645369477,
+        "source": "refresh"
+      },
+      {
+        "block": 109080933,
+        "updatedAt": 1783645671293,
+        "source": "refresh"
       }
     ],
     "eventCacheLookbackTimestamp": null,
-    "eventCacheLookbackFromBlock": 109071871,
+    "eventCacheLookbackFromBlock": 109073212,
     "packEventSources": [
       {
         "pack": "omega",
@@ -232,11 +232,11 @@
         "splitWindows": 0,
         "cachedEvents": 957,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600
       }
     ],
     "contracts": [
@@ -250,13 +250,13 @@
         "configSource": "built-in",
         "calls": 1,
         "events": 19610,
-        "cachedEvents": 19609,
-        "fetchedEvents": 1,
-        "scanStart": 109071871,
+        "cachedEvents": 19610,
+        "fetchedEvents": 0,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -271,11 +271,11 @@
         "events": 441,
         "cachedEvents": 441,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -290,11 +290,11 @@
         "events": 137,
         "cachedEvents": 137,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -313,11 +313,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -336,11 +336,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -359,11 +359,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -382,11 +382,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       },
       {
@@ -405,11 +405,11 @@
         "wrongUser": 0,
         "cachedEvents": 998,
         "fetchedEvents": 0,
-        "scanStart": 109071871,
+        "scanStart": 109073212,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 109079595,
-        "eventCacheLookbackFromBlock": 109071871,
-        "cacheToBlock": 109080260,
+        "cachedToBlock": 109080933,
+        "eventCacheLookbackFromBlock": 109073212,
+        "cacheToBlock": 109081600,
         "splitWindows": 0
       }
     ]
