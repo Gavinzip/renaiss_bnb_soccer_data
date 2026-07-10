@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-10T14:51:27.554Z",
-  "eventCount": 1673,
+  "generatedAt": "2026-07-10T14:56:38.786Z",
+  "eventCount": 1677,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -11062,11 +11062,11 @@
       "roundId": "quarterFinal",
       "matchId": "M99",
       "teamId": "england",
-      "tickets": 1,
+      "tickets": 2,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-08T05:37:30.635Z",
-      "updatedAt": "2026-07-08T05:37:30.635Z"
+      "updatedAt": "2026-07-10T14:53:32.274Z"
     },
     {
       "id": "0xa6fc37ff4a0c5e888f136af783bc08d65c0c4846-M100-argentina",
@@ -15262,11 +15262,11 @@
       "roundId": "quarterFinal",
       "matchId": "M98",
       "teamId": "spain",
-      "tickets": 40,
+      "tickets": 42,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-10T00:10:05.788Z",
-      "updatedAt": "2026-07-10T00:10:05.788Z"
+      "updatedAt": "2026-07-10T14:56:38.769Z"
     },
     {
       "id": "0x5cf3bcbc45a622f83f149b7750dee5ed4b9946a8-M98-spain",
@@ -17175,6 +17175,30 @@
       "official": false,
       "createdAt": "2026-07-10T14:50:41.103Z",
       "updatedAt": "2026-07-10T14:51:22.752Z"
+    },
+    {
+      "id": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-spain",
+      "walletAddress": "0xbca6d06d915f6273883f36bd270218d2b63f0daf",
+      "roundId": "quarterFinal",
+      "matchId": "M98",
+      "teamId": "spain",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-10T14:52:48.060Z",
+      "updatedAt": "2026-07-10T14:52:48.060Z"
+    },
+    {
+      "id": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-belgium",
+      "walletAddress": "0xbca6d06d915f6273883f36bd270218d2b63f0daf",
+      "roundId": "quarterFinal",
+      "matchId": "M98",
+      "teamId": "belgium",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-10T14:53:05.224Z",
+      "updatedAt": "2026-07-10T14:53:05.224Z"
     }
   ],
   "outcomes": [
@@ -31921,7 +31945,7 @@
       "roundId": "quarterFinal",
       "matchId": "M99",
       "teamId": "england",
-      "tickets": 1,
+      "tickets": 2,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -37521,7 +37545,7 @@
       "roundId": "quarterFinal",
       "matchId": "M98",
       "teamId": "spain",
-      "tickets": 40,
+      "tickets": 42,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -40073,6 +40097,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-spain-outcome",
+      "allocationId": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-spain",
+      "walletAddress": "0xbca6d06d915f6273883f36bd270218d2b63f0daf",
+      "roundId": "quarterFinal",
+      "matchId": "M98",
+      "teamId": "spain",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-belgium-outcome",
+      "allocationId": "0xbca6d06d915f6273883f36bd270218d2b63f0daf-M98-belgium",
+      "walletAddress": "0xbca6d06d915f6273883f36bd270218d2b63f0daf",
+      "roundId": "quarterFinal",
+      "matchId": "M98",
+      "teamId": "belgium",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -40100,11 +40156,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 5055,
+      "submittedTickets": 5060,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5055
+      "pendingTickets": 5060
     }
   ],
   "matchResults": {
