@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-10T15:21:39.453Z",
+  "updatedAt": "2026-07-10T15:54:32.692Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -5156,6 +5156,23 @@
       "updatedAt": "2026-07-10T15:21:39.451Z",
       "lastError": null,
       "lastErrorCode": null
+    },
+    "0x154ca5626c18a9f9e3fcf017228ce6c5450d3b54:x:1495409946946863105": {
+      "walletAddress": "0x154ca5626c18a9f9e3fcf017228ce6c5450d3b54",
+      "xUserId": "1495409946946863105",
+      "eligible": false,
+      "fireflyUid": null,
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": false,
+      "hasPlacedBet": false,
+      "status": "missing_firefly_account",
+      "fireflyUidClaimedAt": null,
+      "lastCheckedAt": "2026-07-10T15:53:53.099Z",
+      "updatedAt": "2026-07-10T15:54:32.691Z",
+      "lastError": "Firefly eligibility verification timed out. Try again later.",
+      "lastErrorCode": "request_timeout",
+      "lastErrorAt": "2026-07-10T15:54:32.691Z"
     }
   }
 }
