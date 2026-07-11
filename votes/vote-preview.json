@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-11T02:55:54.496Z",
-  "eventCount": 1760,
+  "generatedAt": "2026-07-11T02:58:05.803Z",
+  "eventCount": 1764,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -18051,6 +18051,42 @@
       "official": false,
       "createdAt": "2026-07-11T02:55:54.480Z",
       "updatedAt": "2026-07-11T02:55:54.480Z"
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-norway",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "norway",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-11T02:56:53.221Z",
+      "updatedAt": "2026-07-11T02:56:53.221Z"
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-england",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 40,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-11T02:57:08.337Z",
+      "updatedAt": "2026-07-11T02:58:05.791Z"
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M100-argentina",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 5,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-11T02:57:14.429Z",
+      "updatedAt": "2026-07-11T02:57:14.429Z"
     }
   ],
   "outcomes": [
@@ -42117,6 +42153,54 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-norway-outcome",
+      "allocationId": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-norway",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "norway",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-england-outcome",
+      "allocationId": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M99-england",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M99",
+      "teamId": "england",
+      "tickets": 40,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M100-argentina-outcome",
+      "allocationId": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83-M100-argentina",
+      "walletAddress": "0xfad4c61d57cd55426ea53cd0c41d60d2f1cd7a83",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "argentina",
+      "tickets": 5,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -42144,11 +42228,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 5387,
+      "submittedTickets": 5437,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5387
+      "pendingTickets": 5437
     }
   ],
   "matchResults": {
