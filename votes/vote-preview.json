@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-11T09:55:33.515Z",
-  "eventCount": 1798,
+  "generatedAt": "2026-07-11T09:56:47.163Z",
+  "eventCount": 1799,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -18375,6 +18375,18 @@
       "official": false,
       "createdAt": "2026-07-11T09:55:33.496Z",
       "updatedAt": "2026-07-11T09:55:33.496Z"
+    },
+    {
+      "id": "0xf992070c187896593ceed0519c217328d9e8d7c4-M100-switzerland",
+      "walletAddress": "0xf992070c187896593ceed0519c217328d9e8d7c4",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "switzerland",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-11T09:56:47.146Z",
+      "updatedAt": "2026-07-11T09:56:47.146Z"
     }
   ],
   "outcomes": [
@@ -42873,6 +42885,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0xf992070c187896593ceed0519c217328d9e8d7c4-M100-switzerland-outcome",
+      "allocationId": "0xf992070c187896593ceed0519c217328d9e8d7c4-M100-switzerland",
+      "walletAddress": "0xf992070c187896593ceed0519c217328d9e8d7c4",
+      "roundId": "quarterFinal",
+      "matchId": "M100",
+      "teamId": "switzerland",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -42900,11 +42928,11 @@
       "roundId": "quarterFinal",
       "matchCount": 4,
       "officialFinalCount": 0,
-      "submittedTickets": 5573,
+      "submittedTickets": 5575,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 5573
+      "pendingTickets": 5575
     },
     {
       "roundId": "semiFinal",
