@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-12T05:44:00.402Z",
-  "eventCount": 1926,
+  "generatedAt": "2026-07-12T05:50:53.273Z",
+  "eventCount": 1928,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -19683,6 +19683,30 @@
       "official": false,
       "createdAt": "2026-07-12T05:44:00.384Z",
       "updatedAt": "2026-07-12T05:44:00.384Z"
+    },
+    {
+      "id": "0x8be0c27fd1fecbd993412cf442d0f04d5cdb9f4a-M101-france",
+      "walletAddress": "0x8be0c27fd1fecbd993412cf442d0f04d5cdb9f4a",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-12T05:48:40.270Z",
+      "updatedAt": "2026-07-12T05:48:40.270Z"
+    },
+    {
+      "id": "0xc6d63750c3371cabb9f17d9b9c3235ef0102237c-M101-france",
+      "walletAddress": "0xc6d63750c3371cabb9f17d9b9c3235ef0102237c",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 3,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-12T05:50:53.255Z",
+      "updatedAt": "2026-07-12T05:50:53.255Z"
     }
   ],
   "outcomes": [
@@ -45925,6 +45949,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x8be0c27fd1fecbd993412cf442d0f04d5cdb9f4a-M101-france-outcome",
+      "allocationId": "0x8be0c27fd1fecbd993412cf442d0f04d5cdb9f4a-M101-france",
+      "walletAddress": "0x8be0c27fd1fecbd993412cf442d0f04d5cdb9f4a",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0xc6d63750c3371cabb9f17d9b9c3235ef0102237c-M101-france-outcome",
+      "allocationId": "0xc6d63750c3371cabb9f17d9b9c3235ef0102237c-M101-france",
+      "walletAddress": "0xc6d63750c3371cabb9f17d9b9c3235ef0102237c",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 3,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -45962,11 +46018,11 @@
       "roundId": "semiFinal",
       "matchCount": 2,
       "officialFinalCount": 0,
-      "submittedTickets": 1144,
+      "submittedTickets": 1149,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 1144
+      "pendingTickets": 1149
     }
   ],
   "matchResults": {
