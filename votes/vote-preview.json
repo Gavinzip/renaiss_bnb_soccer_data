@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-13T14:06:13.855Z",
-  "eventCount": 2219,
+  "generatedAt": "2026-07-13T14:11:15.361Z",
+  "eventCount": 2224,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -22510,11 +22510,11 @@
       "roundId": "semiFinal",
       "matchId": "M102",
       "teamId": "argentina",
-      "tickets": 1,
+      "tickets": 70,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-13T14:03:32.621Z",
-      "updatedAt": "2026-07-13T14:03:32.621Z"
+      "updatedAt": "2026-07-13T14:08:33.427Z"
     },
     {
       "id": "0x3043ff88236cbac105f9221ceebf7199a473b891-M101-france",
@@ -22563,6 +22563,54 @@
       "official": false,
       "createdAt": "2026-07-13T14:05:24.340Z",
       "updatedAt": "2026-07-13T14:06:13.836Z"
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-france",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-13T14:10:59.398Z",
+      "updatedAt": "2026-07-13T14:10:59.398Z"
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-spain",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "spain",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-13T14:11:08.768Z",
+      "updatedAt": "2026-07-13T14:11:08.768Z"
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-england",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "england",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-13T14:11:12.491Z",
+      "updatedAt": "2026-07-13T14:11:12.491Z"
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-argentina",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-13T14:11:15.345Z",
+      "updatedAt": "2026-07-13T14:11:15.345Z"
     }
   ],
   "outcomes": [
@@ -52573,7 +52621,7 @@
       "roundId": "semiFinal",
       "matchId": "M102",
       "teamId": "argentina",
-      "tickets": 1,
+      "tickets": 70,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -52645,6 +52693,70 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-france-outcome",
+      "allocationId": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-france",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "france",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-spain-outcome",
+      "allocationId": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M101-spain",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "spain",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-england-outcome",
+      "allocationId": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-england",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "england",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-argentina-outcome",
+      "allocationId": "0x94aba64482b31f278a3eda5faea33e071514ee8b-M102-argentina",
+      "walletAddress": "0x94aba64482b31f278a3eda5faea33e071514ee8b",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -52682,11 +52794,11 @@
       "roundId": "semiFinal",
       "matchCount": 2,
       "officialFinalCount": 0,
-      "submittedTickets": 3581,
+      "submittedTickets": 3654,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 3581
+      "pendingTickets": 3654
     }
   ],
   "matchResults": {
