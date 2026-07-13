@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-13T12:19:23.132Z",
-  "eventCount": 2179,
+  "generatedAt": "2026-07-13T12:19:30.069Z",
+  "eventCount": 2180,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -22227,6 +22227,18 @@
       "official": false,
       "createdAt": "2026-07-13T12:19:23.082Z",
       "updatedAt": "2026-07-13T12:19:23.082Z"
+    },
+    {
+      "id": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina",
+      "walletAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "tickets": 25,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-13T12:19:30.047Z",
+      "updatedAt": "2026-07-13T12:19:30.047Z"
     }
   ],
   "outcomes": [
@@ -51861,6 +51873,22 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina-outcome",
+      "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina",
+      "walletAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "tickets": 25,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -51898,11 +51926,11 @@
       "roundId": "semiFinal",
       "matchCount": 2,
       "officialFinalCount": 0,
-      "submittedTickets": 3092,
+      "submittedTickets": 3117,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 3092
+      "pendingTickets": 3117
     }
   ],
   "matchResults": {
