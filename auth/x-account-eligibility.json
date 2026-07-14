@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T14:40:53.965Z",
+  "updatedAt": "2026-07-14T14:50:08.847Z",
   "checks": {
     "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f:x:896396418994159617": {
       "walletAddress": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f",
@@ -4936,16 +4936,16 @@
     "0x1aca80f2a884220691120b023107cfce2abb30f0:x:142658141": {
       "walletAddress": "0x1aca80f2a884220691120b023107cfce2abb30f0",
       "xUserId": "142658141",
-      "eligible": false,
+      "eligible": true,
       "fireflyUid": "3256208961",
-      "verificationMethod": "x_account_id",
-      "requestedFireflyUid": null,
+      "verificationMethod": "ff_account_uid",
+      "requestedFireflyUid": "3256208961",
       "hasFireflyAccount": true,
-      "hasPlacedBet": false,
-      "status": "missing_predict_bet",
+      "hasPlacedBet": true,
+      "status": "eligible",
       "fireflyUidClaimedAt": "2026-07-10T09:52:40.304Z",
-      "lastCheckedAt": "2026-07-10T09:52:58.749Z",
-      "updatedAt": "2026-07-10T09:52:58.749Z",
+      "lastCheckedAt": "2026-07-14T14:50:08.845Z",
+      "updatedAt": "2026-07-14T14:50:08.845Z",
       "lastError": null,
       "lastErrorCode": null
     },
@@ -6446,6 +6446,22 @@
       "fireflyUidClaimedAt": "2026-07-14T14:40:53.963Z",
       "lastCheckedAt": "2026-07-14T14:40:53.963Z",
       "updatedAt": "2026-07-14T14:40:53.963Z",
+      "lastError": null,
+      "lastErrorCode": null
+    },
+    "0x0aa6f88a3a9a6f0c8adee8ca4a04d6acd8f5fb58:x:4839941924": {
+      "walletAddress": "0x0aa6f88a3a9a6f0c8adee8ca4a04d6acd8f5fb58",
+      "xUserId": "4839941924",
+      "eligible": false,
+      "fireflyUid": "1312963670",
+      "verificationMethod": "x_account_id",
+      "requestedFireflyUid": null,
+      "hasFireflyAccount": true,
+      "hasPlacedBet": false,
+      "status": "missing_predict_bet",
+      "fireflyUidClaimedAt": "2026-07-14T14:47:27.692Z",
+      "lastCheckedAt": "2026-07-14T14:48:05.563Z",
+      "updatedAt": "2026-07-14T14:48:05.563Z",
       "lastError": null,
       "lastErrorCode": null
     }
