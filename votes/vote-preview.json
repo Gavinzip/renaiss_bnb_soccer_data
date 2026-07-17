@@ -1,8 +1,8 @@
 {
   "sourceLabel": "server-vote-store-sqlite",
   "sourceStatus": "live",
-  "generatedAt": "2026-07-17T10:29:33.167Z",
-  "eventCount": 2879,
+  "generatedAt": "2026-07-17T10:32:48.293Z",
+  "eventCount": 2883,
   "allocations": [
     {
       "id": "0xf77fb7a401a04ca0d89d12603840a2e9fe3c834f-m58-germany",
@@ -27142,11 +27142,11 @@
       "roundId": "final",
       "matchId": "M104",
       "teamId": "spain",
-      "tickets": 21,
+      "tickets": 27,
       "source": "server-vote-store-sqlite",
       "official": false,
       "createdAt": "2026-07-16T12:13:23.126Z",
-      "updatedAt": "2026-07-17T09:51:57.201Z"
+      "updatedAt": "2026-07-17T10:32:48.263Z"
     },
     {
       "id": "0x0f26a8d39642a23f6e10394d4360db5b73fc5c78-M104-argentina",
@@ -28095,6 +28095,30 @@
       "official": false,
       "createdAt": "2026-07-17T10:27:05.038Z",
       "updatedAt": "2026-07-17T10:27:05.038Z"
+    },
+    {
+      "id": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-spain",
+      "walletAddress": "0x13a711f3591c4649e84fe7a546015d658a8398b0",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "spain",
+      "tickets": 2,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-17T10:30:49.494Z",
+      "updatedAt": "2026-07-17T10:31:48.258Z"
+    },
+    {
+      "id": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-argentina",
+      "walletAddress": "0x13a711f3591c4649e84fe7a546015d658a8398b0",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "argentina",
+      "tickets": 1,
+      "source": "server-vote-store-sqlite",
+      "official": false,
+      "createdAt": "2026-07-17T10:31:31.449Z",
+      "updatedAt": "2026-07-17T10:31:31.449Z"
     }
   ],
   "outcomes": [
@@ -64281,7 +64305,7 @@
       "roundId": "final",
       "matchId": "M104",
       "teamId": "spain",
-      "tickets": 21,
+      "tickets": 27,
       "result": "pending",
       "lostTickets": 0,
       "official": false,
@@ -65553,6 +65577,38 @@
       "resultSourceUrl": null,
       "resultFetchedAt": null,
       "winnerTeamId": null
+    },
+    {
+      "id": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-spain-outcome",
+      "allocationId": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-spain",
+      "walletAddress": "0x13a711f3591c4649e84fe7a546015d658a8398b0",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "spain",
+      "tickets": 2,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
+    },
+    {
+      "id": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-argentina-outcome",
+      "allocationId": "0x13a711f3591c4649e84fe7a546015d658a8398b0-M104-argentina",
+      "walletAddress": "0x13a711f3591c4649e84fe7a546015d658a8398b0",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "argentina",
+      "tickets": 1,
+      "result": "pending",
+      "lostTickets": 0,
+      "official": false,
+      "resultSourceStatus": "pending",
+      "resultSourceUrl": null,
+      "resultFetchedAt": null,
+      "winnerTeamId": null
     }
   ],
   "roundSummaries": [
@@ -65600,11 +65656,11 @@
       "roundId": "final",
       "matchCount": 1,
       "officialFinalCount": 0,
-      "submittedTickets": 3094,
+      "submittedTickets": 3103,
       "settledTickets": 0,
       "wonTickets": 0,
       "lostTickets": 0,
-      "pendingTickets": 3094
+      "pendingTickets": 3103
     }
   ],
   "matchResults": {
