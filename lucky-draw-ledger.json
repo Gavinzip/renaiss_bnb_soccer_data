@@ -1,19 +1,19 @@
 {
   "mode": "buyback-ledger",
-  "generatedAt": 1784348398,
+  "generatedAt": 1784348997,
   "campaignStart": 1783058400,
   "campaignEnd": 1784469600,
   "totalEntries": 1283,
-  "totalRawTickets": 47804,
+  "totalRawTickets": 47811,
   "totalBonusTickets": 0,
   "totalCarryoverTickets": 66753,
   "totalInsiderPracticeTickets": 8100,
   "totalInsiderGrantTickets": 2700,
-  "totalFinalTickets": 114557,
-  "totalVotingTickets": 125357,
+  "totalFinalTickets": 114564,
+  "totalVotingTickets": 125364,
   "sourceEntries": 627,
   "candidateSourceLimited": false,
-  "ledgerHash": "0xf2235f7023cb9db06fa2aca98743c1b67a2c03ea4a2f3c8d0db10a63f12fb5d9",
+  "ledgerHash": "0x6430e9f75d4fe75cd99084f3067e482a3742b8e16a250adfea9daac09de79e8c",
   "drawContractAddress": null,
   "bonusShuffleVersion": null,
   "bonusShuffleSeed": null,
@@ -24,11 +24,11 @@
     "fromBlock": 107776960,
     "fromBlockSource": "timestamp",
     "fromBlockTimestampError": null,
-    "toBlock": 110641485,
+    "toBlock": 110643438,
     "toBlockSource": "latest-block",
     "campaignStart": 1783058400,
     "campaignEnd": 1784469600,
-    "windowEnd": 1784348374,
+    "windowEnd": 1784348974,
     "toBlockTimestamp": null,
     "toBlockTimestampLagSeconds": null,
     "eventCacheLookbackMinutes": 60,
@@ -36,16 +36,6 @@
     "eventCacheLookbackCheckpoints": 12,
     "eventCacheLookbackCheckpointCount": 12,
     "eventCacheLookbackBlocks": [
-      {
-        "block": 110634115,
-        "updatedAt": 1784344792824,
-        "source": "refresh"
-      },
-      {
-        "block": 110634775,
-        "updatedAt": 1784345095891,
-        "source": "refresh"
-      },
       {
         "block": 110635432,
         "updatedAt": 1784345393245,
@@ -95,10 +85,20 @@
         "block": 110641446,
         "updatedAt": 1784348095526,
         "source": "refresh"
+      },
+      {
+        "block": 110641485,
+        "updatedAt": 1784348393488,
+        "source": "refresh"
+      },
+      {
+        "block": 110642781,
+        "updatedAt": 1784348695904,
+        "source": "refresh"
       }
     ],
     "eventCacheLookbackTimestamp": null,
-    "eventCacheLookbackFromBlock": 110634115,
+    "eventCacheLookbackFromBlock": 110635432,
     "packEventSources": [
       {
         "pack": "omega",
@@ -262,11 +262,11 @@
         "splitWindows": 0,
         "cachedEvents": 2899,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438
       }
     ],
     "contracts": [
@@ -279,14 +279,14 @@
         "buybackContract": null,
         "configSource": "built-in",
         "calls": 1,
-        "events": 36838,
+        "events": 36839,
         "cachedEvents": 36838,
-        "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "fetchedEvents": 1,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -301,11 +301,11 @@
         "events": 1330,
         "cachedEvents": 1328,
         "fetchedEvents": 2,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -317,14 +317,14 @@
         "buybackContract": null,
         "configSource": "built-in",
         "calls": 1,
-        "events": 836,
+        "events": 838,
         "cachedEvents": 836,
-        "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "fetchedEvents": 2,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -343,11 +343,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -366,11 +366,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -389,11 +389,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -412,11 +412,11 @@
         "wrongUser": 0,
         "cachedEvents": 0,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -435,11 +435,11 @@
         "wrongUser": 0,
         "cachedEvents": 998,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -458,11 +458,11 @@
         "wrongUser": 0,
         "cachedEvents": 1000,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       },
       {
@@ -481,11 +481,11 @@
         "wrongUser": 0,
         "cachedEvents": 1000,
         "fetchedEvents": 0,
-        "scanStart": 110634115,
+        "scanStart": 110635432,
         "cachedFromBlock": 107776960,
-        "cachedToBlock": 110641446,
-        "eventCacheLookbackFromBlock": 110634115,
-        "cacheToBlock": 110641485,
+        "cachedToBlock": 110642781,
+        "eventCacheLookbackFromBlock": 110635432,
+        "cacheToBlock": 110643438,
         "splitWindows": 0
       }
     ]
@@ -834,7 +834,7 @@
   "entriesWithOldSourceAddresses": 861,
   "walletMigrationSource": {
     "url": "https://tcgpro.zeabur.app/api/wallet-migrations.json",
-    "cacheStatus": "refresh",
+    "cacheStatus": "hit",
     "cachePath": "/data/soccer/cache/wallet-migrations.json",
     "version": 1,
     "updatedAt": "2026-07-18T07:00:03.780086+08:00",
@@ -582221,6 +582221,198 @@
     },
     {
       "rank": 534,
+      "userAddress": "0x3b0aad61575d7b5f2099c6ac7f46a9d9bd85aa2e",
+      "sourceAddresses": [
+        "0x3b0aad61575d7b5f2099c6ac7f46a9d9bd85aa2e",
+        "0xac6c21c7ceffa7141993bb7c59d851c0fc9599d7"
+      ],
+      "packs": {
+        "omega": 4,
+        "renacrypt-pack": 0,
+        "eden": 5,
+        "costume-pack": 0,
+        "magma": 0,
+        "starry-pack": 0,
+        "plasma-pack": 0,
+        "world-cup-pack": 0,
+        "champion-pack": 1,
+        "cozy-pack": 1
+      },
+      "baseTickets": 23,
+      "bonusTickets": 0,
+      "carryoverTickets": 24,
+      "insiderPracticeTickets": 0,
+      "insiderGrantTickets": 0,
+      "rawTickets": 23,
+      "sbt": "none",
+      "sbtMultiplier": 1,
+      "finalTickets": 47,
+      "totalVotingTickets": 47,
+      "ticketStart": 24943,
+      "ticketEnd": 47810,
+      "ticketIntervals": [
+        {
+          "start": 24943,
+          "end": 24944,
+          "displayStart": 24943,
+          "displayEnd": 24944,
+          "namespace": "raw",
+          "source": "legacy-buyback-success-v3",
+          "pack": "champion-pack",
+          "txHash": "0xc0d274bf12d10f06b712638423d7585af72f7d113947bd1c0a5e0aa3a354f523",
+          "timestamp": 1783675007,
+          "blockNumber": 109146135,
+          "ordinal": 163,
+          "legacyOpenTxHash": "0x3eab921ffe7f503c641f9ef677bae8a29aa55c6816bb0f55d7e42a38f2818a86"
+        },
+        {
+          "start": 28113,
+          "end": 28113,
+          "displayStart": 28113,
+          "displayEnd": 28113,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0xbbb0a3698eea8dd5cc1dc461268bb439ec99ab3a8e6283e73ffb9dcf17d0bc69",
+          "timestamp": 1783761132,
+          "blockNumber": 109337484,
+          "ordinal": 195,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 30887,
+          "end": 30887,
+          "displayStart": 30887,
+          "displayEnd": 30887,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0x7547fb081c52b4855a1df5991dc6bed77f43987a71bc465b4d4e05970c0e4f05",
+          "timestamp": 1783840474,
+          "blockNumber": 109513760,
+          "ordinal": 263,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 31663,
+          "end": 31663,
+          "displayStart": 31663,
+          "displayEnd": 31663,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0xd7c46e9c1f01198aa070791633f96e10b7c7252c1e79a30023f771ab82965d85",
+          "timestamp": 1783915843,
+          "blockNumber": 109681210,
+          "ordinal": 172,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 36534,
+          "end": 36534,
+          "displayStart": 36534,
+          "displayEnd": 36534,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0xd035b4235f5992820e5c84ada10e3a21cc30f4d558da294885c0483a11829918",
+          "timestamp": 1783995791,
+          "blockNumber": 109858824,
+          "ordinal": 425,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 39397,
+          "end": 39399,
+          "displayStart": 39397,
+          "displayEnd": 39399,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "eden",
+          "txHash": "0x587339a235a5f073755239788c090c5fb0248f145c19431635281f52a61c93c1",
+          "timestamp": 1784088417,
+          "blockNumber": 110064601,
+          "ordinal": 184,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 42368,
+          "end": 42370,
+          "displayStart": 42368,
+          "displayEnd": 42370,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "eden",
+          "txHash": "0xf45d87bc5290a1681630f52309aea17216664c335300494e178dab139b343043",
+          "timestamp": 1784167342,
+          "blockNumber": 110239928,
+          "ordinal": 163,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 42371,
+          "end": 42373,
+          "displayStart": 42371,
+          "displayEnd": 42373,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "eden",
+          "txHash": "0x7d0021d0539c2bb9e31906dcfdb904d6f9f819520af12e242be1689bded048df",
+          "timestamp": 1784167379,
+          "blockNumber": 110240011,
+          "ordinal": 201,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 45872,
+          "end": 45873,
+          "displayStart": 45872,
+          "displayEnd": 45873,
+          "namespace": "raw",
+          "source": "legacy-buyback-success-v3",
+          "pack": "cozy-pack",
+          "txHash": "0x96d609792dc3a65af76de64f5d17bf75c5851ddc56c381b449dcac543f127c56",
+          "timestamp": 1784281728,
+          "blockNumber": 110494048,
+          "ordinal": 265,
+          "legacyOpenTxHash": "0x83abbd3ace4bb1ed7186619debe6e970c9356aa757572a04635ca717953e9a06"
+        },
+        {
+          "start": 47805,
+          "end": 47807,
+          "displayStart": 47805,
+          "displayEnd": 47807,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "eden",
+          "txHash": "0xbcb16a24fb395e03cf481b3789c70d8b23bba8fbb0a21627e55966b1b0184b22",
+          "timestamp": 1784348393,
+          "blockNumber": 110642155,
+          "ordinal": 179,
+          "legacyOpenTxHash": null
+        },
+        {
+          "start": 47808,
+          "end": 47810,
+          "displayStart": 47808,
+          "displayEnd": 47810,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "eden",
+          "txHash": "0x1e27acf040e2341bbbfeb7dcede36d8c2755dd7010b376e806e4a1064ef1f176",
+          "timestamp": 1784348442,
+          "blockNumber": 110642265,
+          "ordinal": 101,
+          "legacyOpenTxHash": null
+        }
+      ],
+      "firstBuybackAt": 1783675007,
+      "lastBuybackAt": 1784348442,
+      "eventCount": 11,
+      "dataWarnings": []
+    },
+    {
+      "rank": 535,
       "userAddress": "0x0b519641714bd7b715577576d22f4b6065ec6b8f",
       "sourceAddresses": [
         "0x0b519641714bd7b715577576d22f4b6065ec6b8f",
@@ -582398,7 +582590,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 535,
+      "rank": 536,
       "userAddress": "0xc547feb34bf7affe897e7c4b5244cc644a83a878",
       "sourceAddresses": [
         "0x5c3aac22fa67d4a085cdb54ee648a3d2da582ab6",
@@ -582744,7 +582936,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 536,
+      "rank": 537,
       "userAddress": "0x58080dfd1bb9e6d40663eab1fe1937492db325a5",
       "sourceAddresses": [
         "0x58080dfd1bb9e6d40663eab1fe1937492db325a5",
@@ -583048,7 +583240,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 537,
+      "rank": 538,
       "userAddress": "0x688c214a2514ff262f9a0c9ff86db59698eb1fc8",
       "sourceAddresses": [
         "0x376f6de9bf8472891a1a88112660464fc7d8b876",
@@ -583208,170 +583400,6 @@
       ],
       "firstBuybackAt": 1783070441,
       "lastBuybackAt": 1784279094,
-      "eventCount": 9,
-      "dataWarnings": []
-    },
-    {
-      "rank": 538,
-      "userAddress": "0x3b0aad61575d7b5f2099c6ac7f46a9d9bd85aa2e",
-      "sourceAddresses": [
-        "0x3b0aad61575d7b5f2099c6ac7f46a9d9bd85aa2e",
-        "0xac6c21c7ceffa7141993bb7c59d851c0fc9599d7"
-      ],
-      "packs": {
-        "omega": 4,
-        "renacrypt-pack": 0,
-        "eden": 3,
-        "costume-pack": 0,
-        "magma": 0,
-        "starry-pack": 0,
-        "plasma-pack": 0,
-        "world-cup-pack": 0,
-        "champion-pack": 1,
-        "cozy-pack": 1
-      },
-      "baseTickets": 17,
-      "bonusTickets": 0,
-      "carryoverTickets": 24,
-      "insiderPracticeTickets": 0,
-      "insiderGrantTickets": 0,
-      "rawTickets": 17,
-      "sbt": "none",
-      "sbtMultiplier": 1,
-      "finalTickets": 41,
-      "totalVotingTickets": 41,
-      "ticketStart": 24943,
-      "ticketEnd": 45873,
-      "ticketIntervals": [
-        {
-          "start": 24943,
-          "end": 24944,
-          "displayStart": 24943,
-          "displayEnd": 24944,
-          "namespace": "raw",
-          "source": "legacy-buyback-success-v3",
-          "pack": "champion-pack",
-          "txHash": "0xc0d274bf12d10f06b712638423d7585af72f7d113947bd1c0a5e0aa3a354f523",
-          "timestamp": 1783675007,
-          "blockNumber": 109146135,
-          "ordinal": 163,
-          "legacyOpenTxHash": "0x3eab921ffe7f503c641f9ef677bae8a29aa55c6816bb0f55d7e42a38f2818a86"
-        },
-        {
-          "start": 28113,
-          "end": 28113,
-          "displayStart": 28113,
-          "displayEnd": 28113,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "omega",
-          "txHash": "0xbbb0a3698eea8dd5cc1dc461268bb439ec99ab3a8e6283e73ffb9dcf17d0bc69",
-          "timestamp": 1783761132,
-          "blockNumber": 109337484,
-          "ordinal": 195,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 30887,
-          "end": 30887,
-          "displayStart": 30887,
-          "displayEnd": 30887,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "omega",
-          "txHash": "0x7547fb081c52b4855a1df5991dc6bed77f43987a71bc465b4d4e05970c0e4f05",
-          "timestamp": 1783840474,
-          "blockNumber": 109513760,
-          "ordinal": 263,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 31663,
-          "end": 31663,
-          "displayStart": 31663,
-          "displayEnd": 31663,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "omega",
-          "txHash": "0xd7c46e9c1f01198aa070791633f96e10b7c7252c1e79a30023f771ab82965d85",
-          "timestamp": 1783915843,
-          "blockNumber": 109681210,
-          "ordinal": 172,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 36534,
-          "end": 36534,
-          "displayStart": 36534,
-          "displayEnd": 36534,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "omega",
-          "txHash": "0xd035b4235f5992820e5c84ada10e3a21cc30f4d558da294885c0483a11829918",
-          "timestamp": 1783995791,
-          "blockNumber": 109858824,
-          "ordinal": 425,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 39397,
-          "end": 39399,
-          "displayStart": 39397,
-          "displayEnd": 39399,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "eden",
-          "txHash": "0x587339a235a5f073755239788c090c5fb0248f145c19431635281f52a61c93c1",
-          "timestamp": 1784088417,
-          "blockNumber": 110064601,
-          "ordinal": 184,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 42368,
-          "end": 42370,
-          "displayStart": 42368,
-          "displayEnd": 42370,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "eden",
-          "txHash": "0xf45d87bc5290a1681630f52309aea17216664c335300494e178dab139b343043",
-          "timestamp": 1784167342,
-          "blockNumber": 110239928,
-          "ordinal": 163,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 42371,
-          "end": 42373,
-          "displayStart": 42371,
-          "displayEnd": 42373,
-          "namespace": "raw",
-          "source": "buyback-event",
-          "pack": "eden",
-          "txHash": "0x7d0021d0539c2bb9e31906dcfdb904d6f9f819520af12e242be1689bded048df",
-          "timestamp": 1784167379,
-          "blockNumber": 110240011,
-          "ordinal": 201,
-          "legacyOpenTxHash": null
-        },
-        {
-          "start": 45872,
-          "end": 45873,
-          "displayStart": 45872,
-          "displayEnd": 45873,
-          "namespace": "raw",
-          "source": "legacy-buyback-success-v3",
-          "pack": "cozy-pack",
-          "txHash": "0x96d609792dc3a65af76de64f5d17bf75c5851ddc56c381b449dcac543f127c56",
-          "timestamp": 1784281728,
-          "blockNumber": 110494048,
-          "ordinal": 265,
-          "legacyOpenTxHash": "0x83abbd3ace4bb1ed7186619debe6e970c9356aa757572a04635ca717953e9a06"
-        }
-      ],
-      "firstBuybackAt": 1783675007,
-      "lastBuybackAt": 1784281728,
       "eventCount": 9,
       "dataWarnings": []
     },
@@ -612943,6 +612971,86 @@
     },
     {
       "rank": 818,
+      "userAddress": "0x8cdd864fa1e0431c842d308f32fd37432f712115",
+      "sourceAddresses": [
+        "0x7c5b95924819718ca94ddb0e320e48d2e54c445e",
+        "0x8cdd864fa1e0431c842d308f32fd37432f712115"
+      ],
+      "packs": {
+        "omega": 1,
+        "renacrypt-pack": 0,
+        "eden": 0,
+        "costume-pack": 0,
+        "magma": 0,
+        "starry-pack": 0,
+        "plasma-pack": 0,
+        "world-cup-pack": 1,
+        "champion-pack": 0,
+        "cozy-pack": 1
+      },
+      "baseTickets": 5,
+      "bonusTickets": 0,
+      "carryoverTickets": 4,
+      "insiderPracticeTickets": 0,
+      "insiderGrantTickets": 0,
+      "rawTickets": 5,
+      "sbt": "none",
+      "sbtMultiplier": 1,
+      "finalTickets": 9,
+      "totalVotingTickets": 9,
+      "ticketStart": 1405,
+      "ticketEnd": 47811,
+      "ticketIntervals": [
+        {
+          "start": 1405,
+          "end": 1406,
+          "displayStart": 1405,
+          "displayEnd": 1406,
+          "namespace": "raw",
+          "source": "legacy-buyback-success-v3",
+          "pack": "world-cup-pack",
+          "txHash": "0xbf1c1e6980ca5650dbd43a4b3891cdec51205746f26e419e9c98399b55ff5df7",
+          "timestamp": 1783070028,
+          "blockNumber": 107802794,
+          "ordinal": 101,
+          "legacyOpenTxHash": "0x3bc8c22d484ab36aa434a7d5b885223a2d82684ed00ae66850456f452433f30f"
+        },
+        {
+          "start": 44833,
+          "end": 44834,
+          "displayStart": 44833,
+          "displayEnd": 44834,
+          "namespace": "raw",
+          "source": "legacy-buyback-success-v3",
+          "pack": "cozy-pack",
+          "txHash": "0x766d99cc904dc3a78fc9fc837704d1ee13845ac66228d8b8b26532aeba50613c",
+          "timestamp": 1784279368,
+          "blockNumber": 110488803,
+          "ordinal": 159,
+          "legacyOpenTxHash": "0x597ccaf3ebb6df25b4207ed4b561ec98ec6a808b5a4283c16c12816a6fb8bbce"
+        },
+        {
+          "start": 47811,
+          "end": 47811,
+          "displayStart": 47811,
+          "displayEnd": 47811,
+          "namespace": "raw",
+          "source": "buyback-event",
+          "pack": "omega",
+          "txHash": "0x8619f2a070ecf8b4cc327fc9b5f0de1ac908459f95aac1b6e07f8f75a650eb23",
+          "timestamp": 1784348489,
+          "blockNumber": 110642369,
+          "ordinal": 120,
+          "legacyOpenTxHash": null
+        }
+      ],
+      "firstBuybackAt": 1783070028,
+      "lastBuybackAt": 1784348489,
+      "eventCount": 3,
+      "dataWarnings": []
+    },
+    {
+      "rank": 819,
       "userAddress": "0x25b2894b987ccfdeaa77b23c41820fad2a355ab4",
       "sourceAddresses": [
         "0x25b2894b987ccfdeaa77b23c41820fad2a355ab4",
@@ -613008,7 +613116,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 819,
+      "rank": 820,
       "userAddress": "0x5dbd8b74f945fd5e7392abd465043a9c8be2f5e5",
       "sourceAddresses": [
         "0x03811d283f899d11933ba417052182aa446ec809",
@@ -613074,7 +613182,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 820,
+      "rank": 821,
       "userAddress": "0xd8363ae23618ee988e78206573ac70f4dc8cdc1a",
       "sourceAddresses": [
         "0x23a33fc668e7cd8a7f5dfd344af2015e34758ea0",
@@ -613140,7 +613248,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 821,
+      "rank": 822,
       "userAddress": "0x705ef74b23546de2d9a6c95f0a3aed80f3162cf5",
       "sourceAddresses": [
         "0x705ef74b23546de2d9a6c95f0a3aed80f3162cf5",
@@ -613192,7 +613300,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 822,
+      "rank": 823,
       "userAddress": "0x3829306a73f503469027ba81167faf864e826b90",
       "sourceAddresses": [
         "0x3829306a73f503469027ba81167faf864e826b90",
@@ -613244,7 +613352,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 823,
+      "rank": 824,
       "userAddress": "0xbd81ddd9d220f05d8bf2be7177491d086dabd197",
       "sourceAddresses": [
         "0x8ea947bba65363a8db209b5baf28d831554282c9",
@@ -613281,7 +613389,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 824,
+      "rank": 825,
       "userAddress": "0xde6a743dbc897f5f94053c955c8300fb7c26414f",
       "sourceAddresses": [
         "0x1a54360c4e069bffbad92ceb1db5f854434d9e56",
@@ -613318,7 +613426,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 825,
+      "rank": 826,
       "userAddress": "0xe182b428148250448c844b4972d645ff9f4ea104",
       "sourceAddresses": [
         "0xe182b428148250448c844b4972d645ff9f4ea104"
@@ -613354,7 +613462,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 826,
+      "rank": 827,
       "userAddress": "0xec5b97548ae7e792da0e978bd27277bf29ce6079",
       "sourceAddresses": [
         "0x9c011b1bdf0f789182263eea54178876e52b9f9b",
@@ -613391,7 +613499,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 827,
+      "rank": 828,
       "userAddress": "0x1710f2624c885add34734fc1333d833beb4a400b",
       "sourceAddresses": [
         "0x1710f2624c885add34734fc1333d833beb4a400b",
@@ -613485,7 +613593,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 828,
+      "rank": 829,
       "userAddress": "0xaa3b0a708c40143cc0b765340a3a6c929cd348ae",
       "sourceAddresses": [
         "0xaa3b0a708c40143cc0b765340a3a6c929cd348ae",
@@ -613579,7 +613687,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 829,
+      "rank": 830,
       "userAddress": "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef",
       "sourceAddresses": [
         "0xf3fe0fefda4fabcfaba19cf6e815b491ba127eef",
@@ -613673,7 +613781,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 830,
+      "rank": 831,
       "userAddress": "0x1c5d8a677c714cf802102bdeb7f5ed02a92102b9",
       "sourceAddresses": [
         "0x1c5d8a677c714cf802102bdeb7f5ed02a92102b9"
@@ -613822,7 +613930,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 831,
+      "rank": 832,
       "userAddress": "0x50a885ae9c4a09cdba1eb321df2c55591c320a30",
       "sourceAddresses": [
         "0x50a885ae9c4a09cdba1eb321df2c55591c320a30",
@@ -613930,7 +614038,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 832,
+      "rank": 833,
       "userAddress": "0xbd975adad069b3910335450c86501a973cc10d3c",
       "sourceAddresses": [
         "0xbd975adad069b3910335450c86501a973cc10d3c",
@@ -614080,7 +614188,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 833,
+      "rank": 834,
       "userAddress": "0x5b603b1b74924f331881bbd3d61fe9869f44577f",
       "sourceAddresses": [
         "0x5b603b1b74924f331881bbd3d61fe9869f44577f",
@@ -614174,7 +614282,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 834,
+      "rank": 835,
       "userAddress": "0x35b628c7531572b16cd404574b47e0b72ae24a42",
       "sourceAddresses": [
         "0x35b628c7531572b16cd404574b47e0b72ae24a42",
@@ -614268,7 +614376,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 835,
+      "rank": 836,
       "userAddress": "0x00665c9aa4bab6b770daf533ad159cef94ce4864",
       "sourceAddresses": [
         "0x00665c9aa4bab6b770daf533ad159cef94ce4864",
@@ -614348,7 +614456,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 836,
+      "rank": 837,
       "userAddress": "0x6cde7d80820c51a4f090ac940ea22910381be794",
       "sourceAddresses": [
         "0x04c399790aeac1ef6a69c36a87a3553b9ef54e50",
@@ -614428,7 +614536,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 837,
+      "rank": 838,
       "userAddress": "0x30f03b7927af15152443d53f85bc5b011b67c80e",
       "sourceAddresses": [
         "0x30f03b7927af15152443d53f85bc5b011b67c80e",
@@ -614508,7 +614616,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 838,
+      "rank": 839,
       "userAddress": "0x700a6d2d736a50c6fb95af19632814e9f8e5394b",
       "sourceAddresses": [
         "0x4de19f04c45b61a4efe0caee65a92a983bac1009",
@@ -614574,7 +614682,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 839,
+      "rank": 840,
       "userAddress": "0x633767970e1249acb594ae845e5608cdafd5f340",
       "sourceAddresses": [
         "0x0e40b67578d881e1ee3c3d63bf9f38773ed80329",
@@ -614640,7 +614748,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 840,
+      "rank": 841,
       "userAddress": "0xaa7da84071e6349a8e25795f09c9b6b1e19a7719",
       "sourceAddresses": [
         "0x8aac240c1298284ba04135d8d66775aecee73912",
@@ -614706,7 +614814,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 841,
+      "rank": 842,
       "userAddress": "0x1da6984ef235cf3ff5dbe9fbe92c730cc74d22e4",
       "sourceAddresses": [
         "0x0fd31f23cb182b5614e5e6773bd37ae1cd6c1be8",
@@ -614772,7 +614880,7 @@
       "dataWarnings": []
     },
     {
-      "rank": 842,
+      "rank": 843,
       "userAddress": "0x6712c4a1a2c98f29c9c20c1b35d8cf3accfeb5ae",
       "sourceAddresses": [
         "0x6712c4a1a2c98f29c9c20c1b35d8cf3accfeb5ae",
@@ -614834,72 +614942,6 @@
       ],
       "firstBuybackAt": 1783069940,
       "lastBuybackAt": 1784279520,
-      "eventCount": 2,
-      "dataWarnings": []
-    },
-    {
-      "rank": 843,
-      "userAddress": "0x8cdd864fa1e0431c842d308f32fd37432f712115",
-      "sourceAddresses": [
-        "0x7c5b95924819718ca94ddb0e320e48d2e54c445e",
-        "0x8cdd864fa1e0431c842d308f32fd37432f712115"
-      ],
-      "packs": {
-        "omega": 0,
-        "renacrypt-pack": 0,
-        "eden": 0,
-        "costume-pack": 0,
-        "magma": 0,
-        "starry-pack": 0,
-        "plasma-pack": 0,
-        "world-cup-pack": 1,
-        "champion-pack": 0,
-        "cozy-pack": 1
-      },
-      "baseTickets": 4,
-      "bonusTickets": 0,
-      "carryoverTickets": 4,
-      "insiderPracticeTickets": 0,
-      "insiderGrantTickets": 0,
-      "rawTickets": 4,
-      "sbt": "none",
-      "sbtMultiplier": 1,
-      "finalTickets": 8,
-      "totalVotingTickets": 8,
-      "ticketStart": 1405,
-      "ticketEnd": 44834,
-      "ticketIntervals": [
-        {
-          "start": 1405,
-          "end": 1406,
-          "displayStart": 1405,
-          "displayEnd": 1406,
-          "namespace": "raw",
-          "source": "legacy-buyback-success-v3",
-          "pack": "world-cup-pack",
-          "txHash": "0xbf1c1e6980ca5650dbd43a4b3891cdec51205746f26e419e9c98399b55ff5df7",
-          "timestamp": 1783070028,
-          "blockNumber": 107802794,
-          "ordinal": 101,
-          "legacyOpenTxHash": "0x3bc8c22d484ab36aa434a7d5b885223a2d82684ed00ae66850456f452433f30f"
-        },
-        {
-          "start": 44833,
-          "end": 44834,
-          "displayStart": 44833,
-          "displayEnd": 44834,
-          "namespace": "raw",
-          "source": "legacy-buyback-success-v3",
-          "pack": "cozy-pack",
-          "txHash": "0x766d99cc904dc3a78fc9fc837704d1ee13845ac66228d8b8b26532aeba50613c",
-          "timestamp": 1784279368,
-          "blockNumber": 110488803,
-          "ordinal": 159,
-          "legacyOpenTxHash": "0x597ccaf3ebb6df25b4207ed4b561ec98ec6a808b5a4283c16c12816a6fb8bbce"
-        }
-      ],
-      "firstBuybackAt": 1783070028,
-      "lastBuybackAt": 1784279368,
       "eventCount": 2,
       "dataWarnings": []
     },
@@ -635195,7 +635237,7 @@
     "Applied 27 insider ticket grant address(es): 100 practice ticket(s) for round32 and 100 shared reward ticket(s) across round16-final by default.",
     "Leaderboard rank is sorted by final tickets, then raw buyback tickets, then first eligible event time.",
     "Wallet migration resolver was applied to merge old and canonical addresses.",
-    "Applied 6189 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: refresh.",
+    "Applied 6189 remote TCG Pro old-wallet migration pair(s) before final aggregation. Cache status: hit.",
     "API cache enabled: wallet migrations TTL 15 minute(s), wallet resolver TTL 1440 minute(s), on-chain event overlap 200 block(s).",
     "Wallet resolver cache hits 138, fetched 0, skipped by migration map 489.",
     "No local old-wallet migration map was provided."
