@@ -1,0 +1,627 @@
+{
+  "version": 2,
+  "mode": "round-draw-winners",
+  "sourceLabel": "on-chain-round-reveal",
+  "sourceStatus": "revealed",
+  "generatedAt": "2026-07-20T10:51:16.914Z",
+  "generatedAtUnix": 1784544676,
+  "videoUrl": "",
+  "network": "bnb",
+  "chainId": "56",
+  "contract": "0x01f36678073719954118ecb487f0ec8c3852eceb",
+  "roundId": "semiFinal",
+  "sourceRoundId": "semiFinal",
+  "drawRoundId": "semiFinal",
+  "roundKey": "0xde5c630e22ef7b301de531a2d22e01b399a159d89fe2855f5b449bc0ff5088d8",
+  "ledgerHash": "0x5f44f48cff7275e0a523a0b0b3fd3c8c79125f5d1f2808012f1cc89c99d02f57",
+  "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#semiFinal",
+  "matchCount": 2,
+  "winnerCount": 2,
+  "alternateCount": 4,
+  "fulfilled": true,
+  "proof": {
+    "ticketNamespace": "Ticket numbers are scoped per match. The same ticket number can exist in different matches, so matchId plus ticketNumber identifies the winning entry.",
+    "transactions": [],
+    "roundTransactions": [],
+    "matchTransactions": [
+      {
+        "matchId": "M101",
+        "matchKey": "0xf47138faf890de362099c104d5c7edd377ed5211b8c6b2c460aa69488ae5c93f",
+        "step": "",
+        "hash": "",
+        "transactionHash": "",
+        "transactionIndex": null
+      },
+      {
+        "matchId": "M102",
+        "matchKey": "0xc88a7caf07cbabad331f787deffd57c8a536f569d192c692e26049606ddde52b",
+        "step": "",
+        "hash": "",
+        "transactionHash": "",
+        "transactionIndex": null
+      }
+    ]
+  },
+  "transactions": [],
+  "txs": [],
+  "draws": [
+    {
+      "matchId": "M101",
+      "matchKey": "0xf47138faf890de362099c104d5c7edd377ed5211b8c6b2c460aa69488ae5c93f",
+      "roundId": "semiFinal",
+      "drawRoundId": "semiFinal",
+      "ledgerHash": "0x0ba6ea6f0535ab4649150031ad7f5fc968be01adda1acb9c817f69ac6be67962",
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#M101",
+      "totalTickets": "1119",
+      "prizeSlotCount": "1",
+      "alternateCount": "2",
+      "revealed": true,
+      "result": {
+        "matchId": "M101",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "spain",
+        "winnerFifaTeamId": "43969",
+        "score": {
+          "home": 0,
+          "away": 2,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021541?language=en",
+        "fetchedAt": "2026-07-16T06:41:46.630Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289290",
+          "matchId": "400021541",
+          "matchNumber": 101,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43969"
+        }
+      },
+      "prizeSlots": [
+        {
+          "prizeSlotIndex": 0,
+          "winner": {
+            "revealIndex": 0,
+            "prizeSlotIndex": 0,
+            "role": "winner",
+            "alternateIndex": null,
+            "ticketNumber": "736",
+            "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+            "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+            "sourceAddresses": [
+              "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+              "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+            ],
+            "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+            "roundId": "semiFinal",
+            "matchId": "M101",
+            "teamId": "spain",
+            "entryRank": 53,
+            "interval": {
+              "start": "708",
+              "end": "819",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+            },
+            "revealTransactionHash": "",
+            "transactionHash": ""
+          },
+          "alternates": [
+            {
+              "revealIndex": 0,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 0,
+              "ticketNumber": "283",
+              "walletAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+              "userAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+              "sourceAddresses": [
+                "0x09395802d970c782118d6c07be84eb475034bb0a",
+                "0x40510ab84ba24841f483bf1ba18f8b50d0a5f603"
+              ],
+              "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain",
+              "roundId": "semiFinal",
+              "matchId": "M101",
+              "teamId": "spain",
+              "entryRank": 18,
+              "interval": {
+                "start": "270",
+                "end": "288",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain"
+              },
+              "revealTransactionHash": "",
+              "transactionHash": ""
+            },
+            {
+              "revealIndex": 0,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 1,
+              "ticketNumber": "726",
+              "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+              "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+              "sourceAddresses": [
+                "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+                "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+              ],
+              "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+              "roundId": "semiFinal",
+              "matchId": "M101",
+              "teamId": "spain",
+              "entryRank": 53,
+              "interval": {
+                "start": "708",
+                "end": "819",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+              },
+              "revealTransactionHash": "",
+              "transactionHash": ""
+            }
+          ]
+        }
+      ],
+      "winners": [
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "winner",
+          "alternateIndex": null,
+          "ticketNumber": "736",
+          "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+          "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+          "sourceAddresses": [
+            "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+            "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+          ],
+          "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+          "roundId": "semiFinal",
+          "matchId": "M101",
+          "teamId": "spain",
+          "entryRank": 53,
+          "interval": {
+            "start": "708",
+            "end": "819",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        }
+      ],
+      "alternates": [
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 0,
+          "ticketNumber": "283",
+          "walletAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+          "userAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+          "sourceAddresses": [
+            "0x09395802d970c782118d6c07be84eb475034bb0a",
+            "0x40510ab84ba24841f483bf1ba18f8b50d0a5f603"
+          ],
+          "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain",
+          "roundId": "semiFinal",
+          "matchId": "M101",
+          "teamId": "spain",
+          "entryRank": 18,
+          "interval": {
+            "start": "270",
+            "end": "288",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        },
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 1,
+          "ticketNumber": "726",
+          "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+          "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+          "sourceAddresses": [
+            "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+            "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+          ],
+          "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+          "roundId": "semiFinal",
+          "matchId": "M101",
+          "teamId": "spain",
+          "entryRank": 53,
+          "interval": {
+            "start": "708",
+            "end": "819",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        }
+      ],
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    },
+    {
+      "matchId": "M102",
+      "matchKey": "0xc88a7caf07cbabad331f787deffd57c8a536f569d192c692e26049606ddde52b",
+      "roundId": "semiFinal",
+      "drawRoundId": "semiFinal",
+      "ledgerHash": "0x77ab89111ce6f2cb3644915e79e8da19f77214260fa1b49e50530133246504e6",
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#M102",
+      "totalTickets": "1835",
+      "prizeSlotCount": "1",
+      "alternateCount": "2",
+      "revealed": true,
+      "result": {
+        "matchId": "M102",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "argentina",
+        "winnerFifaTeamId": "43922",
+        "score": {
+          "home": 1,
+          "away": 2,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021540?language=en",
+        "fetchedAt": "2026-07-16T06:41:46.630Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289290",
+          "matchId": "400021540",
+          "matchNumber": 102,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 1,
+          "winnerTeamId": "43922"
+        }
+      },
+      "prizeSlots": [
+        {
+          "prizeSlotIndex": 0,
+          "winner": {
+            "revealIndex": 1,
+            "prizeSlotIndex": 0,
+            "role": "winner",
+            "alternateIndex": null,
+            "ticketNumber": "1070",
+            "walletAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+            "userAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+            "sourceAddresses": [
+              "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+              "0xfbcbf47b2a4d89ff9c39e515b2b359f5ae3e8c6c"
+            ],
+            "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina",
+            "roundId": "semiFinal",
+            "matchId": "M102",
+            "teamId": "argentina",
+            "entryRank": 55,
+            "interval": {
+              "start": "999",
+              "end": "1073",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina"
+            },
+            "revealTransactionHash": "",
+            "transactionHash": ""
+          },
+          "alternates": [
+            {
+              "revealIndex": 1,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 0,
+              "ticketNumber": "281",
+              "walletAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+              "userAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+              "sourceAddresses": [
+                "0x059fef3bde0c95feb06db587c671c266069d3b88",
+                "0x7e3faa7924477a1f54cd5a3b1bc23e8d537dd01f"
+              ],
+              "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina",
+              "roundId": "semiFinal",
+              "matchId": "M102",
+              "teamId": "argentina",
+              "entryRank": 8,
+              "interval": {
+                "start": "171",
+                "end": "433",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina"
+              },
+              "revealTransactionHash": "",
+              "transactionHash": ""
+            },
+            {
+              "revealIndex": 1,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 1,
+              "ticketNumber": "147",
+              "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+              "userAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+              "sourceAddresses": [
+                "0x13bee8596881767e4d4509a0837027445c349daa",
+                "0xf367b0f46b49b886ba70e9090315c44359443631"
+              ],
+              "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina",
+              "roundId": "semiFinal",
+              "matchId": "M102",
+              "teamId": "argentina",
+              "entryRank": 2,
+              "interval": {
+                "start": "2",
+                "end": "151",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina"
+              },
+              "revealTransactionHash": "",
+              "transactionHash": ""
+            }
+          ]
+        }
+      ],
+      "winners": [
+        {
+          "revealIndex": 1,
+          "prizeSlotIndex": 0,
+          "role": "winner",
+          "alternateIndex": null,
+          "ticketNumber": "1070",
+          "walletAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+          "userAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+          "sourceAddresses": [
+            "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+            "0xfbcbf47b2a4d89ff9c39e515b2b359f5ae3e8c6c"
+          ],
+          "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina",
+          "roundId": "semiFinal",
+          "matchId": "M102",
+          "teamId": "argentina",
+          "entryRank": 55,
+          "interval": {
+            "start": "999",
+            "end": "1073",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        }
+      ],
+      "alternates": [
+        {
+          "revealIndex": 1,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 0,
+          "ticketNumber": "281",
+          "walletAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+          "userAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+          "sourceAddresses": [
+            "0x059fef3bde0c95feb06db587c671c266069d3b88",
+            "0x7e3faa7924477a1f54cd5a3b1bc23e8d537dd01f"
+          ],
+          "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina",
+          "roundId": "semiFinal",
+          "matchId": "M102",
+          "teamId": "argentina",
+          "entryRank": 8,
+          "interval": {
+            "start": "171",
+            "end": "433",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        },
+        {
+          "revealIndex": 1,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 1,
+          "ticketNumber": "147",
+          "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "userAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+          "sourceAddresses": [
+            "0x13bee8596881767e4d4509a0837027445c349daa",
+            "0xf367b0f46b49b886ba70e9090315c44359443631"
+          ],
+          "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina",
+          "roundId": "semiFinal",
+          "matchId": "M102",
+          "teamId": "argentina",
+          "entryRank": 2,
+          "interval": {
+            "start": "2",
+            "end": "151",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina"
+          },
+          "revealTransactionHash": "",
+          "transactionHash": ""
+        }
+      ],
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    }
+  ],
+  "winners": [
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "winner",
+      "alternateIndex": null,
+      "ticketNumber": "736",
+      "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+      "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+      "sourceAddresses": [
+        "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+        "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+      ],
+      "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "spain",
+      "entryRank": 53,
+      "interval": {
+        "start": "708",
+        "end": "819",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    },
+    {
+      "revealIndex": 1,
+      "prizeSlotIndex": 0,
+      "role": "winner",
+      "alternateIndex": null,
+      "ticketNumber": "1070",
+      "walletAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+      "userAddress": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+      "sourceAddresses": [
+        "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5",
+        "0xfbcbf47b2a4d89ff9c39e515b2b359f5ae3e8c6c"
+      ],
+      "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "entryRank": 55,
+      "interval": {
+        "start": "999",
+        "end": "1073",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0x6ef2cd9f386e18ef285939c2b27caaa8ccd23ad5-M102-argentina"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    }
+  ],
+  "alternates": [
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 0,
+      "ticketNumber": "283",
+      "walletAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+      "userAddress": "0x09395802d970c782118d6c07be84eb475034bb0a",
+      "sourceAddresses": [
+        "0x09395802d970c782118d6c07be84eb475034bb0a",
+        "0x40510ab84ba24841f483bf1ba18f8b50d0a5f603"
+      ],
+      "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "spain",
+      "entryRank": 18,
+      "interval": {
+        "start": "270",
+        "end": "288",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0x09395802d970c782118d6c07be84eb475034bb0a-M101-spain"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    },
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 1,
+      "ticketNumber": "726",
+      "walletAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+      "userAddress": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600",
+      "sourceAddresses": [
+        "0x0d3b5b73b06fba9d81ef2f0ffc7dc8eab942314b",
+        "0xb4de85fba5fcd31a3dfd33054294cd6e22533600"
+      ],
+      "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain",
+      "roundId": "semiFinal",
+      "matchId": "M101",
+      "teamId": "spain",
+      "entryRank": 53,
+      "interval": {
+        "start": "708",
+        "end": "819",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0xb4de85fba5fcd31a3dfd33054294cd6e22533600-M101-spain"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    },
+    {
+      "revealIndex": 1,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 0,
+      "ticketNumber": "281",
+      "walletAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+      "userAddress": "0x059fef3bde0c95feb06db587c671c266069d3b88",
+      "sourceAddresses": [
+        "0x059fef3bde0c95feb06db587c671c266069d3b88",
+        "0x7e3faa7924477a1f54cd5a3b1bc23e8d537dd01f"
+      ],
+      "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "entryRank": 8,
+      "interval": {
+        "start": "171",
+        "end": "433",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0x059fef3bde0c95feb06db587c671c266069d3b88-M102-argentina"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    },
+    {
+      "revealIndex": 1,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 1,
+      "ticketNumber": "147",
+      "walletAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+      "userAddress": "0xf367b0f46b49b886ba70e9090315c44359443631",
+      "sourceAddresses": [
+        "0x13bee8596881767e4d4509a0837027445c349daa",
+        "0xf367b0f46b49b886ba70e9090315c44359443631"
+      ],
+      "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina",
+      "roundId": "semiFinal",
+      "matchId": "M102",
+      "teamId": "argentina",
+      "entryRank": 2,
+      "interval": {
+        "start": "2",
+        "end": "151",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0xf367b0f46b49b886ba70e9090315c44359443631-M102-argentina"
+      },
+      "revealTransactionHash": "",
+      "transactionHash": ""
+    }
+  ],
+  "notes": [
+    "This snapshot is produced from one VRF random word at round level.",
+    "Each match keeps an independent 1..N ticket namespace.",
+    "Each prize slot has one winner and the configured alternate tickets.",
+    "Transaction proof rows map reveal transactions back to matchId; finalize/request transactions are round-level proof."
+  ]
+}
