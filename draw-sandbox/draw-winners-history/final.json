@@ -1,0 +1,433 @@
+{
+  "version": 2,
+  "mode": "round-draw-winners",
+  "sourceLabel": "on-chain-round-reveal",
+  "sourceStatus": "revealed",
+  "generatedAt": "2026-07-20T10:51:08.051Z",
+  "generatedAtUnix": 1784544668,
+  "videoUrl": "",
+  "network": "bnb",
+  "chainId": "56",
+  "contract": "0x01f36678073719954118ecb487f0ec8c3852eceb",
+  "roundId": "final",
+  "sourceRoundId": "final",
+  "drawRoundId": "final",
+  "roundKey": "0x7423f228ea6ae78ada761cac01d058b04193adf9a7a1df33783b2bb3d3bec35f",
+  "ledgerHash": "0x46271a9d0bd7a61e170168c39ad1dafee0391641645652d0efcf9ee09ea2a288",
+  "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#final",
+  "matchCount": 1,
+  "winnerCount": 1,
+  "alternateCount": 2,
+  "fulfilled": true,
+  "proof": {
+    "ticketNamespace": "Ticket numbers are scoped per match. The same ticket number can exist in different matches, so matchId plus ticketNumber identifies the winning entry.",
+    "transactions": [
+      {
+        "id": "finalizeRoundLedger-0-0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "index": 0,
+        "step": "finalizeRoundLedger",
+        "hash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "transactionHash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "matchIds": []
+      },
+      {
+        "id": "requestRoundDraw-1-0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "index": 1,
+        "step": "requestRoundDraw",
+        "hash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "transactionHash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "matchIds": []
+      },
+      {
+        "id": "revealRoundMatch-2-0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+        "index": 2,
+        "step": "revealRoundMatch",
+        "hash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+        "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+        "matchIds": [
+          "M104"
+        ]
+      }
+    ],
+    "roundTransactions": [
+      {
+        "id": "finalizeRoundLedger-0-0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "index": 0,
+        "step": "finalizeRoundLedger",
+        "hash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "transactionHash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+        "matchIds": []
+      },
+      {
+        "id": "requestRoundDraw-1-0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "index": 1,
+        "step": "requestRoundDraw",
+        "hash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "transactionHash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+        "matchIds": []
+      }
+    ],
+    "matchTransactions": [
+      {
+        "matchId": "M104",
+        "matchKey": "0x62440b978e381866fed6d2f40e79374fdba06e05e0c1810f62dedb066726227f",
+        "step": "revealRoundMatch",
+        "hash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+        "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+        "transactionIndex": 2
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "id": "finalizeRoundLedger-0-0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "index": 0,
+      "step": "finalizeRoundLedger",
+      "hash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "transactionHash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "matchIds": []
+    },
+    {
+      "id": "requestRoundDraw-1-0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "index": 1,
+      "step": "requestRoundDraw",
+      "hash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "transactionHash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "matchIds": []
+    },
+    {
+      "id": "revealRoundMatch-2-0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "index": 2,
+      "step": "revealRoundMatch",
+      "hash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "matchIds": [
+        "M104"
+      ]
+    }
+  ],
+  "txs": [
+    {
+      "id": "finalizeRoundLedger-0-0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "index": 0,
+      "step": "finalizeRoundLedger",
+      "hash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "transactionHash": "0xeff763e823acdb10d5f7190fe8861e3438c1b4f91b19ef86fc37863074a8a975",
+      "matchIds": []
+    },
+    {
+      "id": "requestRoundDraw-1-0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "index": 1,
+      "step": "requestRoundDraw",
+      "hash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "transactionHash": "0x182fcba79e513907b4a9568930e2fa23cfb276d8c97ca769dff4f616abb25679",
+      "matchIds": []
+    },
+    {
+      "id": "revealRoundMatch-2-0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "index": 2,
+      "step": "revealRoundMatch",
+      "hash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "matchIds": [
+        "M104"
+      ]
+    }
+  ],
+  "draws": [
+    {
+      "matchId": "M104",
+      "matchKey": "0x62440b978e381866fed6d2f40e79374fdba06e05e0c1810f62dedb066726227f",
+      "roundId": "final",
+      "drawRoundId": "final",
+      "ledgerHash": "0x0919b48c033222c6005317b3a295dea6ea240f0a5b090bc72507f7701e8eb7a3",
+      "ledgerUri": "https://renaiss-worldcup.zeabur.app/match-draw-ledger.json#M104",
+      "totalTickets": "3574",
+      "prizeSlotCount": "1",
+      "alternateCount": "2",
+      "revealed": true,
+      "result": {
+        "matchId": "M104",
+        "resultStatus": "confirmed",
+        "winnerTeamId": "spain",
+        "winnerFifaTeamId": "43969",
+        "score": {
+          "home": 1,
+          "away": 0,
+          "homePenalty": null,
+          "awayPenalty": null
+        },
+        "sourceUrl": "https://api.fifa.com/api/v3/calendar/400021543?language=en",
+        "fetchedAt": "2026-07-20T10:28:14.573Z",
+        "fifa": {
+          "competitionId": "17",
+          "seasonId": "285023",
+          "stageId": "289292",
+          "matchId": "400021543",
+          "matchNumber": 104,
+          "matchStatus": 0,
+          "officialityStatus": 1,
+          "resultType": 3,
+          "winnerTeamId": "43969"
+        }
+      },
+      "prizeSlots": [
+        {
+          "prizeSlotIndex": 0,
+          "winner": {
+            "revealIndex": 0,
+            "prizeSlotIndex": 0,
+            "role": "winner",
+            "alternateIndex": null,
+            "ticketNumber": "3319",
+            "walletAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+            "userAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+            "sourceAddresses": [
+              "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+              "0xf9a77c3d018904830b2bf85929d49d312842b95f"
+            ],
+            "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain",
+            "roundId": "final",
+            "matchId": "M104",
+            "teamId": "spain",
+            "entryRank": 195,
+            "interval": {
+              "start": "3306",
+              "end": "3353",
+              "source": "official-result-eligible-vote",
+              "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain"
+            },
+            "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+            "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+          },
+          "alternates": [
+            {
+              "revealIndex": 0,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 0,
+              "ticketNumber": "2566",
+              "walletAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+              "userAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+              "sourceAddresses": [
+                "0x52acc516e8fbee20d2e91a5f0a804c55eafc6875",
+                "0x99e54237d9490e8776aa3ff03f58729805aacbfa"
+              ],
+              "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain",
+              "roundId": "final",
+              "matchId": "M104",
+              "teamId": "spain",
+              "entryRank": 94,
+              "interval": {
+                "start": "2566",
+                "end": "2567",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain"
+              },
+              "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+              "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+            },
+            {
+              "revealIndex": 0,
+              "prizeSlotIndex": 0,
+              "role": "alternate",
+              "alternateIndex": 1,
+              "ticketNumber": "2409",
+              "walletAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+              "userAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+              "sourceAddresses": [
+                "0xccf7b13b58b77b963dbbdf499e12d1e8d8942557",
+                "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5"
+              ],
+              "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain",
+              "roundId": "final",
+              "matchId": "M104",
+              "teamId": "spain",
+              "entryRank": 74,
+              "interval": {
+                "start": "2352",
+                "end": "2433",
+                "source": "official-result-eligible-vote",
+                "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain"
+              },
+              "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+              "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+            }
+          ]
+        }
+      ],
+      "winners": [
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "winner",
+          "alternateIndex": null,
+          "ticketNumber": "3319",
+          "walletAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+          "userAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+          "sourceAddresses": [
+            "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+            "0xf9a77c3d018904830b2bf85929d49d312842b95f"
+          ],
+          "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain",
+          "roundId": "final",
+          "matchId": "M104",
+          "teamId": "spain",
+          "entryRank": 195,
+          "interval": {
+            "start": "3306",
+            "end": "3353",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain"
+          },
+          "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+          "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+        }
+      ],
+      "alternates": [
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 0,
+          "ticketNumber": "2566",
+          "walletAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+          "userAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+          "sourceAddresses": [
+            "0x52acc516e8fbee20d2e91a5f0a804c55eafc6875",
+            "0x99e54237d9490e8776aa3ff03f58729805aacbfa"
+          ],
+          "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain",
+          "roundId": "final",
+          "matchId": "M104",
+          "teamId": "spain",
+          "entryRank": 94,
+          "interval": {
+            "start": "2566",
+            "end": "2567",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain"
+          },
+          "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+          "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+        },
+        {
+          "revealIndex": 0,
+          "prizeSlotIndex": 0,
+          "role": "alternate",
+          "alternateIndex": 1,
+          "ticketNumber": "2409",
+          "walletAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+          "userAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+          "sourceAddresses": [
+            "0xccf7b13b58b77b963dbbdf499e12d1e8d8942557",
+            "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5"
+          ],
+          "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain",
+          "roundId": "final",
+          "matchId": "M104",
+          "teamId": "spain",
+          "entryRank": 74,
+          "interval": {
+            "start": "2352",
+            "end": "2433",
+            "source": "official-result-eligible-vote",
+            "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain"
+          },
+          "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+          "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+        }
+      ],
+      "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+    }
+  ],
+  "winners": [
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "winner",
+      "alternateIndex": null,
+      "ticketNumber": "3319",
+      "walletAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+      "userAddress": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+      "sourceAddresses": [
+        "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89",
+        "0xf9a77c3d018904830b2bf85929d49d312842b95f"
+      ],
+      "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "spain",
+      "entryRank": 195,
+      "interval": {
+        "start": "3306",
+        "end": "3353",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0x41c41aa1c3deeb32b68f0ab5a3fa7becc13a7e89-M104-spain"
+      },
+      "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+    }
+  ],
+  "alternates": [
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 0,
+      "ticketNumber": "2566",
+      "walletAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+      "userAddress": "0x99e54237d9490e8776aa3ff03f58729805aacbfa",
+      "sourceAddresses": [
+        "0x52acc516e8fbee20d2e91a5f0a804c55eafc6875",
+        "0x99e54237d9490e8776aa3ff03f58729805aacbfa"
+      ],
+      "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "spain",
+      "entryRank": 94,
+      "interval": {
+        "start": "2566",
+        "end": "2567",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0x99e54237d9490e8776aa3ff03f58729805aacbfa-M104-spain"
+      },
+      "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+    },
+    {
+      "revealIndex": 0,
+      "prizeSlotIndex": 0,
+      "role": "alternate",
+      "alternateIndex": 1,
+      "ticketNumber": "2409",
+      "walletAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+      "userAddress": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5",
+      "sourceAddresses": [
+        "0xccf7b13b58b77b963dbbdf499e12d1e8d8942557",
+        "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5"
+      ],
+      "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain",
+      "roundId": "final",
+      "matchId": "M104",
+      "teamId": "spain",
+      "entryRank": 74,
+      "interval": {
+        "start": "2352",
+        "end": "2433",
+        "source": "official-result-eligible-vote",
+        "allocationId": "0xce3a75756b2fc69b501db511b2cce2bcbac77bd5-M104-spain"
+      },
+      "revealTransactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f",
+      "transactionHash": "0xb7e2da8cef74d2ef2ecab682da6ace02cb306afef188629858d3425e6f17245f"
+    }
+  ],
+  "notes": [
+    "This snapshot is produced from one VRF random word at round level.",
+    "Each match keeps an independent 1..N ticket namespace.",
+    "Each prize slot has one winner and the configured alternate tickets.",
+    "Transaction proof rows map reveal transactions back to matchId; finalize/request transactions are round-level proof."
+  ]
+}
